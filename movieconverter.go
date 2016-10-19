@@ -18,15 +18,15 @@ func Run(targetDir string, outputDir string) {
 		}
 
 		for _, fileInfo := range fileInfoArray {
-			go runConvertMovies(fileInfo, outputDir)
+			go runConvertMovies(targetDir, fileInfo, outputDir)
 		}
 
 		time.Sleep(90 * time.Second)
 	}
 }
 
-func runConvertMovies(fileInfo os.FileInfo, outputDir string) {
-	opt := "-i " + fileInfo.Name() + " -vf scale=640:-1 " + outputDir + "/" + fileInfo.Name()
+func runConvertMovies(targetDir string, fileInfo os.FileInfo, outputDir string) {
+	opt := "-i " + targetDir + "/" + fileInfo.Name() + " -vf scale=640:-1 " + outputDir + "/" + fileInfo.Name()
 	log.Println(opt)
 	out, err := exec.Command("ffmpeg", opt).Output()
 	if err != nil {
