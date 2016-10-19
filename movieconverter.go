@@ -21,7 +21,7 @@ func Run(targetDir string, outputDir string) {
 			go runConvertMovies(targetDir, fileInfo, outputDir)
 		}
 
-		time.Sleep(90 * time.Second)
+		time.Sleep(180 * time.Second)
 	}
 }
 
@@ -33,6 +33,6 @@ func runConvertMovies(targetDir string, fileInfo os.FileInfo, outputDir string) 
 	if err != nil {
 		log.Println(err)
 	}
-
+	log.Printf("ffmpeg fin [%s]\n", fileInfo.Name())
 	os.Remove(fileInfo.Name())
 }
