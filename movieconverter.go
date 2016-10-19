@@ -22,7 +22,7 @@ func Run(targetDir string, outputDir string) {
 			runConvertMovies(targetDir, fileInfo, outputDir)
 		}
 
-		time.Sleep(180 * time.Second)
+		time.Sleep(600 * time.Second)
 	}
 }
 
