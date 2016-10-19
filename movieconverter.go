@@ -5,6 +5,7 @@ import (
 	"log"
 	"os"
 	"os/exec"
+	"path/filepath"
 	"time"
 )
 
@@ -34,5 +35,5 @@ func runConvertMovies(targetDir string, fileInfo os.FileInfo, outputDir string) 
 		log.Println(err)
 	}
 	log.Printf("ffmpeg fin [%s]\n", fileInfo.Name())
-	os.Remove(fileInfo.Name())
+	os.Remove(filepath.Join(targetDir, fileInfo.Name()))
 }
