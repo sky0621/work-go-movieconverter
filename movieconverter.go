@@ -4,10 +4,9 @@ import (
 	"io/ioutil"
 	"log"
 	"os"
+	"os/exec"
 	"path/filepath"
 	"time"
-
-	shellwords "github.com/mattn/go-shellwords"
 )
 
 // Run ...
@@ -29,9 +28,11 @@ func Run(targetDir string, outputDir string) {
 
 func runConvertMovies(targetDir string, fileInfo os.FileInfo, outputDir string) {
 	cmdStr := "ffmpeg -i " + targetDir + "/" + fileInfo.Name() + " -vf scale=640:-1 " + outputDir + "/" + fileInfo.Name()
-	_, err := shellwords.Parse(cmdStr)
+	cmd := exec.Command(os.Getenv("SHELL"), "-c", cmdStr)
+	err := cmd.Run()
 	if err != nil {
 		log.Println(err)
+		return
 	}
 	log.Printf("ffmpeg fin [%s]\n", fileInfo.Name())
 	os.Remove(filepath.Join(targetDir, fileInfo.Name()))
