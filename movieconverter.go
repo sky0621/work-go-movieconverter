@@ -19,7 +19,7 @@ func Run(targetDir string, outputDir string) {
 		}
 
 		for _, fileInfo := range fileInfoArray {
-			go runConvertMovies(targetDir, fileInfo, outputDir)
+			runConvertMovies(targetDir, fileInfo, outputDir)
 		}
 
 		time.Sleep(180 * time.Second)
@@ -30,7 +30,7 @@ func runConvertMovies(targetDir string, fileInfo os.FileInfo, outputDir string) 
 	opt := "-i " + targetDir + "/" + fileInfo.Name() + " -vf scale=640:-1 " + outputDir + "/" + fileInfo.Name()
 	log.Println(opt)
 	cmd := exec.Command("ffmpeg", opt)
-	err := cmd.Start()
+	err := cmd.Run()
 	if err != nil {
 		log.Println(err)
 	}
