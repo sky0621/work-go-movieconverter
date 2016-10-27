@@ -30,6 +30,11 @@ func main() {
 	defer logfile.Close()
 
 	log.Println("[START]movieconverter")
-	mc.Run(inputDir, outputDir, scale, sleep)
+	mc.Run(&mc.ConvertInfo{
+		InputDir:  inputDir,
+		OutputDir: outputDir,
+		Filename:  "",
+		Scale:     scale},
+		sleep)
 	log.Println("[END]movieconverter")
 }

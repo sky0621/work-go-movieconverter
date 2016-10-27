@@ -7,7 +7,6 @@ import (
 	"log"
 	"os"
 	"os/exec"
-	"path/filepath"
 	"strings"
 	"time"
 )
@@ -15,20 +14,19 @@ import (
 const listfile = "watch.list"
 
 // Run ...
-func Run(inputDir string, outputDir string, scale string, sleep time.Duration) {
+func Run(cInfo *ConvertInfo, sleep time.Duration) {
 	// まず、リストアップ
-	err := listup(inputDir)
+	err := listup(cInfo.InputDir)
 	if err != nil {
 		return
 	}
 
 	// そして、リストアップしたファイルをコンバート
-	err = convert(inputDir, outputDir, scale)
+	err = convert(cInfo)
 	if err != nil {
 		return
 	}
-	// rerr := os.Remove(filepath.Join(inputDir, listfile))
-	rerr := os.Remove(inputDir + "/" + listfile)
+	rerr := os.Remove(joinPath(cInfo.InputDir, listfile))
 	if rerr != nil {
 		log.Println("[after convert]", rerr)
 		return
@@ -56,7 +54,7 @@ func listup(inputDir string) error {
 	}
 
 	// リストアップファイルにファイル情報（ファイル名、作成日時）を出力
-	file, oerr := os.OpenFile(filepath.Join(inputDir, listfile), os.O_RDWR, 0644)
+	file, oerr := os.OpenFile(joinPath(inputDir, listfile), os.O_RDWR, 0644)
 	if oerr != nil {
 		log.Println("[listup]os.Open(inputDir + listfile):", oerr)
 		return oerr
@@ -80,11 +78,11 @@ func listup(inputDir string) error {
 }
 
 func createFileList(inputDir string) error {
-	_, serr := os.Stat(filepath.Join(inputDir, listfile))
+	_, serr := os.Stat(joinPath(inputDir, listfile))
 	if serr == nil {
 		return errors.New("listfile exists")
 	}
-	file, err := os.Create(filepath.Join(inputDir, listfile))
+	file, err := os.Create(joinPath(inputDir, listfile))
 	if err != nil {
 		return err
 	}
@@ -94,16 +92,9 @@ func createFileList(inputDir string) error {
 
 var isConverting bool
 
-type convertInfo struct {
-	inputDir  string
-	outputDir string
-	filename  string
-	scale     string
-}
-
 const maxProcesses = 5
 
-func convert(inputDir string, outputDir string, scale string) error {
+func convert(cInfo *ConvertInfo) error {
 	log.Println("[convert]START")
 	isConverting = true
 
@@ -112,7 +103,7 @@ func convert(inputDir string, outputDir string, scale string) error {
 	notify := make(chan int)
 
 	// リストアップファイルの中身を読み取る
-	file, oerr := os.Open(filepath.Join(inputDir, listfile))
+	file, oerr := os.Open(joinPath(cInfo.InputDir, listfile))
 	if oerr != nil {
 		log.Println("[convert]os.Open(inputDir + listfile):", oerr)
 		return oerr
@@ -126,8 +117,8 @@ func convert(inputDir string, outputDir string, scale string) error {
 		list := scanner.Text()
 		lists := strings.Split(list, "\t")
 		log.Println(lists[0])
-		fInfo := &convertInfo{inputDir: inputDir, outputDir: outputDir, filename: lists[0], scale: scale}
-		go runConvertMovies(fInfo, sema, notify, no)
+		cInfo.Filename = lists[0]
+		go runConvertMovies(*cInfo, sema, notify, no)
 	}
 	serr := scanner.Err()
 	if serr != nil {
@@ -144,25 +135,25 @@ func convert(inputDir string, outputDir string, scale string) error {
 	return nil
 }
 
-func runConvertMovies(cInfo *convertInfo, semaphore chan int, notify chan<- int, no int) {
+// TODO とりあえず、サイズ変換はした。　あと、サムネイル作成とローテ―ト！
+// ゴルーチン実行、かつ、呼び元ループ中でファイル名を上書きしているので、ConvertInfoは参照渡しじゃダメ
+func runConvertMovies(cInfo ConvertInfo, semaphore chan int, notify chan<- int, no int) {
+	fname := "[runConvertMovies][" + cInfo.Filename + "]"
 	semaphore <- 0
-	log.Println("[runConvertMovies][" + cInfo.filename + "]START")
-	// cmdStr := "ffmpeg -i " + filepath.Join(inputDir, filename) + " -vf scale=" + scale + ":-1 " + filepath.Join(outputDir, filename)
-	cmdStr := "cp " + cInfo.inputDir + "/" + cInfo.filename + " " + cInfo.outputDir + "/" + cInfo.filename
-	cmd := exec.Command(os.Getenv("SHELL"), "-c", cmdStr)
+	log.Println(fname, "START")
+	cmd := exec.Command(os.Getenv("SHELL"), "-c", cInfo.cmdConvertVideo())
 	err := cmd.Run()
 	if err != nil {
-		log.Println("[runConvertMovies]["+cInfo.filename+"]", err)
+		log.Println(fname, err)
 		<-semaphore
 		return
 	}
-	log.Printf("ffmpeg fin [%s]\n", cInfo.filename)
-	// err = os.Remove(filepath.Join(cInfo.inputDir, cInfo.filename))
-	err = os.Remove(cInfo.inputDir + "/" + cInfo.filename)
+	log.Printf("ffmpeg fin [%s]\n", cInfo.Filename)
+	err = os.Remove(cInfo.inputPath())
 	if err != nil {
-		log.Println("[runConvertMovies]["+cInfo.filename+"]", err)
+		log.Println(fname, err)
 	}
-	log.Println("[runConvertMovies][" + cInfo.filename + "]END")
+	log.Println(fname, "END")
 	<-semaphore
 	notify <- no
 }

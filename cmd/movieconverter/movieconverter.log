@@ -1,0 +1,501 @@
+2016/10/27 10:34:50 [START]movieconverter
+2016/10/27 10:34:50 [listup]START
+2016/10/27 10:34:50 [listup]END
+2016/10/27 10:34:50 [convert]START
+2016/10/27 10:34:50 000001.jpg
+2016/10/27 10:34:50 000001r.jpg
+2016/10/27 10:34:50 [runConvertMovies][000001.jpg] START
+2016/10/27 10:34:50 000002.jpg
+2016/10/27 10:34:50 000003.jpg
+2016/10/27 10:34:50 A000001min.jpg
+2016/10/27 10:34:50 B000004.jpg
+2016/10/27 10:34:50 MOV_0241big.mp4
+2016/10/27 10:34:50 MOV_0241min.mp4
+2016/10/27 10:34:50 [runConvertMovies][MOV_0241big.mp4] START
+2016/10/27 10:34:50 [runConvertMovies][000001r.jpg] START
+2016/10/27 10:34:50 MOV_0885.mp4
+2016/10/27 10:34:50 [runConvertMovies][MOV_0241min.mp4] START
+2016/10/27 10:34:50 [runConvertMovies][MOV_0241big.mp4] START
+2016/10/27 10:34:50 ffmpeg fin [MOV_0885.mp4]
+2016/10/27 10:34:50 [runConvertMovies][000001.jpg] END
+2016/10/27 10:34:50 [runConvertMovies][MOV_0241min.mp4] START
+2016/10/27 10:34:50 ffmpeg fin [MOV_0885.mp4]
+2016/10/27 10:34:50 [runConvertMovies][MOV_0241big.mp4] remove C:/temp/20161019/MOV_0885.mp4: The system cannot find the file specified.
+2016/10/27 10:34:50 [runConvertMovies][MOV_0241big.mp4] END
+2016/10/27 10:34:50 [runConvertMovies][MOV_0241min.mp4] START
+2016/10/27 10:34:50 [runConvertMovies][MOV_0241big.mp4] exit status 1
+2016/10/27 10:34:50 [runConvertMovies][MOV_0241min.mp4] START
+2016/10/27 10:34:50 [runConvertMovies][MOV_0241min.mp4] exit status 1
+2016/10/27 10:34:50 [runConvertMovies][MOV_0885.mp4] START
+2016/10/27 10:34:50 ffmpeg fin [MOV_0885.mp4]
+2016/10/27 10:34:50 [runConvertMovies][000001r.jpg] remove C:/temp/20161019/MOV_0885.mp4: The system cannot find the file specified.
+2016/10/27 10:34:50 [runConvertMovies][000001r.jpg] END
+2016/10/27 10:34:50 [runConvertMovies][MOV_0241min.mp4] exit status 1
+2016/10/27 10:34:50 [runConvertMovies][MOV_0241min.mp4] exit status 1
+2016/10/27 10:34:50 [runConvertMovies][MOV_0241min.mp4] exit status 1
+2016/10/27 10:34:50 [runConvertMovies][MOV_0885.mp4] exit status 1
+2016/10/27 10:41:41 [START]movieconverter
+2016/10/27 10:41:41 [listup]START
+2016/10/27 10:41:41 [listup]END
+2016/10/27 10:41:41 [convert]START
+2016/10/27 10:41:41 00027_1.mp4
+2016/10/27 10:41:41 00075_1.mp4
+2016/10/27 10:41:41 [runConvertMovies][00027_1.mp4] START
+2016/10/27 10:41:41 MOV_0155.mp4
+2016/10/27 10:41:41 [runConvertMovies][00075_1.mp4] START
+2016/10/27 10:41:41 MOV_0166.mp4
+2016/10/27 10:41:41 MOV_0225.mp4
+2016/10/27 10:41:41 MOV_0638.mp4
+2016/10/27 10:41:41 MOV_0644.mp4
+2016/10/27 10:41:41 MOV_0654.mp4
+2016/10/27 10:41:41 MOV_0659.mp4
+2016/10/27 10:41:41 MOV_0696.mp4
+2016/10/27 10:41:41 MOV_0787.mp4
+2016/10/27 10:41:41 MOV_0791.mp4
+2016/10/27 10:41:41 MOV_7364.mp4
+2016/10/27 10:41:41 MOV_7419.mp4
+2016/10/27 10:41:41 MOV_7431.mp4
+2016/10/27 10:41:41 [runConvertMovies][MOV_7431.mp4] START
+2016/10/27 10:41:41 [runConvertMovies][MOV_7431.mp4] START
+2016/10/27 10:41:41 [runConvertMovies][MOV_0155.mp4] START
+2016/10/27 10:41:42 ffmpeg fin [MOV_7431.mp4]
+2016/10/27 10:41:42 [runConvertMovies][MOV_7431.mp4] END
+2016/10/27 10:41:42 [runConvertMovies][MOV_7431.mp4] START
+2016/10/27 10:41:42 ffmpeg fin [MOV_7431.mp4]
+2016/10/27 10:41:42 [runConvertMovies][00027_1.mp4] remove C:/temp/mc/in/MOV_7431.mp4: Access is denied.
+2016/10/27 10:41:42 [runConvertMovies][00027_1.mp4] END
+2016/10/27 10:41:42 [runConvertMovies][MOV_7431.mp4] START
+2016/10/27 10:41:42 ffmpeg fin [MOV_7431.mp4]
+2016/10/27 10:41:42 [runConvertMovies][MOV_7431.mp4] remove C:/temp/mc/in/MOV_7431.mp4: Access is denied.
+2016/10/27 10:41:42 [runConvertMovies][MOV_7431.mp4] END
+2016/10/27 10:41:42 [runConvertMovies][MOV_7431.mp4] START
+2016/10/27 10:41:42 ffmpeg fin [MOV_7431.mp4]
+2016/10/27 10:41:42 [runConvertMovies][00075_1.mp4] remove C:/temp/mc/in/MOV_7431.mp4: The system cannot find the file specified.
+2016/10/27 10:41:42 [runConvertMovies][00075_1.mp4] END
+2016/10/27 10:41:42 [runConvertMovies][MOV_7431.mp4] START
+2016/10/27 10:41:42 ffmpeg fin [MOV_7431.mp4]
+2016/10/27 10:41:42 [runConvertMovies][MOV_0155.mp4] remove C:/temp/mc/in/MOV_7431.mp4: The system cannot find the file specified.
+2016/10/27 10:41:42 [runConvertMovies][MOV_0155.mp4] END
+2016/10/27 10:41:42 [runConvertMovies][MOV_7431.mp4] START
+2016/10/27 10:41:42 [runConvertMovies][MOV_7431.mp4] exit status 1
+2016/10/27 10:41:42 [runConvertMovies][MOV_7431.mp4] START
+2016/10/27 10:41:42 [runConvertMovies][MOV_7431.mp4] exit status 1
+2016/10/27 10:41:42 [runConvertMovies][MOV_7431.mp4] START
+2016/10/27 10:41:42 [runConvertMovies][MOV_7431.mp4] exit status 1
+2016/10/27 10:41:42 [runConvertMovies][MOV_7431.mp4] START
+2016/10/27 10:41:43 [runConvertMovies][MOV_7431.mp4] exit status 1
+2016/10/27 10:41:43 [runConvertMovies][MOV_7431.mp4] START
+2016/10/27 10:41:43 [runConvertMovies][MOV_7431.mp4] exit status 1
+2016/10/27 10:41:43 [runConvertMovies][MOV_7431.mp4] START
+2016/10/27 10:41:43 [runConvertMovies][MOV_7431.mp4] exit status 1
+2016/10/27 10:41:43 [runConvertMovies][MOV_7431.mp4] exit status 1
+2016/10/27 10:41:43 [runConvertMovies][MOV_7431.mp4] exit status 1
+2016/10/27 10:41:43 [runConvertMovies][MOV_7431.mp4] exit status 1
+2016/10/27 10:41:43 [runConvertMovies][MOV_7431.mp4] exit status 1
+2016/10/27 10:49:55 [START]movieconverter
+2016/10/27 10:49:56 [listup]START
+2016/10/27 10:49:56 [listup]END
+2016/10/27 10:49:56 [convert]START
+2016/10/27 10:49:56 00027_1.mp4
+2016/10/27 10:49:56 00075_1.mp4
+2016/10/27 10:49:56 [runConvertMovies][00027_1.mp4] START
+2016/10/27 10:49:56 [runConvertMovies][00075_1.mp4] START
+2016/10/27 10:49:56 MOV_0155.mp4
+2016/10/27 10:49:56 MOV_0166.mp4
+2016/10/27 10:49:56 [runConvertMovies][MOV_0155.mp4] START
+2016/10/27 10:49:56 MOV_0225.mp4
+2016/10/27 10:49:56 MOV_0638.mp4
+2016/10/27 10:49:56 MOV_0644.mp4
+2016/10/27 10:49:56 MOV_0654.mp4
+2016/10/27 10:49:56 MOV_0659.mp4
+2016/10/27 10:49:56 MOV_0696.mp4
+2016/10/27 10:49:56 MOV_0787.mp4
+2016/10/27 10:49:56 MOV_0791.mp4
+2016/10/27 10:49:56 MOV_7364.mp4
+2016/10/27 10:49:56 MOV_7419.mp4
+2016/10/27 10:49:56 MOV_7431.mp4
+2016/10/27 10:49:56 [runConvertMovies][MOV_7431.mp4] START
+2016/10/27 10:49:56 [runConvertMovies][MOV_0166.mp4] START
+2016/10/27 10:49:56 ffmpeg fin [MOV_7431.mp4]
+2016/10/27 10:49:56 [runConvertMovies][00075_1.mp4] END
+2016/10/27 10:49:56 [runConvertMovies][MOV_7431.mp4] START
+2016/10/27 10:49:56 ffmpeg fin [MOV_7431.mp4]
+2016/10/27 10:49:56 [runConvertMovies][00027_1.mp4] remove C:\temp\mc\in\MOV_7431.mp4: Access is denied.
+2016/10/27 10:49:56 [runConvertMovies][00027_1.mp4] END
+2016/10/27 10:49:56 [runConvertMovies][MOV_7431.mp4] START
+2016/10/27 10:49:57 [runConvertMovies][MOV_7431.mp4] exit status 1
+2016/10/27 10:49:57 [runConvertMovies][MOV_7431.mp4] START
+2016/10/27 10:49:57 [runConvertMovies][MOV_7431.mp4] exit status 1
+2016/10/27 10:49:57 [runConvertMovies][MOV_7431.mp4] START
+2016/10/27 10:49:57 ffmpeg fin [MOV_7431.mp4]
+2016/10/27 10:49:57 [runConvertMovies][MOV_0155.mp4] remove C:\temp\mc\in\MOV_7431.mp4: The system cannot find the file specified.
+2016/10/27 10:49:57 [runConvertMovies][MOV_0155.mp4] END
+2016/10/27 10:49:57 [runConvertMovies][MOV_7431.mp4] START
+2016/10/27 10:49:57 [runConvertMovies][MOV_7431.mp4] exit status 1
+2016/10/27 10:49:57 [runConvertMovies][MOV_7431.mp4] START
+2016/10/27 10:49:57 ffmpeg fin [MOV_7431.mp4]
+2016/10/27 10:49:57 [runConvertMovies][MOV_0166.mp4] remove C:\temp\mc\in\MOV_7431.mp4: The system cannot find the file specified.
+2016/10/27 10:49:57 [runConvertMovies][MOV_0166.mp4] END
+2016/10/27 10:49:57 [runConvertMovies][MOV_7431.mp4] START
+2016/10/27 10:49:57 ffmpeg fin [MOV_7431.mp4]
+2016/10/27 10:49:57 [runConvertMovies][MOV_7431.mp4] remove C:\temp\mc\in\MOV_7431.mp4: The system cannot find the file specified.
+2016/10/27 10:49:57 [runConvertMovies][MOV_7431.mp4] END
+2016/10/27 10:49:57 [runConvertMovies][MOV_7431.mp4] START
+2016/10/27 10:49:57 [runConvertMovies][MOV_7431.mp4] exit status 1
+2016/10/27 10:49:57 [runConvertMovies][MOV_7431.mp4] START
+2016/10/27 10:49:57 [runConvertMovies][MOV_7431.mp4] exit status 1
+2016/10/27 10:49:57 [runConvertMovies][MOV_7431.mp4] START
+2016/10/27 10:49:57 [runConvertMovies][MOV_7431.mp4] exit status 1
+2016/10/27 10:49:57 [runConvertMovies][MOV_7431.mp4] exit status 1
+2016/10/27 10:49:57 [runConvertMovies][MOV_7431.mp4] exit status 1
+2016/10/27 10:49:57 [runConvertMovies][MOV_7431.mp4] exit status 1
+2016/10/27 10:49:57 [runConvertMovies][MOV_7431.mp4] exit status 1
+2016/10/27 10:54:11 [START]movieconverter
+2016/10/27 10:54:11 [listup]START
+2016/10/27 10:54:11 [joinPath] C:/temp/mc/in/watch.list
+2016/10/27 10:54:11 [joinPath] C:/temp/mc/in/watch.list
+2016/10/27 10:54:11 [joinPath] C:/temp/mc/in/watch.list
+2016/10/27 10:54:11 [listup]END
+2016/10/27 10:54:11 [convert]START
+2016/10/27 10:54:11 [joinPath] C:/temp/mc/in/watch.list
+2016/10/27 10:54:11 00027_1.mp4
+2016/10/27 10:54:11 00075_1.mp4
+2016/10/27 10:54:11 [runConvertMovies][00027_1.mp4] START
+2016/10/27 10:54:11 MOV_0155.mp4
+2016/10/27 10:54:11 [inputPath] C:/temp/mc/in/00075_1.mp4
+2016/10/27 10:54:11 [outputPath] C:/temp/mc/out/MOV_0155.mp4
+2016/10/27 10:54:11 [cmdConvertVideo] cp C:/temp/mc/in/00075_1.mp4 C:/temp/mc/out/MOV_0155.mp4
+2016/10/27 10:54:11 MOV_0166.mp4
+2016/10/27 10:54:11 [runConvertMovies][00075_1.mp4] START
+2016/10/27 10:54:11 [inputPath] C:/temp/mc/in/MOV_0166.mp4
+2016/10/27 10:54:11 [outputPath] C:/temp/mc/out/MOV_0166.mp4
+2016/10/27 10:54:11 [cmdConvertVideo] cp C:/temp/mc/in/MOV_0166.mp4 C:/temp/mc/out/MOV_0166.mp4
+2016/10/27 10:54:11 [runConvertMovies][MOV_0155.mp4] START
+2016/10/27 10:54:11 [inputPath] C:/temp/mc/in/MOV_0166.mp4
+2016/10/27 10:54:11 [outputPath] C:/temp/mc/out/MOV_0166.mp4
+2016/10/27 10:54:11 [cmdConvertVideo] cp C:/temp/mc/in/MOV_0166.mp4 C:/temp/mc/out/MOV_0166.mp4
+2016/10/27 10:54:11 MOV_0225.mp4
+2016/10/27 10:54:11 MOV_0638.mp4
+2016/10/27 10:54:11 MOV_0644.mp4
+2016/10/27 10:54:11 MOV_0654.mp4
+2016/10/27 10:54:11 MOV_0659.mp4
+2016/10/27 10:54:11 MOV_0696.mp4
+2016/10/27 10:54:11 MOV_0787.mp4
+2016/10/27 10:54:11 MOV_0791.mp4
+2016/10/27 10:54:11 MOV_7364.mp4
+2016/10/27 10:54:11 MOV_7419.mp4
+2016/10/27 10:54:11 MOV_7431.mp4
+2016/10/27 10:54:11 [runConvertMovies][MOV_7431.mp4] START
+2016/10/27 10:54:11 [inputPath] C:/temp/mc/in/MOV_7431.mp4
+2016/10/27 10:54:11 [outputPath] C:/temp/mc/out/MOV_7431.mp4
+2016/10/27 10:54:11 [cmdConvertVideo] cp C:/temp/mc/in/MOV_7431.mp4 C:/temp/mc/out/MOV_7431.mp4
+2016/10/27 10:54:11 [runConvertMovies][MOV_0166.mp4] START
+2016/10/27 10:54:11 [inputPath] C:/temp/mc/in/MOV_7431.mp4
+2016/10/27 10:54:11 [outputPath] C:/temp/mc/out/MOV_7431.mp4
+2016/10/27 10:54:11 [cmdConvertVideo] cp C:/temp/mc/in/MOV_7431.mp4 C:/temp/mc/out/MOV_7431.mp4
+2016/10/27 10:54:12 [runConvertMovies][MOV_7431.mp4] exit status 1
+2016/10/27 10:54:12 [runConvertMovies][MOV_7431.mp4] START
+2016/10/27 10:54:12 [inputPath] C:/temp/mc/in/MOV_7431.mp4
+2016/10/27 10:54:12 [outputPath] C:/temp/mc/out/MOV_7431.mp4
+2016/10/27 10:54:12 [cmdConvertVideo] cp C:/temp/mc/in/MOV_7431.mp4 C:/temp/mc/out/MOV_7431.mp4
+2016/10/27 10:54:12 ffmpeg fin [MOV_7431.mp4]
+2016/10/27 10:54:12 [inputPath] C:/temp/mc/in/MOV_7431.mp4
+2016/10/27 10:54:12 [runConvertMovies][00027_1.mp4] END
+2016/10/27 10:54:12 [runConvertMovies][MOV_7431.mp4] START
+2016/10/27 10:54:12 [inputPath] C:/temp/mc/in/MOV_7431.mp4
+2016/10/27 10:54:12 [outputPath] C:/temp/mc/out/MOV_7431.mp4
+2016/10/27 10:54:12 [cmdConvertVideo] cp C:/temp/mc/in/MOV_7431.mp4 C:/temp/mc/out/MOV_7431.mp4
+2016/10/27 10:54:12 ffmpeg fin [MOV_7431.mp4]
+2016/10/27 10:54:12 [inputPath] C:/temp/mc/in/MOV_7431.mp4
+2016/10/27 10:54:12 [runConvertMovies][00075_1.mp4] remove C:/temp/mc/in/MOV_7431.mp4: Access is denied.
+2016/10/27 10:54:12 [runConvertMovies][00075_1.mp4] END
+2016/10/27 10:54:12 [runConvertMovies][MOV_7431.mp4] START
+2016/10/27 10:54:12 [inputPath] C:/temp/mc/in/MOV_7431.mp4
+2016/10/27 10:54:12 [outputPath] C:/temp/mc/out/MOV_7431.mp4
+2016/10/27 10:54:12 [cmdConvertVideo] cp C:/temp/mc/in/MOV_7431.mp4 C:/temp/mc/out/MOV_7431.mp4
+2016/10/27 10:54:12 [runConvertMovies][MOV_7431.mp4] exit status 1
+2016/10/27 10:54:12 [runConvertMovies][MOV_7431.mp4] START
+2016/10/27 10:54:12 [inputPath] C:/temp/mc/in/MOV_7431.mp4
+2016/10/27 10:54:12 [outputPath] C:/temp/mc/out/MOV_7431.mp4
+2016/10/27 10:54:12 [cmdConvertVideo] cp C:/temp/mc/in/MOV_7431.mp4 C:/temp/mc/out/MOV_7431.mp4
+2016/10/27 10:54:12 [runConvertMovies][MOV_7431.mp4] exit status 1
+2016/10/27 10:54:12 [runConvertMovies][MOV_7431.mp4] START
+2016/10/27 10:54:12 [inputPath] C:/temp/mc/in/MOV_7431.mp4
+2016/10/27 10:54:12 [outputPath] C:/temp/mc/out/MOV_7431.mp4
+2016/10/27 10:54:12 [cmdConvertVideo] cp C:/temp/mc/in/MOV_7431.mp4 C:/temp/mc/out/MOV_7431.mp4
+2016/10/27 10:54:12 [runConvertMovies][MOV_7431.mp4] exit status 1
+2016/10/27 10:54:12 [runConvertMovies][MOV_7431.mp4] START
+2016/10/27 10:54:12 [inputPath] C:/temp/mc/in/MOV_7431.mp4
+2016/10/27 10:54:12 [outputPath] C:/temp/mc/out/MOV_7431.mp4
+2016/10/27 10:54:12 [cmdConvertVideo] cp C:/temp/mc/in/MOV_7431.mp4 C:/temp/mc/out/MOV_7431.mp4
+2016/10/27 10:54:12 [runConvertMovies][MOV_7431.mp4] exit status 1
+2016/10/27 10:54:12 [runConvertMovies][MOV_7431.mp4] START
+2016/10/27 10:54:12 [inputPath] C:/temp/mc/in/MOV_7431.mp4
+2016/10/27 10:54:12 [outputPath] C:/temp/mc/out/MOV_7431.mp4
+2016/10/27 10:54:12 [cmdConvertVideo] cp C:/temp/mc/in/MOV_7431.mp4 C:/temp/mc/out/MOV_7431.mp4
+2016/10/27 10:54:12 ffmpeg fin [MOV_7431.mp4]
+2016/10/27 10:54:12 [inputPath] C:/temp/mc/in/MOV_7431.mp4
+2016/10/27 10:54:12 [runConvertMovies][MOV_0155.mp4] remove C:/temp/mc/in/MOV_7431.mp4: Access is denied.
+2016/10/27 10:54:12 [runConvertMovies][MOV_0155.mp4] END
+2016/10/27 10:54:12 [runConvertMovies][MOV_7431.mp4] START
+2016/10/27 10:54:12 [inputPath] C:/temp/mc/in/MOV_7431.mp4
+2016/10/27 10:54:12 [outputPath] C:/temp/mc/out/MOV_7431.mp4
+2016/10/27 10:54:12 [cmdConvertVideo] cp C:/temp/mc/in/MOV_7431.mp4 C:/temp/mc/out/MOV_7431.mp4
+2016/10/27 10:54:12 ffmpeg fin [MOV_7431.mp4]
+2016/10/27 10:54:12 [inputPath] C:/temp/mc/in/MOV_7431.mp4
+2016/10/27 10:54:12 [runConvertMovies][MOV_0166.mp4] remove C:/temp/mc/in/MOV_7431.mp4: The system cannot find the file specified.
+2016/10/27 10:54:12 [runConvertMovies][MOV_0166.mp4] END
+2016/10/27 10:54:12 [runConvertMovies][MOV_7431.mp4] START
+2016/10/27 10:54:12 [inputPath] C:/temp/mc/in/MOV_7431.mp4
+2016/10/27 10:54:12 [outputPath] C:/temp/mc/out/MOV_7431.mp4
+2016/10/27 10:54:12 [cmdConvertVideo] cp C:/temp/mc/in/MOV_7431.mp4 C:/temp/mc/out/MOV_7431.mp4
+2016/10/27 10:54:12 [runConvertMovies][MOV_7431.mp4] exit status 1
+2016/10/27 10:54:12 [runConvertMovies][MOV_7431.mp4] START
+2016/10/27 10:54:12 [inputPath] C:/temp/mc/in/MOV_7431.mp4
+2016/10/27 10:54:12 [outputPath] C:/temp/mc/out/MOV_7431.mp4
+2016/10/27 10:54:12 [cmdConvertVideo] cp C:/temp/mc/in/MOV_7431.mp4 C:/temp/mc/out/MOV_7431.mp4
+2016/10/27 10:54:12 ffmpeg fin [MOV_7431.mp4]
+2016/10/27 10:54:12 [inputPath] C:/temp/mc/in/MOV_7431.mp4
+2016/10/27 10:54:12 [runConvertMovies][MOV_7431.mp4] exit status 1
+2016/10/27 10:54:12 [runConvertMovies][MOV_7431.mp4] remove C:/temp/mc/in/MOV_7431.mp4: The system cannot find the file specified.
+2016/10/27 10:54:12 [runConvertMovies][MOV_7431.mp4] END
+2016/10/27 10:54:12 [runConvertMovies][MOV_7431.mp4] exit status 1
+2016/10/27 10:54:13 [runConvertMovies][MOV_7431.mp4] exit status 1
+2016/10/27 10:54:13 [runConvertMovies][MOV_7431.mp4] exit status 1
+2016/10/27 10:56:46 [START]movieconverter
+2016/10/27 10:56:46 [listup]START
+2016/10/27 10:56:46 [joinPath] C:/temp/mc/in/watch.list
+2016/10/27 10:56:46 [joinPath] C:/temp/mc/in/watch.list
+2016/10/27 10:56:46 [joinPath] C:/temp/mc/in/watch.list
+2016/10/27 10:56:46 [listup]END
+2016/10/27 10:56:46 [convert]START
+2016/10/27 10:56:46 [joinPath] C:/temp/mc/in/watch.list
+2016/10/27 10:56:46 MOV_0654.mp4
+2016/10/27 10:56:46 MOV_0659.mp4
+2016/10/27 10:56:46 [runConvertMovies][MOV_0654.mp4] START
+2016/10/27 10:56:46 MOV_0696.mp4
+2016/10/27 10:56:46 [inputPath] C:/temp/mc/in/MOV_0659.mp4
+2016/10/27 10:56:46 [outputPath] C:/temp/mc/out/MOV_0696.mp4
+2016/10/27 10:56:46 [runConvertMovies][MOV_0696.mp4] START
+2016/10/27 10:56:46 [inputPath] C:/temp/mc/in/MOV_0696.mp4
+2016/10/27 10:56:46 [outputPath] C:/temp/mc/out/MOV_0696.mp4
+2016/10/27 10:56:46 [cmdConvertVideo] cp C:/temp/mc/in/MOV_0659.mp4 C:/temp/mc/out/MOV_0696.mp4
+2016/10/27 10:56:46 MOV_0787.mp4
+2016/10/27 10:56:46 [runConvertMovies][MOV_0659.mp4] START
+2016/10/27 10:56:46 [cmdConvertVideo] cp C:/temp/mc/in/MOV_0696.mp4 C:/temp/mc/out/MOV_0696.mp4
+2016/10/27 10:56:46 MOV_0791.mp4
+2016/10/27 10:56:46 [runConvertMovies][MOV_0791.mp4] START
+2016/10/27 10:56:46 [inputPath] C:/temp/mc/in/MOV_0791.mp4
+2016/10/27 10:56:46 [outputPath] C:/temp/mc/out/MOV_0791.mp4
+2016/10/27 10:56:46 [cmdConvertVideo] cp C:/temp/mc/in/MOV_0791.mp4 C:/temp/mc/out/MOV_0791.mp4
+2016/10/27 10:56:46 [runConvertMovies][MOV_0787.mp4] START
+2016/10/27 10:56:46 [inputPath] C:/temp/mc/in/MOV_0791.mp4
+2016/10/27 10:56:46 [outputPath] C:/temp/mc/out/MOV_0791.mp4
+2016/10/27 10:56:46 [cmdConvertVideo] cp C:/temp/mc/in/MOV_0791.mp4 C:/temp/mc/out/MOV_0791.mp4
+2016/10/27 10:56:46 [inputPath] C:/temp/mc/in/MOV_0787.mp4
+2016/10/27 10:56:46 [outputPath] C:/temp/mc/out/MOV_0791.mp4
+2016/10/27 10:56:46 [cmdConvertVideo] cp C:/temp/mc/in/MOV_0787.mp4 C:/temp/mc/out/MOV_0791.mp4
+2016/10/27 10:56:47 ffmpeg fin [MOV_0791.mp4]
+2016/10/27 10:56:47 [inputPath] C:/temp/mc/in/MOV_0791.mp4
+2016/10/27 10:56:47 [runConvertMovies][MOV_0696.mp4] END
+2016/10/27 10:56:47 ffmpeg fin [MOV_0791.mp4]
+2016/10/27 10:56:47 [inputPath] C:/temp/mc/in/MOV_0791.mp4
+2016/10/27 10:56:47 [runConvertMovies][MOV_0654.mp4] remove C:/temp/mc/in/MOV_0791.mp4: Access is denied.
+2016/10/27 10:56:47 [runConvertMovies][MOV_0654.mp4] END
+2016/10/27 10:56:47 ffmpeg fin [MOV_0791.mp4]
+2016/10/27 10:56:47 [inputPath] C:/temp/mc/in/MOV_0791.mp4
+2016/10/27 10:56:47 [runConvertMovies][MOV_0787.mp4] remove C:/temp/mc/in/MOV_0791.mp4: The system cannot find the file specified.
+2016/10/27 10:56:47 [runConvertMovies][MOV_0787.mp4] END
+2016/10/27 10:56:47 ffmpeg fin [MOV_0791.mp4]
+2016/10/27 10:56:47 [inputPath] C:/temp/mc/in/MOV_0791.mp4
+2016/10/27 10:56:47 [runConvertMovies][MOV_0791.mp4] remove C:/temp/mc/in/MOV_0791.mp4: The system cannot find the file specified.
+2016/10/27 10:56:47 [runConvertMovies][MOV_0791.mp4] END
+2016/10/27 10:56:48 ffmpeg fin [MOV_0791.mp4]
+2016/10/27 10:56:48 [inputPath] C:/temp/mc/in/MOV_0791.mp4
+2016/10/27 10:56:48 [runConvertMovies][MOV_0659.mp4] remove C:/temp/mc/in/MOV_0791.mp4: The system cannot find the file specified.
+2016/10/27 10:56:48 [runConvertMovies][MOV_0659.mp4] END
+2016/10/27 10:56:48 [convert]END
+2016/10/27 10:56:48 [joinPath] C:/temp/mc/in/watch.list
+2016/10/27 10:56:48 [END]movieconverter
+2016/10/27 10:59:54 [START]movieconverter
+2016/10/27 10:59:54 [listup]START
+2016/10/27 10:59:54 [joinPath] C:/temp/mc/in/watch.list
+2016/10/27 10:59:54 [joinPath] C:/temp/mc/in/watch.list
+2016/10/27 10:59:54 [joinPath] C:/temp/mc/in/watch.list
+2016/10/27 10:59:54 [listup]END
+2016/10/27 10:59:54 [convert]START
+2016/10/27 10:59:54 [joinPath] C:/temp/mc/in/watch.list
+2016/10/27 10:59:54 MOV_0654.mp4
+2016/10/27 10:59:54 MOV_0659.mp4
+2016/10/27 10:59:54 [runConvertMovies][MOV_0654.mp4] START
+2016/10/27 10:59:54 MOV_0696.mp4
+2016/10/27 10:59:54 MOV_0787.mp4
+2016/10/27 10:59:54 MOV_0791.mp4
+2016/10/27 10:59:54 [runConvertMovies][MOV_0659.mp4] START
+2016/10/27 10:59:54 [runConvertMovies][MOV_0791.mp4] START
+2016/10/27 10:59:54 [inputPath] C:/temp/mc/in/MOV_0654.mp4
+2016/10/27 10:59:54 [outputPath] C:/temp/mc/out/MOV_0654.mp4
+2016/10/27 10:59:54 [cmdConvertVideo] cp C:/temp/mc/in/MOV_0654.mp4 C:/temp/mc/out/MOV_0654.mp4
+2016/10/27 10:59:54 [inputPath] C:/temp/mc/in/MOV_0659.mp4
+2016/10/27 10:59:54 [outputPath] C:/temp/mc/out/MOV_0659.mp4
+2016/10/27 10:59:54 [runConvertMovies][MOV_0787.mp4] START
+2016/10/27 10:59:54 [runConvertMovies][MOV_0696.mp4] START
+2016/10/27 10:59:54 [inputPath] C:/temp/mc/in/MOV_0696.mp4
+2016/10/27 10:59:54 [outputPath] C:/temp/mc/out/MOV_0696.mp4
+2016/10/27 10:59:54 [cmdConvertVideo] cp C:/temp/mc/in/MOV_0696.mp4 C:/temp/mc/out/MOV_0696.mp4
+2016/10/27 10:59:54 [inputPath] C:/temp/mc/in/MOV_0791.mp4
+2016/10/27 10:59:54 [outputPath] C:/temp/mc/out/MOV_0791.mp4
+2016/10/27 10:59:54 [cmdConvertVideo] cp C:/temp/mc/in/MOV_0791.mp4 C:/temp/mc/out/MOV_0791.mp4
+2016/10/27 10:59:54 [cmdConvertVideo] cp C:/temp/mc/in/MOV_0659.mp4 C:/temp/mc/out/MOV_0659.mp4
+2016/10/27 10:59:54 [inputPath] C:/temp/mc/in/MOV_0787.mp4
+2016/10/27 10:59:54 [outputPath] C:/temp/mc/out/MOV_0787.mp4
+2016/10/27 10:59:54 [cmdConvertVideo] cp C:/temp/mc/in/MOV_0787.mp4 C:/temp/mc/out/MOV_0787.mp4
+2016/10/27 10:59:55 ffmpeg fin [MOV_0654.mp4]
+2016/10/27 10:59:55 [inputPath] C:/temp/mc/in/MOV_0654.mp4
+2016/10/27 10:59:55 [runConvertMovies][MOV_0654.mp4] END
+2016/10/27 10:59:55 ffmpeg fin [MOV_0696.mp4]
+2016/10/27 10:59:55 [inputPath] C:/temp/mc/in/MOV_0696.mp4
+2016/10/27 10:59:55 [runConvertMovies][MOV_0696.mp4] END
+2016/10/27 10:59:55 ffmpeg fin [MOV_0659.mp4]
+2016/10/27 10:59:55 [inputPath] C:/temp/mc/in/MOV_0659.mp4
+2016/10/27 10:59:55 [runConvertMovies][MOV_0659.mp4] END
+2016/10/27 10:59:55 ffmpeg fin [MOV_0791.mp4]
+2016/10/27 10:59:55 [inputPath] C:/temp/mc/in/MOV_0791.mp4
+2016/10/27 10:59:55 [runConvertMovies][MOV_0791.mp4] END
+2016/10/27 10:59:55 ffmpeg fin [MOV_0787.mp4]
+2016/10/27 10:59:55 [inputPath] C:/temp/mc/in/MOV_0787.mp4
+2016/10/27 10:59:55 [runConvertMovies][MOV_0787.mp4] END
+2016/10/27 10:59:55 [convert]END
+2016/10/27 10:59:55 [joinPath] C:/temp/mc/in/watch.list
+2016/10/27 10:59:55 [END]movieconverter
+2016/10/27 11:01:46 [START]movieconverter
+2016/10/27 11:01:47 [listup]START
+2016/10/27 11:01:47 [joinPath] C:/temp/mc/in/watch.list
+2016/10/27 11:01:47 [joinPath] C:/temp/mc/in/watch.list
+2016/10/27 11:01:47 [joinPath] C:/temp/mc/in/watch.list
+2016/10/27 11:01:47 [listup]END
+2016/10/27 11:01:47 [convert]START
+2016/10/27 11:01:47 [joinPath] C:/temp/mc/in/watch.list
+2016/10/27 11:01:47 00027_1.mp4
+2016/10/27 11:01:47 00075_1.mp4
+2016/10/27 11:01:47 [runConvertMovies][00027_1.mp4] START
+2016/10/27 11:01:47 [runConvertMovies][00075_1.mp4] START
+2016/10/27 11:01:47 [inputPath] C:/temp/mc/in/00027_1.mp4
+2016/10/27 11:01:47 [outputPath] C:/temp/mc/out/00027_1.mp4
+2016/10/27 11:01:47 [cmdConvertVideo] cp C:/temp/mc/in/00027_1.mp4 C:/temp/mc/out/00027_1.mp4
+2016/10/27 11:01:47 [inputPath] C:/temp/mc/in/00075_1.mp4
+2016/10/27 11:01:47 [outputPath] C:/temp/mc/out/00075_1.mp4
+2016/10/27 11:01:47 [cmdConvertVideo] cp C:/temp/mc/in/00075_1.mp4 C:/temp/mc/out/00075_1.mp4
+2016/10/27 11:01:47 MOV_0155.mp4
+2016/10/27 11:01:47 MOV_0166.mp4
+2016/10/27 11:01:47 MOV_0225.mp4
+2016/10/27 11:01:47 MOV_0638.mp4
+2016/10/27 11:01:47 MOV_0644.mp4
+2016/10/27 11:01:47 MOV_0654.mp4
+2016/10/27 11:01:47 MOV_0659.mp4
+2016/10/27 11:01:47 MOV_0696.mp4
+2016/10/27 11:01:47 MOV_0787.mp4
+2016/10/27 11:01:47 MOV_0791.mp4
+2016/10/27 11:01:47 MOV_7364.mp4
+2016/10/27 11:01:47 [runConvertMovies][MOV_0225.mp4] START
+2016/10/27 11:01:47 [inputPath] C:/temp/mc/in/MOV_0225.mp4
+2016/10/27 11:01:47 [outputPath] C:/temp/mc/out/MOV_0225.mp4
+2016/10/27 11:01:47 [cmdConvertVideo] cp C:/temp/mc/in/MOV_0225.mp4 C:/temp/mc/out/MOV_0225.mp4
+2016/10/27 11:01:47 [runConvertMovies][MOV_0166.mp4] START
+2016/10/27 11:01:47 [inputPath] C:/temp/mc/in/MOV_0166.mp4
+2016/10/27 11:01:47 [outputPath] C:/temp/mc/out/MOV_0166.mp4
+2016/10/27 11:01:47 [cmdConvertVideo] cp C:/temp/mc/in/MOV_0166.mp4 C:/temp/mc/out/MOV_0166.mp4
+2016/10/27 11:01:47 MOV_7419.mp4
+2016/10/27 11:01:47 MOV_7431.mp4
+2016/10/27 11:01:47 [runConvertMovies][MOV_0155.mp4] START
+2016/10/27 11:01:47 [inputPath] C:/temp/mc/in/MOV_0155.mp4
+2016/10/27 11:01:47 [outputPath] C:/temp/mc/out/MOV_0155.mp4
+2016/10/27 11:01:47 [cmdConvertVideo] cp C:/temp/mc/in/MOV_0155.mp4 C:/temp/mc/out/MOV_0155.mp4
+2016/10/27 11:01:47 ffmpeg fin [00027_1.mp4]
+2016/10/27 11:01:47 [inputPath] C:/temp/mc/in/00027_1.mp4
+2016/10/27 11:01:47 [runConvertMovies][00027_1.mp4] END
+2016/10/27 11:01:47 [runConvertMovies][MOV_0638.mp4] START
+2016/10/27 11:01:47 [inputPath] C:/temp/mc/in/MOV_0638.mp4
+2016/10/27 11:01:47 [outputPath] C:/temp/mc/out/MOV_0638.mp4
+2016/10/27 11:01:47 [cmdConvertVideo] cp C:/temp/mc/in/MOV_0638.mp4 C:/temp/mc/out/MOV_0638.mp4
+2016/10/27 11:01:48 ffmpeg fin [00075_1.mp4]
+2016/10/27 11:01:48 [inputPath] C:/temp/mc/in/00075_1.mp4
+2016/10/27 11:01:48 [runConvertMovies][00075_1.mp4] END
+2016/10/27 11:01:48 [runConvertMovies][MOV_0644.mp4] START
+2016/10/27 11:01:48 [inputPath] C:/temp/mc/in/MOV_0644.mp4
+2016/10/27 11:01:48 [outputPath] C:/temp/mc/out/MOV_0644.mp4
+2016/10/27 11:01:48 [cmdConvertVideo] cp C:/temp/mc/in/MOV_0644.mp4 C:/temp/mc/out/MOV_0644.mp4
+2016/10/27 11:01:48 ffmpeg fin [MOV_0638.mp4]
+2016/10/27 11:01:48 [inputPath] C:/temp/mc/in/MOV_0638.mp4
+2016/10/27 11:01:48 [runConvertMovies][MOV_0638.mp4] END
+2016/10/27 11:01:48 [runConvertMovies][MOV_0654.mp4] START
+2016/10/27 11:01:48 [inputPath] C:/temp/mc/in/MOV_0654.mp4
+2016/10/27 11:01:48 [outputPath] C:/temp/mc/out/MOV_0654.mp4
+2016/10/27 11:01:48 [cmdConvertVideo] cp C:/temp/mc/in/MOV_0654.mp4 C:/temp/mc/out/MOV_0654.mp4
+2016/10/27 11:01:48 ffmpeg fin [MOV_0225.mp4]
+2016/10/27 11:01:48 [inputPath] C:/temp/mc/in/MOV_0225.mp4
+2016/10/27 11:01:48 [runConvertMovies][MOV_0225.mp4] END
+2016/10/27 11:01:48 [runConvertMovies][MOV_0659.mp4] START
+2016/10/27 11:01:48 [inputPath] C:/temp/mc/in/MOV_0659.mp4
+2016/10/27 11:01:48 [outputPath] C:/temp/mc/out/MOV_0659.mp4
+2016/10/27 11:01:48 [cmdConvertVideo] cp C:/temp/mc/in/MOV_0659.mp4 C:/temp/mc/out/MOV_0659.mp4
+2016/10/27 11:01:49 ffmpeg fin [MOV_0155.mp4]
+2016/10/27 11:01:49 [inputPath] C:/temp/mc/in/MOV_0155.mp4
+2016/10/27 11:01:49 [runConvertMovies][MOV_0155.mp4] END
+2016/10/27 11:01:49 [runConvertMovies][MOV_0696.mp4] START
+2016/10/27 11:01:49 [inputPath] C:/temp/mc/in/MOV_0696.mp4
+2016/10/27 11:01:49 [outputPath] C:/temp/mc/out/MOV_0696.mp4
+2016/10/27 11:01:49 [cmdConvertVideo] cp C:/temp/mc/in/MOV_0696.mp4 C:/temp/mc/out/MOV_0696.mp4
+2016/10/27 11:01:49 ffmpeg fin [MOV_0166.mp4]
+2016/10/27 11:01:49 [inputPath] C:/temp/mc/in/MOV_0166.mp4
+2016/10/27 11:01:49 [runConvertMovies][MOV_0166.mp4] END
+2016/10/27 11:01:49 [runConvertMovies][MOV_0787.mp4] START
+2016/10/27 11:01:49 [inputPath] C:/temp/mc/in/MOV_0787.mp4
+2016/10/27 11:01:49 [outputPath] C:/temp/mc/out/MOV_0787.mp4
+2016/10/27 11:01:49 [cmdConvertVideo] cp C:/temp/mc/in/MOV_0787.mp4 C:/temp/mc/out/MOV_0787.mp4
+2016/10/27 11:01:49 ffmpeg fin [MOV_0644.mp4]
+2016/10/27 11:01:49 [inputPath] C:/temp/mc/in/MOV_0644.mp4
+2016/10/27 11:01:49 [runConvertMovies][MOV_0644.mp4] END
+2016/10/27 11:01:49 [runConvertMovies][MOV_0791.mp4] START
+2016/10/27 11:01:49 [inputPath] C:/temp/mc/in/MOV_0791.mp4
+2016/10/27 11:01:49 [outputPath] C:/temp/mc/out/MOV_0791.mp4
+2016/10/27 11:01:49 [cmdConvertVideo] cp C:/temp/mc/in/MOV_0791.mp4 C:/temp/mc/out/MOV_0791.mp4
+2016/10/27 11:01:49 ffmpeg fin [MOV_0654.mp4]
+2016/10/27 11:01:49 [inputPath] C:/temp/mc/in/MOV_0654.mp4
+2016/10/27 11:01:50 ffmpeg fin [MOV_0659.mp4]
+2016/10/27 11:01:50 [inputPath] C:/temp/mc/in/MOV_0659.mp4
+2016/10/27 11:01:50 ffmpeg fin [MOV_0696.mp4]
+2016/10/27 11:01:50 [inputPath] C:/temp/mc/in/MOV_0696.mp4
+2016/10/27 11:01:51 ffmpeg fin [MOV_0791.mp4]
+2016/10/27 11:01:51 [inputPath] C:/temp/mc/in/MOV_0791.mp4
+2016/10/27 11:01:51 [runConvertMovies][MOV_0654.mp4] END
+2016/10/27 11:01:51 [runConvertMovies][MOV_7364.mp4] START
+2016/10/27 11:01:51 [inputPath] C:/temp/mc/in/MOV_7364.mp4
+2016/10/27 11:01:51 [outputPath] C:/temp/mc/out/MOV_7364.mp4
+2016/10/27 11:01:51 [cmdConvertVideo] cp C:/temp/mc/in/MOV_7364.mp4 C:/temp/mc/out/MOV_7364.mp4
+2016/10/27 11:01:51 [runConvertMovies][MOV_0696.mp4] END
+2016/10/27 11:01:51 [runConvertMovies][MOV_7431.mp4] START
+2016/10/27 11:01:51 [inputPath] C:/temp/mc/in/MOV_7431.mp4
+2016/10/27 11:01:51 [outputPath] C:/temp/mc/out/MOV_7431.mp4
+2016/10/27 11:01:51 [cmdConvertVideo] cp C:/temp/mc/in/MOV_7431.mp4 C:/temp/mc/out/MOV_7431.mp4
+2016/10/27 11:01:51 [runConvertMovies][MOV_0659.mp4] END
+2016/10/27 11:01:51 [runConvertMovies][MOV_7419.mp4] START
+2016/10/27 11:01:51 [inputPath] C:/temp/mc/in/MOV_7419.mp4
+2016/10/27 11:01:51 [outputPath] C:/temp/mc/out/MOV_7419.mp4
+2016/10/27 11:01:51 [cmdConvertVideo] cp C:/temp/mc/in/MOV_7419.mp4 C:/temp/mc/out/MOV_7419.mp4
+2016/10/27 11:01:51 ffmpeg fin [MOV_0787.mp4]
+2016/10/27 11:01:51 [inputPath] C:/temp/mc/in/MOV_0787.mp4
+2016/10/27 11:01:51 [runConvertMovies][MOV_0791.mp4] END
+2016/10/27 11:01:51 [runConvertMovies][MOV_0787.mp4] END
+2016/10/27 11:01:52 ffmpeg fin [MOV_7431.mp4]
+2016/10/27 11:01:52 [inputPath] C:/temp/mc/in/MOV_7431.mp4
+2016/10/27 11:01:52 [runConvertMovies][MOV_7431.mp4] END
+2016/10/27 11:01:52 ffmpeg fin [MOV_7364.mp4]
+2016/10/27 11:01:52 [inputPath] C:/temp/mc/in/MOV_7364.mp4
+2016/10/27 11:01:52 [runConvertMovies][MOV_7364.mp4] END
+2016/10/27 11:01:52 ffmpeg fin [MOV_7419.mp4]
+2016/10/27 11:01:52 [inputPath] C:/temp/mc/in/MOV_7419.mp4
+2016/10/27 11:01:52 [runConvertMovies][MOV_7419.mp4] END
+2016/10/27 11:01:52 [convert]END
+2016/10/27 11:01:52 [joinPath] C:/temp/mc/in/watch.list
+2016/10/27 11:01:52 [END]movieconverter
