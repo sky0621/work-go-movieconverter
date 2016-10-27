@@ -1737,3 +1737,1403 @@
 2016/10/27 12:45:01 [■ ３ ■][deploy] C:/temp/mc/out/MOV_7431.mp4
 2016/10/27 12:45:01 [joinPath] C:/temp/mc/deploy/MOV_7431.mp4
 2016/10/27 12:45:01 [■ ３ ■][deploy] END
+2016/10/27 14:11:02 [main]setup log fin.
+2016/10/27 14:11:02 [main]go loop!!!
+2016/10/27 14:11:02 [■ １ ■][listup] START
+2016/10/27 14:11:02 [■ １b ■][createFileList] START
+2016/10/27 14:11:02 [joinPath] C:/temp/mc/in/watch.list
+2016/10/27 14:11:02 [joinPath] C:/temp/mc/in/watch.list
+2016/10/27 14:11:02 [■ １b ■][createFileList] END
+2016/10/27 14:11:02 [joinPath] C:/temp/mc/in/watch.list
+2016/10/27 14:11:02 [■ １ ■][listup] END
+2016/10/27 14:11:02 [■ ２ ■][convert] START
+2016/10/27 14:11:02 [joinPath] C:/temp/mc/in/watch.list
+2016/10/27 14:11:02 00027_1.mp4
+2016/10/27 14:11:02 00075_1.mp4
+2016/10/27 14:11:02 MOV_0155.mp4
+2016/10/27 14:11:02 [■ ２b ■][runConvertMovies][00027_1.mp4] START
+2016/10/27 14:11:02 [■ ２b ■][runConvertMovies][00075_1.mp4] START
+2016/10/27 14:11:02 [■ ２b ■][runConvertMovies][00075_1.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] START)
+2016/10/27 14:11:02 [inputPath] C:/temp/mc/in/00075_1.mp4
+2016/10/27 14:11:02 [outputPath] C:/temp/mc/out/00075_1.mp4
+2016/10/27 14:11:02 [cmdConvertVideo] cp C:/temp/mc/in/00075_1.mp4 C:/temp/mc/out/00075_1.mp4
+2016/10/27 14:11:02 [■ ２b ■][runConvertMovies][00027_1.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] START)
+2016/10/27 14:11:02 MOV_0166.mp4
+2016/10/27 14:11:02 [■ ２b ■][runConvertMovies][MOV_0155.mp4] START
+2016/10/27 14:11:02 [■ ２b ■][runConvertMovies][MOV_0155.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] START)
+2016/10/27 14:11:02 [inputPath] C:/temp/mc/in/MOV_0155.mp4
+2016/10/27 14:11:02 [outputPath] C:/temp/mc/out/MOV_0155.mp4
+2016/10/27 14:11:02 [cmdConvertVideo] cp C:/temp/mc/in/MOV_0155.mp4 C:/temp/mc/out/MOV_0155.mp4
+2016/10/27 14:11:02 MOV_0225.mp4
+2016/10/27 14:11:02 MOV_0638.mp4
+2016/10/27 14:11:02 [inputPath] C:/temp/mc/in/00027_1.mp4
+2016/10/27 14:11:02 [outputPath] C:/temp/mc/out/00027_1.mp4
+2016/10/27 14:11:02 [cmdConvertVideo] cp C:/temp/mc/in/00027_1.mp4 C:/temp/mc/out/00027_1.mp4
+2016/10/27 14:11:02 [■ ２b ■][runConvertMovies][MOV_0166.mp4] START
+2016/10/27 14:11:02 [■ ２b ■][runConvertMovies][MOV_0166.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] START)
+2016/10/27 14:11:02 [inputPath] C:/temp/mc/in/MOV_0166.mp4
+2016/10/27 14:11:02 [outputPath] C:/temp/mc/out/MOV_0166.mp4
+2016/10/27 14:11:02 [cmdConvertVideo] cp C:/temp/mc/in/MOV_0166.mp4 C:/temp/mc/out/MOV_0166.mp4
+2016/10/27 14:11:02 [■ ２b ■][runConvertMovies][MOV_0225.mp4] START
+2016/10/27 14:11:02 [■ ２b ■][runConvertMovies][MOV_0225.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] START)
+2016/10/27 14:11:02 [inputPath] C:/temp/mc/in/MOV_0225.mp4
+2016/10/27 14:11:02 [outputPath] C:/temp/mc/out/MOV_0225.mp4
+2016/10/27 14:11:02 [cmdConvertVideo] cp C:/temp/mc/in/MOV_0225.mp4 C:/temp/mc/out/MOV_0225.mp4
+2016/10/27 14:11:02 MOV_0644.mp4
+2016/10/27 14:11:02 MOV_0654.mp4
+2016/10/27 14:11:02 MOV_0659.mp4
+2016/10/27 14:11:02 MOV_0696.mp4
+2016/10/27 14:11:02 MOV_0787.mp4
+2016/10/27 14:11:02 MOV_0791.mp4
+2016/10/27 14:11:02 MOV_7364.mp4
+2016/10/27 14:11:02 MOV_7419.mp4
+2016/10/27 14:11:02 MOV_7431.mp4
+2016/10/27 14:11:02 [■ ２b ■][runConvertMovies][00075_1.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] END)
+2016/10/27 14:11:02 [■ ２b ■][runConvertMovies][00075_1.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] START)
+2016/10/27 14:11:02 [cmdCreateThumbnail] ls
+2016/10/27 14:11:02 [■ ２b ■][runConvertMovies][00027_1.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] END)
+2016/10/27 14:11:02 [■ ２b ■][runConvertMovies][00027_1.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] START)
+2016/10/27 14:11:02 [cmdCreateThumbnail] ls
+2016/10/27 14:11:02 [■ ２b ■][runConvertMovies][00075_1.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] END)
+2016/10/27 14:11:02 [■ ２b ■][runConvertMovies][00075_1.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] START)
+2016/10/27 14:11:02 [cmdRotateThumbnail] ls
+2016/10/27 14:11:02 [■ ２b ■][runConvertMovies][00027_1.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] END)
+2016/10/27 14:11:02 [■ ２b ■][runConvertMovies][00027_1.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] START)
+2016/10/27 14:11:02 [cmdRotateThumbnail] ls
+2016/10/27 14:11:02 [■ ２b ■][runConvertMovies][MOV_0155.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] END)
+2016/10/27 14:11:02 [■ ２b ■][runConvertMovies][MOV_0155.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] START)
+2016/10/27 14:11:02 [cmdCreateThumbnail] ls
+2016/10/27 14:11:02 [■ ２b ■][runConvertMovies][00075_1.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] END)
+2016/10/27 14:11:02 [■ ２b ■][runConvertMovies][00075_1.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 START)
+2016/10/27 14:11:02 [inputPath] C:/temp/mc/in/00075_1.mp4
+2016/10/27 14:11:02 [■ ２b ■][runConvertMovies][00075_1.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 END)
+2016/10/27 14:11:02 [■ ２b ■][runConvertMovies][MOV_0638.mp4] START
+2016/10/27 14:11:02 [■ ２b ■][runConvertMovies][MOV_0638.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] START)
+2016/10/27 14:11:02 [inputPath] C:/temp/mc/in/MOV_0638.mp4
+2016/10/27 14:11:02 [outputPath] C:/temp/mc/out/MOV_0638.mp4
+2016/10/27 14:11:02 [cmdConvertVideo] cp C:/temp/mc/in/MOV_0638.mp4 C:/temp/mc/out/MOV_0638.mp4
+2016/10/27 14:11:03 [■ ２b ■][runConvertMovies][MOV_0225.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] END)
+2016/10/27 14:11:03 [■ ２b ■][runConvertMovies][MOV_0225.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] START)
+2016/10/27 14:11:03 [cmdCreateThumbnail] ls
+2016/10/27 14:11:03 [■ ２b ■][runConvertMovies][MOV_0166.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] END)
+2016/10/27 14:11:03 [■ ２b ■][runConvertMovies][MOV_0166.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] START)
+2016/10/27 14:11:03 [cmdCreateThumbnail] ls
+2016/10/27 14:11:03 [■ ２b ■][runConvertMovies][00027_1.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] END)
+2016/10/27 14:11:03 [■ ２b ■][runConvertMovies][00027_1.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 START)
+2016/10/27 14:11:03 [inputPath] C:/temp/mc/in/00027_1.mp4
+2016/10/27 14:11:03 [■ ２b ■][runConvertMovies][00027_1.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 END)
+2016/10/27 14:11:03 [■ ２b ■][runConvertMovies][MOV_0644.mp4] START
+2016/10/27 14:11:03 [■ ２b ■][runConvertMovies][MOV_0644.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] START)
+2016/10/27 14:11:03 [inputPath] C:/temp/mc/in/MOV_0644.mp4
+2016/10/27 14:11:03 [outputPath] C:/temp/mc/out/MOV_0644.mp4
+2016/10/27 14:11:03 [cmdConvertVideo] cp C:/temp/mc/in/MOV_0644.mp4 C:/temp/mc/out/MOV_0644.mp4
+2016/10/27 14:11:03 [■ ２b ■][runConvertMovies][MOV_0155.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] END)
+2016/10/27 14:11:03 [■ ２b ■][runConvertMovies][MOV_0155.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] START)
+2016/10/27 14:11:03 [cmdRotateThumbnail] ls
+2016/10/27 14:11:03 [■ ２b ■][runConvertMovies][MOV_0225.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] END)
+2016/10/27 14:11:03 [■ ２b ■][runConvertMovies][MOV_0225.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] START)
+2016/10/27 14:11:03 [cmdRotateThumbnail] ls
+2016/10/27 14:11:03 [■ ２b ■][runConvertMovies][MOV_0166.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] END)
+2016/10/27 14:11:03 [■ ２b ■][runConvertMovies][MOV_0166.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] START)
+2016/10/27 14:11:03 [cmdRotateThumbnail] ls
+2016/10/27 14:11:03 [■ ２b ■][runConvertMovies][MOV_0155.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] END)
+2016/10/27 14:11:03 [■ ２b ■][runConvertMovies][MOV_0155.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 START)
+2016/10/27 14:11:03 [inputPath] C:/temp/mc/in/MOV_0155.mp4
+2016/10/27 14:11:03 [■ ２b ■][runConvertMovies][MOV_0638.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] END)
+2016/10/27 14:11:03 [■ ２b ■][runConvertMovies][MOV_0638.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] START)
+2016/10/27 14:11:03 [cmdCreateThumbnail] ls
+2016/10/27 14:11:03 [■ ２b ■][runConvertMovies][MOV_0155.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 END)
+2016/10/27 14:11:03 [■ ２b ■][runConvertMovies][MOV_7431.mp4] START
+2016/10/27 14:11:03 [■ ２b ■][runConvertMovies][MOV_7431.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] START)
+2016/10/27 14:11:03 [inputPath] C:/temp/mc/in/MOV_7431.mp4
+2016/10/27 14:11:03 [outputPath] C:/temp/mc/out/MOV_7431.mp4
+2016/10/27 14:11:03 [cmdConvertVideo] cp C:/temp/mc/in/MOV_7431.mp4 C:/temp/mc/out/MOV_7431.mp4
+2016/10/27 14:11:03 [■ ２b ■][runConvertMovies][MOV_0644.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] END)
+2016/10/27 14:11:03 [■ ２b ■][runConvertMovies][MOV_0644.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] START)
+2016/10/27 14:11:03 [cmdCreateThumbnail] ls
+2016/10/27 14:11:03 [■ ２b ■][runConvertMovies][MOV_0225.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] END)
+2016/10/27 14:11:03 [■ ２b ■][runConvertMovies][MOV_0225.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 START)
+2016/10/27 14:11:03 [inputPath] C:/temp/mc/in/MOV_0225.mp4
+2016/10/27 14:11:03 [■ ２b ■][runConvertMovies][MOV_0225.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 END)
+2016/10/27 14:11:03 [■ ２b ■][runConvertMovies][MOV_0654.mp4] START
+2016/10/27 14:11:03 [■ ２b ■][runConvertMovies][MOV_0654.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] START)
+2016/10/27 14:11:03 [inputPath] C:/temp/mc/in/MOV_0654.mp4
+2016/10/27 14:11:03 [outputPath] C:/temp/mc/out/MOV_0654.mp4
+2016/10/27 14:11:03 [cmdConvertVideo] cp C:/temp/mc/in/MOV_0654.mp4 C:/temp/mc/out/MOV_0654.mp4
+2016/10/27 14:11:03 [■ ２b ■][runConvertMovies][MOV_0166.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] END)
+2016/10/27 14:11:03 [■ ２b ■][runConvertMovies][MOV_0166.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 START)
+2016/10/27 14:11:03 [inputPath] C:/temp/mc/in/MOV_0166.mp4
+2016/10/27 14:11:03 [■ ２b ■][runConvertMovies][MOV_0166.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 END)
+2016/10/27 14:11:03 [■ ２b ■][runConvertMovies][MOV_0659.mp4] START
+2016/10/27 14:11:03 [■ ２b ■][runConvertMovies][MOV_0659.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] START)
+2016/10/27 14:11:03 [inputPath] C:/temp/mc/in/MOV_0659.mp4
+2016/10/27 14:11:03 [outputPath] C:/temp/mc/out/MOV_0659.mp4
+2016/10/27 14:11:03 [cmdConvertVideo] cp C:/temp/mc/in/MOV_0659.mp4 C:/temp/mc/out/MOV_0659.mp4
+2016/10/27 14:11:03 [■ ２b ■][runConvertMovies][MOV_0638.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] END)
+2016/10/27 14:11:03 [■ ２b ■][runConvertMovies][MOV_0638.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] START)
+2016/10/27 14:11:03 [cmdRotateThumbnail] ls
+2016/10/27 14:11:03 [■ ２b ■][runConvertMovies][MOV_0644.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] END)
+2016/10/27 14:11:03 [■ ２b ■][runConvertMovies][MOV_0644.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] START)
+2016/10/27 14:11:03 [cmdRotateThumbnail] ls
+2016/10/27 14:11:03 [■ ２b ■][runConvertMovies][MOV_0638.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] END)
+2016/10/27 14:11:03 [■ ２b ■][runConvertMovies][MOV_0638.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 START)
+2016/10/27 14:11:03 [inputPath] C:/temp/mc/in/MOV_0638.mp4
+2016/10/27 14:11:03 [■ ２b ■][runConvertMovies][MOV_0638.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 END)
+2016/10/27 14:11:03 [■ ２b ■][runConvertMovies][MOV_0696.mp4] START
+2016/10/27 14:11:03 [■ ２b ■][runConvertMovies][MOV_0696.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] START)
+2016/10/27 14:11:03 [inputPath] C:/temp/mc/in/MOV_0696.mp4
+2016/10/27 14:11:03 [outputPath] C:/temp/mc/out/MOV_0696.mp4
+2016/10/27 14:11:03 [cmdConvertVideo] cp C:/temp/mc/in/MOV_0696.mp4 C:/temp/mc/out/MOV_0696.mp4
+2016/10/27 14:11:03 [■ ２b ■][runConvertMovies][MOV_0644.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] END)
+2016/10/27 14:11:03 [■ ２b ■][runConvertMovies][MOV_0644.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 START)
+2016/10/27 14:11:03 [inputPath] C:/temp/mc/in/MOV_0644.mp4
+2016/10/27 14:11:03 [■ ２b ■][runConvertMovies][MOV_0644.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 END)
+2016/10/27 14:11:03 [■ ２b ■][runConvertMovies][MOV_0787.mp4] START
+2016/10/27 14:11:03 [■ ２b ■][runConvertMovies][MOV_0787.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] START)
+2016/10/27 14:11:03 [inputPath] C:/temp/mc/in/MOV_0787.mp4
+2016/10/27 14:11:03 [outputPath] C:/temp/mc/out/MOV_0787.mp4
+2016/10/27 14:11:03 [cmdConvertVideo] cp C:/temp/mc/in/MOV_0787.mp4 C:/temp/mc/out/MOV_0787.mp4
+2016/10/27 14:11:03 [■ ２b ■][runConvertMovies][MOV_0654.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] END)
+2016/10/27 14:11:03 [■ ２b ■][runConvertMovies][MOV_0654.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] START)
+2016/10/27 14:11:03 [cmdCreateThumbnail] ls
+2016/10/27 14:11:04 [■ ２b ■][runConvertMovies][MOV_7431.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] END)
+2016/10/27 14:11:04 [■ ２b ■][runConvertMovies][MOV_7431.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] START)
+2016/10/27 14:11:04 [cmdCreateThumbnail] ls
+2016/10/27 14:11:04 [■ ２b ■][runConvertMovies][MOV_0654.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] END)
+2016/10/27 14:11:04 [■ ２b ■][runConvertMovies][MOV_0654.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] START)
+2016/10/27 14:11:04 [cmdRotateThumbnail] ls
+2016/10/27 14:11:04 [■ ２b ■][runConvertMovies][MOV_0659.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] END)
+2016/10/27 14:11:04 [■ ２b ■][runConvertMovies][MOV_0659.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] START)
+2016/10/27 14:11:04 [cmdCreateThumbnail] ls
+2016/10/27 14:11:04 [■ ２b ■][runConvertMovies][MOV_7431.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] END)
+2016/10/27 14:11:04 [■ ２b ■][runConvertMovies][MOV_7431.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] START)
+2016/10/27 14:11:04 [cmdRotateThumbnail] ls
+2016/10/27 14:11:04 [■ ２b ■][runConvertMovies][MOV_0696.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] END)
+2016/10/27 14:11:04 [■ ２b ■][runConvertMovies][MOV_0696.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] START)
+2016/10/27 14:11:04 [cmdCreateThumbnail] ls
+2016/10/27 14:11:04 [■ ２b ■][runConvertMovies][MOV_0654.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] END)
+2016/10/27 14:11:04 [■ ２b ■][runConvertMovies][MOV_0654.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 START)
+2016/10/27 14:11:04 [inputPath] C:/temp/mc/in/MOV_0654.mp4
+2016/10/27 14:11:04 [■ ２b ■][runConvertMovies][MOV_0659.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] END)
+2016/10/27 14:11:04 [■ ２b ■][runConvertMovies][MOV_0659.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] START)
+2016/10/27 14:11:04 [cmdRotateThumbnail] ls
+2016/10/27 14:11:04 [■ ２b ■][runConvertMovies][MOV_7431.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] END)
+2016/10/27 14:11:04 [■ ２b ■][runConvertMovies][MOV_7431.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 START)
+2016/10/27 14:11:04 [inputPath] C:/temp/mc/in/MOV_7431.mp4
+2016/10/27 14:11:04 [■ ２b ■][runConvertMovies][MOV_0696.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] END)
+2016/10/27 14:11:04 [■ ２b ■][runConvertMovies][MOV_0696.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] START)
+2016/10/27 14:11:04 [cmdRotateThumbnail] ls
+2016/10/27 14:11:04 [■ ２b ■][runConvertMovies][MOV_0787.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] END)
+2016/10/27 14:11:04 [■ ２b ■][runConvertMovies][MOV_0787.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] START)
+2016/10/27 14:11:04 [cmdCreateThumbnail] ls
+2016/10/27 14:11:04 [■ ２b ■][runConvertMovies][MOV_0659.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] END)
+2016/10/27 14:11:04 [■ ２b ■][runConvertMovies][MOV_0659.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 START)
+2016/10/27 14:11:04 [inputPath] C:/temp/mc/in/MOV_0659.mp4
+2016/10/27 14:11:04 [■ ２b ■][runConvertMovies][MOV_0696.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] END)
+2016/10/27 14:11:04 [■ ２b ■][runConvertMovies][MOV_0696.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 START)
+2016/10/27 14:11:04 [inputPath] C:/temp/mc/in/MOV_0696.mp4
+2016/10/27 14:11:04 [■ ２b ■][runConvertMovies][MOV_0787.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] END)
+2016/10/27 14:11:04 [■ ２b ■][runConvertMovies][MOV_0787.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] START)
+2016/10/27 14:11:04 [cmdRotateThumbnail] ls
+2016/10/27 14:11:04 [■ ２b ■][runConvertMovies][MOV_0787.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] END)
+2016/10/27 14:11:04 [■ ２b ■][runConvertMovies][MOV_0787.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 START)
+2016/10/27 14:11:04 [inputPath] C:/temp/mc/in/MOV_0787.mp4
+2016/10/27 14:11:04 [■ ２b ■][runConvertMovies][MOV_0696.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 END)
+2016/10/27 14:11:04 [■ ２b ■][runConvertMovies][MOV_0791.mp4] START
+2016/10/27 14:11:04 [■ ２b ■][runConvertMovies][MOV_0791.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] START)
+2016/10/27 14:11:04 [inputPath] C:/temp/mc/in/MOV_0791.mp4
+2016/10/27 14:11:04 [outputPath] C:/temp/mc/out/MOV_0791.mp4
+2016/10/27 14:11:04 [cmdConvertVideo] cp C:/temp/mc/in/MOV_0791.mp4 C:/temp/mc/out/MOV_0791.mp4
+2016/10/27 14:11:04 [■ ２b ■][runConvertMovies][MOV_0787.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 END)
+2016/10/27 14:11:04 [■ ２b ■][runConvertMovies][MOV_7364.mp4] START
+2016/10/27 14:11:04 [■ ２b ■][runConvertMovies][MOV_7364.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] START)
+2016/10/27 14:11:04 [inputPath] C:/temp/mc/in/MOV_7364.mp4
+2016/10/27 14:11:04 [outputPath] C:/temp/mc/out/MOV_7364.mp4
+2016/10/27 14:11:04 [cmdConvertVideo] cp C:/temp/mc/in/MOV_7364.mp4 C:/temp/mc/out/MOV_7364.mp4
+2016/10/27 14:11:04 [■ ２b ■][runConvertMovies][MOV_0654.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 END)
+2016/10/27 14:11:04 [■ ２b ■][runConvertMovies][MOV_7419.mp4] START
+2016/10/27 14:11:04 [■ ２b ■][runConvertMovies][MOV_7419.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] START)
+2016/10/27 14:11:04 [inputPath] C:/temp/mc/in/MOV_7419.mp4
+2016/10/27 14:11:04 [outputPath] C:/temp/mc/out/MOV_7419.mp4
+2016/10/27 14:11:04 [cmdConvertVideo] cp C:/temp/mc/in/MOV_7419.mp4 C:/temp/mc/out/MOV_7419.mp4
+2016/10/27 14:11:05 [■ ２b ■][runConvertMovies][MOV_7431.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 END)
+2016/10/27 14:11:05 [■ ２b ■][runConvertMovies][MOV_0659.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 END)
+2016/10/27 14:11:06 [■ ２b ■][runConvertMovies][MOV_7364.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] END)
+2016/10/27 14:11:06 [■ ２b ■][runConvertMovies][MOV_7364.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] START)
+2016/10/27 14:11:06 [cmdCreateThumbnail] ls
+2016/10/27 14:11:06 [■ ２b ■][runConvertMovies][MOV_0791.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] END)
+2016/10/27 14:11:06 [■ ２b ■][runConvertMovies][MOV_0791.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] START)
+2016/10/27 14:11:06 [cmdCreateThumbnail] ls
+2016/10/27 14:11:06 [■ ２b ■][runConvertMovies][MOV_7364.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] END)
+2016/10/27 14:11:06 [■ ２b ■][runConvertMovies][MOV_7364.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] START)
+2016/10/27 14:11:06 [cmdRotateThumbnail] ls
+2016/10/27 14:11:06 [■ ２b ■][runConvertMovies][MOV_7364.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] END)
+2016/10/27 14:11:06 [■ ２b ■][runConvertMovies][MOV_7364.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 START)
+2016/10/27 14:11:06 [inputPath] C:/temp/mc/in/MOV_7364.mp4
+2016/10/27 14:11:06 [■ ２b ■][runConvertMovies][MOV_0791.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] END)
+2016/10/27 14:11:06 [■ ２b ■][runConvertMovies][MOV_0791.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] START)
+2016/10/27 14:11:06 [cmdRotateThumbnail] ls
+2016/10/27 14:11:06 [■ ２b ■][runConvertMovies][MOV_7364.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 END)
+2016/10/27 14:11:06 [■ ２b ■][runConvertMovies][MOV_0791.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] END)
+2016/10/27 14:11:06 [■ ２b ■][runConvertMovies][MOV_0791.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 START)
+2016/10/27 14:11:06 [inputPath] C:/temp/mc/in/MOV_0791.mp4
+2016/10/27 14:11:06 [■ ２b ■][runConvertMovies][MOV_0791.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 END)
+2016/10/27 14:11:06 [■ ２b ■][runConvertMovies][MOV_7419.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] END)
+2016/10/27 14:11:06 [■ ２b ■][runConvertMovies][MOV_7419.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] START)
+2016/10/27 14:11:06 [cmdCreateThumbnail] ls
+2016/10/27 14:11:06 [■ ２b ■][runConvertMovies][MOV_7419.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] END)
+2016/10/27 14:11:06 [■ ２b ■][runConvertMovies][MOV_7419.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] START)
+2016/10/27 14:11:06 [cmdRotateThumbnail] ls
+2016/10/27 14:11:06 [■ ２b ■][runConvertMovies][MOV_7419.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] END)
+2016/10/27 14:11:06 [■ ２b ■][runConvertMovies][MOV_7419.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 START)
+2016/10/27 14:11:06 [inputPath] C:/temp/mc/in/MOV_7419.mp4
+2016/10/27 14:11:07 [■ ２b ■][runConvertMovies][MOV_7419.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 END)
+2016/10/27 14:11:07 [■ ２ ■][convert] END
+2016/10/27 14:11:07 [joinPath] C:/temp/mc/in/watch.list
+2016/10/27 14:11:07 [■ ３ ■][deploy] START
+2016/10/27 14:11:07 [■ ３ ■][deploy] C:\temp\mc\out\00027_1.mp4
+2016/10/27 14:11:07 [joinPath] C:/temp/mc/deploy/00027_1.mp4
+2016/10/27 14:11:07 [■ ３ ■][deploy] C:\temp\mc\out\00075_1.mp4
+2016/10/27 14:11:07 [joinPath] C:/temp/mc/deploy/00075_1.mp4
+2016/10/27 14:11:07 [■ ３ ■][deploy] C:\temp\mc\out\MOV_0155.mp4
+2016/10/27 14:11:07 [joinPath] C:/temp/mc/deploy/MOV_0155.mp4
+2016/10/27 14:11:07 [■ ３ ■][deploy] C:\temp\mc\out\MOV_0166.mp4
+2016/10/27 14:11:07 [joinPath] C:/temp/mc/deploy/MOV_0166.mp4
+2016/10/27 14:11:07 [■ ３ ■][deploy] C:\temp\mc\out\MOV_0225.mp4
+2016/10/27 14:11:07 [joinPath] C:/temp/mc/deploy/MOV_0225.mp4
+2016/10/27 14:11:07 [■ ３ ■][deploy] C:\temp\mc\out\MOV_0638.mp4
+2016/10/27 14:11:07 [joinPath] C:/temp/mc/deploy/MOV_0638.mp4
+2016/10/27 14:11:07 [■ ３ ■][deploy] C:\temp\mc\out\MOV_0644.mp4
+2016/10/27 14:11:07 [joinPath] C:/temp/mc/deploy/MOV_0644.mp4
+2016/10/27 14:11:07 [■ ３ ■][deploy] C:\temp\mc\out\MOV_0654.mp4
+2016/10/27 14:11:07 [joinPath] C:/temp/mc/deploy/MOV_0654.mp4
+2016/10/27 14:11:07 [■ ３ ■][deploy] C:\temp\mc\out\MOV_0659.mp4
+2016/10/27 14:11:07 [joinPath] C:/temp/mc/deploy/MOV_0659.mp4
+2016/10/27 14:11:07 [■ ３ ■][deploy] C:\temp\mc\out\MOV_0696.mp4
+2016/10/27 14:11:07 [joinPath] C:/temp/mc/deploy/MOV_0696.mp4
+2016/10/27 14:11:07 [■ ３ ■][deploy] C:\temp\mc\out\MOV_0787.mp4
+2016/10/27 14:11:07 [joinPath] C:/temp/mc/deploy/MOV_0787.mp4
+2016/10/27 14:11:07 [■ ３ ■][deploy] C:\temp\mc\out\MOV_0791.mp4
+2016/10/27 14:11:07 [joinPath] C:/temp/mc/deploy/MOV_0791.mp4
+2016/10/27 14:11:07 [■ ３ ■][deploy] C:\temp\mc\out\MOV_7364.mp4
+2016/10/27 14:11:07 [joinPath] C:/temp/mc/deploy/MOV_7364.mp4
+2016/10/27 14:11:07 [■ ３ ■][deploy] C:\temp\mc\out\MOV_7419.mp4
+2016/10/27 14:11:07 [joinPath] C:/temp/mc/deploy/MOV_7419.mp4
+2016/10/27 14:11:07 [■ ３ ■][deploy] C:\temp\mc\out\MOV_7431.mp4
+2016/10/27 14:11:07 [joinPath] C:/temp/mc/deploy/MOV_7431.mp4
+2016/10/27 14:11:07 [■ ３ ■][deploy] END
+2016/10/27 14:15:21 [main]setup log fin.
+2016/10/27 14:15:21 [main]go loop!!!
+2016/10/27 14:15:21 [■ １ ■][listup] START
+2016/10/27 14:15:21 [■ １b ■][createFileList] START
+2016/10/27 14:15:21 [joinPath] C:/temp/mc/in/watch.list
+2016/10/27 14:15:21 [joinPath] C:/temp/mc/in/watch.list
+2016/10/27 14:15:21 [■ １b ■][createFileList] END
+2016/10/27 14:15:21 [joinPath] C:/temp/mc/in/watch.list
+2016/10/27 14:15:21 [■ １ ■][listup] END
+2016/10/27 14:15:21 [■ ２ ■][convert] START
+2016/10/27 14:15:21 [joinPath] C:/temp/mc/in/watch.list
+2016/10/27 14:15:21 00027_1.mp4
+2016/10/27 14:15:21 00075_1.mp4
+2016/10/27 14:15:21 MOV_0155.mp4
+2016/10/27 14:15:21 MOV_0166.mp4
+2016/10/27 14:15:21 [■ ２b ■][runConvertMovies][MOV_0155.mp4] START
+2016/10/27 14:15:21 [■ ２b ■][runConvertMovies][MOV_0155.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] START)
+2016/10/27 14:15:21 [inputPath] C:/temp/mc/in/MOV_0155.mp4
+2016/10/27 14:15:21 [outputPath] C:/temp/mc/out/MOV_0155.mp4
+2016/10/27 14:15:21 [cmdConvertVideo] cp C:/temp/mc/in/MOV_0155.mp4 C:/temp/mc/out/MOV_0155.mp4
+2016/10/27 14:15:21 MOV_0225.mp4
+2016/10/27 14:15:21 [■ ２b ■][runConvertMovies][MOV_0166.mp4] START
+2016/10/27 14:15:21 [■ ２b ■][runConvertMovies][MOV_0166.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] START)
+2016/10/27 14:15:21 [inputPath] C:/temp/mc/in/MOV_0166.mp4
+2016/10/27 14:15:21 [outputPath] C:/temp/mc/out/MOV_0166.mp4
+2016/10/27 14:15:21 [cmdConvertVideo] cp C:/temp/mc/in/MOV_0166.mp4 C:/temp/mc/out/MOV_0166.mp4
+2016/10/27 14:15:21 [■ ２b ■][runConvertMovies][00075_1.mp4] START
+2016/10/27 14:15:21 [■ ２b ■][runConvertMovies][00075_1.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] START)
+2016/10/27 14:15:21 [inputPath] C:/temp/mc/in/00075_1.mp4
+2016/10/27 14:15:21 [outputPath] C:/temp/mc/out/00075_1.mp4
+2016/10/27 14:15:21 [cmdConvertVideo] cp C:/temp/mc/in/00075_1.mp4 C:/temp/mc/out/00075_1.mp4
+2016/10/27 14:15:21 [■ ２b ■][runConvertMovies][00027_1.mp4] START
+2016/10/27 14:15:21 [■ ２b ■][runConvertMovies][00027_1.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] START)
+2016/10/27 14:15:21 [inputPath] C:/temp/mc/in/00027_1.mp4
+2016/10/27 14:15:21 [outputPath] C:/temp/mc/out/00027_1.mp4
+2016/10/27 14:15:21 [cmdConvertVideo] cp C:/temp/mc/in/00027_1.mp4 C:/temp/mc/out/00027_1.mp4
+2016/10/27 14:15:21 [■ ２b ■][runConvertMovies][MOV_0225.mp4] START
+2016/10/27 14:15:21 [■ ２b ■][runConvertMovies][MOV_0225.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] START)
+2016/10/27 14:15:21 [inputPath] C:/temp/mc/in/MOV_0225.mp4
+2016/10/27 14:15:21 [outputPath] C:/temp/mc/out/MOV_0225.mp4
+2016/10/27 14:15:21 [cmdConvertVideo] cp C:/temp/mc/in/MOV_0225.mp4 C:/temp/mc/out/MOV_0225.mp4
+2016/10/27 14:15:21 MOV_0638.mp4
+2016/10/27 14:15:21 MOV_0644.mp4
+2016/10/27 14:15:21 MOV_0654.mp4
+2016/10/27 14:15:21 MOV_0659.mp4
+2016/10/27 14:15:21 MOV_0696.mp4
+2016/10/27 14:15:21 MOV_0787.mp4
+2016/10/27 14:15:21 MOV_0791.mp4
+2016/10/27 14:15:21 MOV_7364.mp4
+2016/10/27 14:15:21 MOV_7419.mp4
+2016/10/27 14:15:21 MOV_7431.mp4
+2016/10/27 14:15:22 [■ ２b ■][runConvertMovies][00027_1.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] END)
+2016/10/27 14:15:22 [■ ２b ■][runConvertMovies][00027_1.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] START)
+2016/10/27 14:15:22 [cmdCreateThumbnail] ls
+2016/10/27 14:15:22 [■ ２b ■][runConvertMovies][00027_1.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] END)
+2016/10/27 14:15:22 [■ ２b ■][runConvertMovies][00027_1.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] START)
+2016/10/27 14:15:22 [cmdRotateThumbnail] ls
+2016/10/27 14:15:22 [■ ２b ■][runConvertMovies][MOV_0166.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] END)
+2016/10/27 14:15:22 [■ ２b ■][runConvertMovies][MOV_0166.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] START)
+2016/10/27 14:15:22 [cmdCreateThumbnail] ls
+2016/10/27 14:15:22 [■ ２b ■][runConvertMovies][00075_1.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] END)
+2016/10/27 14:15:22 [■ ２b ■][runConvertMovies][00075_1.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] START)
+2016/10/27 14:15:22 [cmdCreateThumbnail] ls
+2016/10/27 14:15:22 [■ ２b ■][runConvertMovies][MOV_0155.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] END)
+2016/10/27 14:15:22 [■ ２b ■][runConvertMovies][MOV_0155.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] START)
+2016/10/27 14:15:22 [cmdCreateThumbnail] ls
+2016/10/27 14:15:22 [■ ２b ■][runConvertMovies][00027_1.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] END)
+2016/10/27 14:15:22 [■ ２b ■][runConvertMovies][00027_1.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 START)
+2016/10/27 14:15:22 [inputPath] C:/temp/mc/in/00027_1.mp4
+2016/10/27 14:15:22 [■ ２b ■][runConvertMovies][00027_1.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 END)
+2016/10/27 14:15:22 [■ ２b ■][runConvertMovies][MOV_0638.mp4] START
+2016/10/27 14:15:22 [■ ２b ■][runConvertMovies][MOV_0638.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] START)
+2016/10/27 14:15:22 [inputPath] C:/temp/mc/in/MOV_0638.mp4
+2016/10/27 14:15:22 [outputPath] C:/temp/mc/out/MOV_0638.mp4
+2016/10/27 14:15:22 [cmdConvertVideo] cp C:/temp/mc/in/MOV_0638.mp4 C:/temp/mc/out/MOV_0638.mp4
+2016/10/27 14:15:22 [■ ２b ■][runConvertMovies][MOV_0225.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] END)
+2016/10/27 14:15:22 [■ ２b ■][runConvertMovies][MOV_0225.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] START)
+2016/10/27 14:15:22 [cmdCreateThumbnail] ls
+2016/10/27 14:15:22 [■ ２b ■][runConvertMovies][MOV_0166.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] END)
+2016/10/27 14:15:22 [■ ２b ■][runConvertMovies][MOV_0166.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] START)
+2016/10/27 14:15:22 [cmdRotateThumbnail] ls
+2016/10/27 14:15:22 [■ ２b ■][runConvertMovies][00075_1.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] END)
+2016/10/27 14:15:22 [■ ２b ■][runConvertMovies][00075_1.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] START)
+2016/10/27 14:15:22 [cmdRotateThumbnail] ls
+2016/10/27 14:15:22 [■ ２b ■][runConvertMovies][MOV_0155.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] END)
+2016/10/27 14:15:22 [■ ２b ■][runConvertMovies][MOV_0155.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] START)
+2016/10/27 14:15:22 [cmdRotateThumbnail] ls
+2016/10/27 14:15:22 [■ ２b ■][runConvertMovies][MOV_0166.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] END)
+2016/10/27 14:15:22 [■ ２b ■][runConvertMovies][MOV_0166.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 START)
+2016/10/27 14:15:22 [inputPath] C:/temp/mc/in/MOV_0166.mp4
+2016/10/27 14:15:22 [■ ２b ■][runConvertMovies][MOV_0166.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 END)
+2016/10/27 14:15:22 [■ ２b ■][runConvertMovies][MOV_0644.mp4] START
+2016/10/27 14:15:22 [■ ２b ■][runConvertMovies][MOV_0644.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] START)
+2016/10/27 14:15:22 [inputPath] C:/temp/mc/in/MOV_0644.mp4
+2016/10/27 14:15:22 [outputPath] C:/temp/mc/out/MOV_0644.mp4
+2016/10/27 14:15:22 [cmdConvertVideo] cp C:/temp/mc/in/MOV_0644.mp4 C:/temp/mc/out/MOV_0644.mp4
+2016/10/27 14:15:22 [■ ２b ■][runConvertMovies][MOV_0225.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] END)
+2016/10/27 14:15:22 [■ ２b ■][runConvertMovies][MOV_0225.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] START)
+2016/10/27 14:15:22 [cmdRotateThumbnail] ls
+2016/10/27 14:15:23 [■ ２b ■][runConvertMovies][00075_1.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] END)
+2016/10/27 14:15:23 [■ ２b ■][runConvertMovies][00075_1.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 START)
+2016/10/27 14:15:23 [inputPath] C:/temp/mc/in/00075_1.mp4
+2016/10/27 14:15:23 [■ ２b ■][runConvertMovies][00075_1.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 END)
+2016/10/27 14:15:23 [■ ２b ■][runConvertMovies][MOV_0654.mp4] START
+2016/10/27 14:15:23 [■ ２b ■][runConvertMovies][MOV_0654.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] START)
+2016/10/27 14:15:23 [inputPath] C:/temp/mc/in/MOV_0654.mp4
+2016/10/27 14:15:23 [outputPath] C:/temp/mc/out/MOV_0654.mp4
+2016/10/27 14:15:23 [cmdConvertVideo] cp C:/temp/mc/in/MOV_0654.mp4 C:/temp/mc/out/MOV_0654.mp4
+2016/10/27 14:15:23 [■ ２b ■][runConvertMovies][MOV_0155.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] END)
+2016/10/27 14:15:23 [■ ２b ■][runConvertMovies][MOV_0155.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 START)
+2016/10/27 14:15:23 [inputPath] C:/temp/mc/in/MOV_0155.mp4
+2016/10/27 14:15:23 [■ ２b ■][runConvertMovies][MOV_0155.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 END)
+2016/10/27 14:15:23 [■ ２b ■][runConvertMovies][MOV_0696.mp4] START
+2016/10/27 14:15:23 [■ ２b ■][runConvertMovies][MOV_0696.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] START)
+2016/10/27 14:15:23 [inputPath] C:/temp/mc/in/MOV_0696.mp4
+2016/10/27 14:15:23 [outputPath] C:/temp/mc/out/MOV_0696.mp4
+2016/10/27 14:15:23 [cmdConvertVideo] cp C:/temp/mc/in/MOV_0696.mp4 C:/temp/mc/out/MOV_0696.mp4
+2016/10/27 14:15:23 [■ ２b ■][runConvertMovies][MOV_0225.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] END)
+2016/10/27 14:15:23 [■ ２b ■][runConvertMovies][MOV_0225.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 START)
+2016/10/27 14:15:23 [inputPath] C:/temp/mc/in/MOV_0225.mp4
+2016/10/27 14:15:23 [■ ２b ■][runConvertMovies][MOV_0225.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 END)
+2016/10/27 14:15:23 [■ ２b ■][runConvertMovies][MOV_0659.mp4] START
+2016/10/27 14:15:23 [■ ２b ■][runConvertMovies][MOV_0659.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] START)
+2016/10/27 14:15:23 [inputPath] C:/temp/mc/in/MOV_0659.mp4
+2016/10/27 14:15:23 [outputPath] C:/temp/mc/out/MOV_0659.mp4
+2016/10/27 14:15:23 [cmdConvertVideo] cp C:/temp/mc/in/MOV_0659.mp4 C:/temp/mc/out/MOV_0659.mp4
+2016/10/27 14:15:23 [■ ２b ■][runConvertMovies][MOV_0638.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] END)
+2016/10/27 14:15:23 [■ ２b ■][runConvertMovies][MOV_0638.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] START)
+2016/10/27 14:15:23 [cmdCreateThumbnail] ls
+2016/10/27 14:15:23 [■ ２b ■][runConvertMovies][MOV_0638.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] END)
+2016/10/27 14:15:23 [■ ２b ■][runConvertMovies][MOV_0638.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] START)
+2016/10/27 14:15:23 [cmdRotateThumbnail] ls
+2016/10/27 14:15:23 [■ ２b ■][runConvertMovies][MOV_0638.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] END)
+2016/10/27 14:15:23 [■ ２b ■][runConvertMovies][MOV_0638.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 START)
+2016/10/27 14:15:23 [inputPath] C:/temp/mc/in/MOV_0638.mp4
+2016/10/27 14:15:23 [■ ２b ■][runConvertMovies][MOV_0638.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 END)
+2016/10/27 14:15:23 [■ ２b ■][runConvertMovies][MOV_0787.mp4] START
+2016/10/27 14:15:23 [■ ２b ■][runConvertMovies][MOV_0787.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] START)
+2016/10/27 14:15:23 [inputPath] C:/temp/mc/in/MOV_0787.mp4
+2016/10/27 14:15:23 [outputPath] C:/temp/mc/out/MOV_0787.mp4
+2016/10/27 14:15:23 [cmdConvertVideo] cp C:/temp/mc/in/MOV_0787.mp4 C:/temp/mc/out/MOV_0787.mp4
+2016/10/27 14:15:24 [■ ２b ■][runConvertMovies][MOV_0644.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] END)
+2016/10/27 14:15:24 [■ ２b ■][runConvertMovies][MOV_0644.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] START)
+2016/10/27 14:15:24 [cmdCreateThumbnail] ls
+2016/10/27 14:15:24 [■ ２b ■][runConvertMovies][MOV_0644.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] END)
+2016/10/27 14:15:24 [■ ２b ■][runConvertMovies][MOV_0644.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] START)
+2016/10/27 14:15:24 [cmdRotateThumbnail] ls
+2016/10/27 14:15:24 [■ ２b ■][runConvertMovies][MOV_0644.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] END)
+2016/10/27 14:15:24 [■ ２b ■][runConvertMovies][MOV_0644.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 START)
+2016/10/27 14:15:24 [inputPath] C:/temp/mc/in/MOV_0644.mp4
+2016/10/27 14:15:24 [■ ２b ■][runConvertMovies][MOV_0644.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 END)
+2016/10/27 14:15:24 [■ ２b ■][runConvertMovies][MOV_0791.mp4] START
+2016/10/27 14:15:24 [■ ２b ■][runConvertMovies][MOV_0791.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] START)
+2016/10/27 14:15:24 [inputPath] C:/temp/mc/in/MOV_0791.mp4
+2016/10/27 14:15:24 [outputPath] C:/temp/mc/out/MOV_0791.mp4
+2016/10/27 14:15:24 [cmdConvertVideo] cp C:/temp/mc/in/MOV_0791.mp4 C:/temp/mc/out/MOV_0791.mp4
+2016/10/27 14:15:24 [main] convert is running... ... ...
+2016/10/27 14:15:25 [■ ２b ■][runConvertMovies][MOV_0654.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] END)
+2016/10/27 14:15:25 [■ ２b ■][runConvertMovies][MOV_0654.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] START)
+2016/10/27 14:15:25 [cmdCreateThumbnail] ls
+2016/10/27 14:15:25 [■ ２b ■][runConvertMovies][MOV_0654.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] END)
+2016/10/27 14:15:25 [■ ２b ■][runConvertMovies][MOV_0654.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] START)
+2016/10/27 14:15:25 [cmdRotateThumbnail] ls
+2016/10/27 14:15:25 [■ ２b ■][runConvertMovies][MOV_0654.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] END)
+2016/10/27 14:15:25 [■ ２b ■][runConvertMovies][MOV_0654.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 START)
+2016/10/27 14:15:25 [inputPath] C:/temp/mc/in/MOV_0654.mp4
+2016/10/27 14:15:25 [■ ２b ■][runConvertMovies][MOV_0654.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 END)
+2016/10/27 14:15:25 [■ ２b ■][runConvertMovies][MOV_7364.mp4] START
+2016/10/27 14:15:25 [■ ２b ■][runConvertMovies][MOV_7364.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] START)
+2016/10/27 14:15:25 [inputPath] C:/temp/mc/in/MOV_7364.mp4
+2016/10/27 14:15:25 [outputPath] C:/temp/mc/out/MOV_7364.mp4
+2016/10/27 14:15:25 [cmdConvertVideo] cp C:/temp/mc/in/MOV_7364.mp4 C:/temp/mc/out/MOV_7364.mp4
+2016/10/27 14:15:27 [■ ２b ■][runConvertMovies][MOV_0696.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] END)
+2016/10/27 14:15:27 [■ ２b ■][runConvertMovies][MOV_0696.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] START)
+2016/10/27 14:15:27 [cmdCreateThumbnail] ls
+2016/10/27 14:15:27 [■ ２b ■][runConvertMovies][MOV_0696.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] END)
+2016/10/27 14:15:27 [■ ２b ■][runConvertMovies][MOV_0696.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] START)
+2016/10/27 14:15:27 [cmdRotateThumbnail] ls
+2016/10/27 14:15:27 [■ ２b ■][runConvertMovies][MOV_0696.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] END)
+2016/10/27 14:15:27 [■ ２b ■][runConvertMovies][MOV_0696.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 START)
+2016/10/27 14:15:27 [inputPath] C:/temp/mc/in/MOV_0696.mp4
+2016/10/27 14:15:27 [■ ２b ■][runConvertMovies][MOV_0696.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 END)
+2016/10/27 14:15:27 [■ ２b ■][runConvertMovies][MOV_7431.mp4] START
+2016/10/27 14:15:27 [■ ２b ■][runConvertMovies][MOV_7431.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] START)
+2016/10/27 14:15:27 [inputPath] C:/temp/mc/in/MOV_7431.mp4
+2016/10/27 14:15:27 [outputPath] C:/temp/mc/out/MOV_7431.mp4
+2016/10/27 14:15:27 [cmdConvertVideo] cp C:/temp/mc/in/MOV_7431.mp4 C:/temp/mc/out/MOV_7431.mp4
+2016/10/27 14:15:27 [■ ２b ■][runConvertMovies][MOV_0659.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] END)
+2016/10/27 14:15:27 [■ ２b ■][runConvertMovies][MOV_0659.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] START)
+2016/10/27 14:15:27 [cmdCreateThumbnail] ls
+2016/10/27 14:15:27 [■ ２b ■][runConvertMovies][MOV_0659.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] END)
+2016/10/27 14:15:27 [■ ２b ■][runConvertMovies][MOV_0659.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] START)
+2016/10/27 14:15:27 [cmdRotateThumbnail] ls
+2016/10/27 14:15:27 [■ ２b ■][runConvertMovies][MOV_0659.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] END)
+2016/10/27 14:15:27 [■ ２b ■][runConvertMovies][MOV_0659.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 START)
+2016/10/27 14:15:27 [inputPath] C:/temp/mc/in/MOV_0659.mp4
+2016/10/27 14:15:27 [main] convert is running... ... ...
+2016/10/27 14:15:27 [■ ２b ■][runConvertMovies][MOV_0659.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 END)
+2016/10/27 14:15:27 [■ ２b ■][runConvertMovies][MOV_7419.mp4] START
+2016/10/27 14:15:27 [■ ２b ■][runConvertMovies][MOV_7419.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] START)
+2016/10/27 14:15:27 [inputPath] C:/temp/mc/in/MOV_7419.mp4
+2016/10/27 14:15:27 [outputPath] C:/temp/mc/out/MOV_7419.mp4
+2016/10/27 14:15:27 [cmdConvertVideo] cp C:/temp/mc/in/MOV_7419.mp4 C:/temp/mc/out/MOV_7419.mp4
+2016/10/27 14:15:29 [■ ２b ■][runConvertMovies][MOV_0791.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] END)
+2016/10/27 14:15:29 [■ ２b ■][runConvertMovies][MOV_0791.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] START)
+2016/10/27 14:15:29 [cmdCreateThumbnail] ls
+2016/10/27 14:15:29 [■ ２b ■][runConvertMovies][MOV_0791.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] END)
+2016/10/27 14:15:29 [■ ２b ■][runConvertMovies][MOV_0791.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] START)
+2016/10/27 14:15:29 [cmdRotateThumbnail] ls
+2016/10/27 14:15:30 [■ ２b ■][runConvertMovies][MOV_0791.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] END)
+2016/10/27 14:15:30 [■ ２b ■][runConvertMovies][MOV_0791.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 START)
+2016/10/27 14:15:30 [inputPath] C:/temp/mc/in/MOV_0791.mp4
+2016/10/27 14:15:30 [■ ２b ■][runConvertMovies][MOV_0791.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 END)
+2016/10/27 14:15:30 [■ ２b ■][runConvertMovies][MOV_0787.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] END)
+2016/10/27 14:15:30 [■ ２b ■][runConvertMovies][MOV_0787.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] START)
+2016/10/27 14:15:30 [cmdCreateThumbnail] ls
+2016/10/27 14:15:30 [■ ２b ■][runConvertMovies][MOV_0787.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] END)
+2016/10/27 14:15:30 [■ ２b ■][runConvertMovies][MOV_0787.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] START)
+2016/10/27 14:15:30 [cmdRotateThumbnail] ls
+2016/10/27 14:15:30 [■ ２b ■][runConvertMovies][MOV_7364.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] END)
+2016/10/27 14:15:30 [■ ２b ■][runConvertMovies][MOV_7364.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] START)
+2016/10/27 14:15:30 [cmdCreateThumbnail] ls
+2016/10/27 14:15:30 [main] convert is running... ... ...
+2016/10/27 14:15:30 [■ ２b ■][runConvertMovies][MOV_0787.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] END)
+2016/10/27 14:15:30 [■ ２b ■][runConvertMovies][MOV_0787.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 START)
+2016/10/27 14:15:30 [inputPath] C:/temp/mc/in/MOV_0787.mp4
+2016/10/27 14:15:30 [■ ２b ■][runConvertMovies][MOV_0787.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 END)
+2016/10/27 14:15:30 [■ ２b ■][runConvertMovies][MOV_7364.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] END)
+2016/10/27 14:15:30 [■ ２b ■][runConvertMovies][MOV_7364.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] START)
+2016/10/27 14:15:30 [cmdRotateThumbnail] ls
+2016/10/27 14:15:31 [■ ２b ■][runConvertMovies][MOV_7364.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] END)
+2016/10/27 14:15:31 [■ ２b ■][runConvertMovies][MOV_7364.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 START)
+2016/10/27 14:15:31 [inputPath] C:/temp/mc/in/MOV_7364.mp4
+2016/10/27 14:15:31 [■ ２b ■][runConvertMovies][MOV_7364.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 END)
+2016/10/27 14:15:31 [■ ２b ■][runConvertMovies][MOV_7419.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] END)
+2016/10/27 14:15:31 [■ ２b ■][runConvertMovies][MOV_7419.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] START)
+2016/10/27 14:15:31 [cmdCreateThumbnail] ls
+2016/10/27 14:15:31 [■ ２b ■][runConvertMovies][MOV_7431.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] END)
+2016/10/27 14:15:31 [■ ２b ■][runConvertMovies][MOV_7431.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] START)
+2016/10/27 14:15:31 [cmdCreateThumbnail] ls
+2016/10/27 14:15:31 [■ ２b ■][runConvertMovies][MOV_7419.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] END)
+2016/10/27 14:15:31 [■ ２b ■][runConvertMovies][MOV_7419.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] START)
+2016/10/27 14:15:31 [cmdRotateThumbnail] ls
+2016/10/27 14:15:31 [■ ２b ■][runConvertMovies][MOV_7431.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] END)
+2016/10/27 14:15:31 [■ ２b ■][runConvertMovies][MOV_7431.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] START)
+2016/10/27 14:15:31 [cmdRotateThumbnail] ls
+2016/10/27 14:15:31 [■ ２b ■][runConvertMovies][MOV_7419.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] END)
+2016/10/27 14:15:31 [■ ２b ■][runConvertMovies][MOV_7419.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 START)
+2016/10/27 14:15:31 [inputPath] C:/temp/mc/in/MOV_7419.mp4
+2016/10/27 14:15:31 [■ ２b ■][runConvertMovies][MOV_7419.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 END)
+2016/10/27 14:15:31 [■ ２b ■][runConvertMovies][MOV_7431.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] END)
+2016/10/27 14:15:31 [■ ２b ■][runConvertMovies][MOV_7431.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 START)
+2016/10/27 14:15:31 [inputPath] C:/temp/mc/in/MOV_7431.mp4
+2016/10/27 14:15:31 [■ ２b ■][runConvertMovies][MOV_7431.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 END)
+2016/10/27 14:15:31 [■ ２ ■][convert] END
+2016/10/27 14:15:31 [joinPath] C:/temp/mc/in/watch.list
+2016/10/27 14:15:31 [■ ３ ■][deploy] START
+2016/10/27 14:15:31 [■ ３ ■][deploy] walk target directory:  C:/temp/mc/out
+2016/10/27 14:15:31 [■ ３ ■][deploy] C:\temp\mc\out\00027_1.mp4
+2016/10/27 14:15:31 [joinPath] C:/temp/mc/deploy/00027_1.mp4
+2016/10/27 14:15:31 [■ ３ ■][deploy] C:\temp\mc\out\00075_1.mp4
+2016/10/27 14:15:31 [joinPath] C:/temp/mc/deploy/00075_1.mp4
+2016/10/27 14:15:31 [■ ３ ■][deploy] C:\temp\mc\out\MOV_0155.mp4
+2016/10/27 14:15:31 [joinPath] C:/temp/mc/deploy/MOV_0155.mp4
+2016/10/27 14:15:31 [■ ３ ■][deploy] C:\temp\mc\out\MOV_0166.mp4
+2016/10/27 14:15:31 [joinPath] C:/temp/mc/deploy/MOV_0166.mp4
+2016/10/27 14:15:31 [■ ３ ■][deploy] C:\temp\mc\out\MOV_0225.mp4
+2016/10/27 14:15:31 [joinPath] C:/temp/mc/deploy/MOV_0225.mp4
+2016/10/27 14:15:31 [■ ３ ■][deploy] C:\temp\mc\out\MOV_0638.mp4
+2016/10/27 14:15:31 [joinPath] C:/temp/mc/deploy/MOV_0638.mp4
+2016/10/27 14:15:31 [■ ３ ■][deploy] C:\temp\mc\out\MOV_0644.mp4
+2016/10/27 14:15:31 [joinPath] C:/temp/mc/deploy/MOV_0644.mp4
+2016/10/27 14:15:31 [■ ３ ■][deploy] C:\temp\mc\out\MOV_0654.mp4
+2016/10/27 14:15:31 [joinPath] C:/temp/mc/deploy/MOV_0654.mp4
+2016/10/27 14:15:31 [■ ３ ■][deploy] C:\temp\mc\out\MOV_0659.mp4
+2016/10/27 14:15:31 [joinPath] C:/temp/mc/deploy/MOV_0659.mp4
+2016/10/27 14:15:31 [■ ３ ■][deploy] C:\temp\mc\out\MOV_0696.mp4
+2016/10/27 14:15:31 [joinPath] C:/temp/mc/deploy/MOV_0696.mp4
+2016/10/27 14:15:31 [■ ３ ■][deploy] C:\temp\mc\out\MOV_0787.mp4
+2016/10/27 14:15:31 [joinPath] C:/temp/mc/deploy/MOV_0787.mp4
+2016/10/27 14:15:31 [■ ３ ■][deploy] C:\temp\mc\out\MOV_0791.mp4
+2016/10/27 14:15:31 [joinPath] C:/temp/mc/deploy/MOV_0791.mp4
+2016/10/27 14:15:31 [■ ３ ■][deploy] C:\temp\mc\out\MOV_7364.mp4
+2016/10/27 14:15:31 [joinPath] C:/temp/mc/deploy/MOV_7364.mp4
+2016/10/27 14:15:31 [■ ３ ■][deploy] C:\temp\mc\out\MOV_7419.mp4
+2016/10/27 14:15:31 [joinPath] C:/temp/mc/deploy/MOV_7419.mp4
+2016/10/27 14:15:31 [■ ３ ■][deploy] C:\temp\mc\out\MOV_7431.mp4
+2016/10/27 14:15:31 [joinPath] C:/temp/mc/deploy/MOV_7431.mp4
+2016/10/27 14:15:31 [■ ３ ■][deploy] END
+2016/10/27 14:15:33 [■ １ ■][listup] START
+2016/10/27 14:15:33 [■ １b ■][createFileList] START
+2016/10/27 14:15:33 [joinPath] C:/temp/mc/in/watch.list
+2016/10/27 14:15:33 [joinPath] C:/temp/mc/in/watch.list
+2016/10/27 14:15:33 [■ １b ■][createFileList] END
+2016/10/27 14:15:33 [joinPath] C:/temp/mc/in/watch.list
+2016/10/27 14:15:33 [■ １ ■][listup] END
+2016/10/27 14:15:33 [■ ２ ■][convert] START
+2016/10/27 14:15:33 [joinPath] C:/temp/mc/in/watch.list
+2016/10/27 14:15:33 [■ ２ ■][convert] END
+2016/10/27 14:15:33 [joinPath] C:/temp/mc/in/watch.list
+2016/10/27 14:15:33 [■ ３ ■][deploy] START
+2016/10/27 14:15:33 [■ ３ ■][deploy] walk target directory:  C:/temp/mc/out
+2016/10/27 14:15:33 [■ ３ ■][deploy] END
+2016/10/27 14:15:36 [■ １ ■][listup] START
+2016/10/27 14:15:36 [■ １b ■][createFileList] START
+2016/10/27 14:15:36 [joinPath] C:/temp/mc/in/watch.list
+2016/10/27 14:15:36 [joinPath] C:/temp/mc/in/watch.list
+2016/10/27 14:15:36 [■ １b ■][createFileList] END
+2016/10/27 14:15:36 [joinPath] C:/temp/mc/in/watch.list
+2016/10/27 14:15:36 [■ １ ■][listup] END
+2016/10/27 14:15:36 [■ ２ ■][convert] START
+2016/10/27 14:15:36 [joinPath] C:/temp/mc/in/watch.list
+2016/10/27 14:15:36 [■ ２ ■][convert] END
+2016/10/27 14:15:36 [joinPath] C:/temp/mc/in/watch.list
+2016/10/27 14:15:36 [■ ３ ■][deploy] START
+2016/10/27 14:15:36 [■ ３ ■][deploy] walk target directory:  C:/temp/mc/out
+2016/10/27 14:15:36 [■ ３ ■][deploy] END
+2016/10/27 14:15:39 [■ １ ■][listup] START
+2016/10/27 14:15:39 [■ １b ■][createFileList] START
+2016/10/27 14:15:39 [joinPath] C:/temp/mc/in/watch.list
+2016/10/27 14:15:39 [joinPath] C:/temp/mc/in/watch.list
+2016/10/27 14:15:39 [■ １b ■][createFileList] END
+2016/10/27 14:15:39 [joinPath] C:/temp/mc/in/watch.list
+2016/10/27 14:15:39 [■ １ ■][listup] END
+2016/10/27 14:15:39 [■ ２ ■][convert] START
+2016/10/27 14:15:39 [joinPath] C:/temp/mc/in/watch.list
+2016/10/27 14:15:39 [■ ２ ■][convert] END
+2016/10/27 14:15:39 [joinPath] C:/temp/mc/in/watch.list
+2016/10/27 14:15:39 [■ ３ ■][deploy] START
+2016/10/27 14:15:39 [■ ３ ■][deploy] walk target directory:  C:/temp/mc/out
+2016/10/27 14:15:39 [■ ３ ■][deploy] END
+2016/10/27 14:15:42 [■ １ ■][listup] START
+2016/10/27 14:15:42 [■ １b ■][createFileList] START
+2016/10/27 14:15:42 [joinPath] C:/temp/mc/in/watch.list
+2016/10/27 14:15:42 [joinPath] C:/temp/mc/in/watch.list
+2016/10/27 14:15:42 [■ １b ■][createFileList] END
+2016/10/27 14:15:42 [joinPath] C:/temp/mc/in/watch.list
+2016/10/27 14:15:42 [■ １ ■][listup] END
+2016/10/27 14:15:42 [■ ２ ■][convert] START
+2016/10/27 14:15:42 [joinPath] C:/temp/mc/in/watch.list
+2016/10/27 14:15:42 [■ ２ ■][convert] END
+2016/10/27 14:15:42 [joinPath] C:/temp/mc/in/watch.list
+2016/10/27 14:15:42 [■ ３ ■][deploy] START
+2016/10/27 14:15:42 [■ ３ ■][deploy] walk target directory:  C:/temp/mc/out
+2016/10/27 14:15:42 [■ ３ ■][deploy] END
+2016/10/27 14:15:45 [■ １ ■][listup] START
+2016/10/27 14:15:45 [■ １b ■][createFileList] START
+2016/10/27 14:15:45 [joinPath] C:/temp/mc/in/watch.list
+2016/10/27 14:15:45 [joinPath] C:/temp/mc/in/watch.list
+2016/10/27 14:15:45 [■ １b ■][createFileList] END
+2016/10/27 14:15:45 [joinPath] C:/temp/mc/in/watch.list
+2016/10/27 14:15:45 [■ １ ■][listup] END
+2016/10/27 14:15:45 [■ ２ ■][convert] START
+2016/10/27 14:15:45 [joinPath] C:/temp/mc/in/watch.list
+2016/10/27 14:15:45 [■ ２ ■][convert] END
+2016/10/27 14:15:45 [joinPath] C:/temp/mc/in/watch.list
+2016/10/27 14:15:45 [■ ３ ■][deploy] START
+2016/10/27 14:15:45 [■ ３ ■][deploy] walk target directory:  C:/temp/mc/out
+2016/10/27 14:15:45 [■ ３ ■][deploy] END
+2016/10/27 14:15:48 [■ １ ■][listup] START
+2016/10/27 14:15:48 [■ １b ■][createFileList] START
+2016/10/27 14:15:48 [joinPath] C:/temp/mc/in/watch.list
+2016/10/27 14:15:48 [joinPath] C:/temp/mc/in/watch.list
+2016/10/27 14:15:48 [■ １b ■][createFileList] END
+2016/10/27 14:15:48 [joinPath] C:/temp/mc/in/watch.list
+2016/10/27 14:15:48 [■ １ ■][listup] END
+2016/10/27 14:15:48 [■ ２ ■][convert] START
+2016/10/27 14:15:48 [joinPath] C:/temp/mc/in/watch.list
+2016/10/27 14:15:48 [■ ２ ■][convert] END
+2016/10/27 14:15:48 [joinPath] C:/temp/mc/in/watch.list
+2016/10/27 14:15:48 [■ ３ ■][deploy] START
+2016/10/27 14:15:48 [■ ３ ■][deploy] walk target directory:  C:/temp/mc/out
+2016/10/27 14:15:48 [■ ３ ■][deploy] END
+2016/10/27 14:25:05 [main]setup log fin.
+2016/10/27 14:25:05 [main]go loop!!!
+2016/10/27 14:25:05 [■ １ ■][listup] START
+2016/10/27 14:25:05 [■ １b ■][createFileList] START
+2016/10/27 14:25:05 [■ １b ■][createFileList] END
+2016/10/27 14:25:05 [■ １ ■][listup] END
+2016/10/27 14:25:05 [■ ２ ■][convert] START
+2016/10/27 14:25:05 00027_1.mp4
+2016/10/27 14:25:05 00075_1.mp4
+2016/10/27 14:25:05 MOV_0155.mp4
+2016/10/27 14:25:05 [■ ２b ■][runConvertMovies][00027_1.mp4] START
+2016/10/27 14:25:05 [■ ２b ■][runConvertMovies][00027_1.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] START)
+2016/10/27 14:25:05 MOV_0166.mp4
+2016/10/27 14:25:05 MOV_0225.mp4
+2016/10/27 14:25:05 MOV_0638.mp4
+2016/10/27 14:25:05 [■ ２b ■][runConvertMovies][00075_1.mp4] START
+2016/10/27 14:25:05 [inputPath] C:/temp/mc/in/00027_1.mp4
+2016/10/27 14:25:05 [outputPath] C:/temp/mc/out/00027_1.mp4
+2016/10/27 14:25:05 [cmdConvertVideo] cp C:/temp/mc/in/00027_1.mp4 C:/temp/mc/out/00027_1.mp4
+2016/10/27 14:25:05 [■ ２b ■][runConvertMovies][MOV_0638.mp4] START
+2016/10/27 14:25:05 [■ ２b ■][runConvertMovies][MOV_0638.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] START)
+2016/10/27 14:25:05 [inputPath] C:/temp/mc/in/MOV_0638.mp4
+2016/10/27 14:25:05 [outputPath] C:/temp/mc/out/MOV_0638.mp4
+2016/10/27 14:25:05 [cmdConvertVideo] cp C:/temp/mc/in/MOV_0638.mp4 C:/temp/mc/out/MOV_0638.mp4
+2016/10/27 14:25:05 [■ ２b ■][runConvertMovies][MOV_0166.mp4] START
+2016/10/27 14:25:05 [■ ２b ■][runConvertMovies][MOV_0166.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] START)
+2016/10/27 14:25:05 [inputPath] C:/temp/mc/in/MOV_0166.mp4
+2016/10/27 14:25:05 [outputPath] C:/temp/mc/out/MOV_0166.mp4
+2016/10/27 14:25:05 [cmdConvertVideo] cp C:/temp/mc/in/MOV_0166.mp4 C:/temp/mc/out/MOV_0166.mp4
+2016/10/27 14:25:05 [■ ２b ■][runConvertMovies][00075_1.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] START)
+2016/10/27 14:25:05 [inputPath] C:/temp/mc/in/00075_1.mp4
+2016/10/27 14:25:05 [outputPath] C:/temp/mc/out/00075_1.mp4
+2016/10/27 14:25:05 [cmdConvertVideo] cp C:/temp/mc/in/00075_1.mp4 C:/temp/mc/out/00075_1.mp4
+2016/10/27 14:25:05 [■ ２b ■][runConvertMovies][MOV_0155.mp4] START
+2016/10/27 14:25:05 [■ ２b ■][runConvertMovies][MOV_0155.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] START)
+2016/10/27 14:25:05 [inputPath] C:/temp/mc/in/MOV_0155.mp4
+2016/10/27 14:25:05 [outputPath] C:/temp/mc/out/MOV_0155.mp4
+2016/10/27 14:25:05 [cmdConvertVideo] cp C:/temp/mc/in/MOV_0155.mp4 C:/temp/mc/out/MOV_0155.mp4
+2016/10/27 14:25:05 MOV_0644.mp4
+2016/10/27 14:25:05 MOV_0654.mp4
+2016/10/27 14:25:05 MOV_0659.mp4
+2016/10/27 14:25:05 MOV_0696.mp4
+2016/10/27 14:25:05 MOV_0787.mp4
+2016/10/27 14:25:05 MOV_0791.mp4
+2016/10/27 14:25:05 MOV_7364.mp4
+2016/10/27 14:25:05 MOV_7419.mp4
+2016/10/27 14:25:05 MOV_7431.mp4
+2016/10/27 14:25:06 [■ ２b ■][runConvertMovies][00027_1.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] END)
+2016/10/27 14:25:06 [■ ２b ■][runConvertMovies][00027_1.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] START)
+2016/10/27 14:25:06 [cmdCreateThumbnail] ls
+2016/10/27 14:25:06 [■ ２b ■][runConvertMovies][00027_1.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] END)
+2016/10/27 14:25:06 [■ ２b ■][runConvertMovies][00027_1.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] START)
+2016/10/27 14:25:06 [cmdRotateThumbnail] ls
+2016/10/27 14:25:07 [■ ２b ■][runConvertMovies][00027_1.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] END)
+2016/10/27 14:25:07 [■ ２b ■][runConvertMovies][00027_1.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 START)
+2016/10/27 14:25:07 [inputPath] C:/temp/mc/in/00027_1.mp4
+2016/10/27 14:25:07 [■ ２b ■][runConvertMovies][00027_1.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 END)
+2016/10/27 14:25:07 [■ ２b ■][runConvertMovies][MOV_0225.mp4] START
+2016/10/27 14:25:07 [■ ２b ■][runConvertMovies][MOV_0225.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] START)
+2016/10/27 14:25:07 [inputPath] C:/temp/mc/in/MOV_0225.mp4
+2016/10/27 14:25:07 [outputPath] C:/temp/mc/out/MOV_0225.mp4
+2016/10/27 14:25:07 [cmdConvertVideo] cp C:/temp/mc/in/MOV_0225.mp4 C:/temp/mc/out/MOV_0225.mp4
+2016/10/27 14:25:07 [■ ２b ■][runConvertMovies][MOV_0638.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] END)
+2016/10/27 14:25:07 [■ ２b ■][runConvertMovies][MOV_0638.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] START)
+2016/10/27 14:25:07 [cmdCreateThumbnail] ls
+2016/10/27 14:25:07 [■ ２b ■][runConvertMovies][MOV_0638.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] END)
+2016/10/27 14:25:07 [■ ２b ■][runConvertMovies][MOV_0638.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] START)
+2016/10/27 14:25:07 [cmdRotateThumbnail] ls
+2016/10/27 14:25:07 [■ ２b ■][runConvertMovies][MOV_0638.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] END)
+2016/10/27 14:25:07 [■ ２b ■][runConvertMovies][MOV_0638.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 START)
+2016/10/27 14:25:07 [inputPath] C:/temp/mc/in/MOV_0638.mp4
+2016/10/27 14:25:07 [■ ２b ■][runConvertMovies][MOV_0638.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 END)
+2016/10/27 14:25:07 [■ ２b ■][runConvertMovies][MOV_0659.mp4] START
+2016/10/27 14:25:07 [■ ２b ■][runConvertMovies][MOV_0659.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] START)
+2016/10/27 14:25:07 [inputPath] C:/temp/mc/in/MOV_0659.mp4
+2016/10/27 14:25:07 [outputPath] C:/temp/mc/out/MOV_0659.mp4
+2016/10/27 14:25:07 [cmdConvertVideo] cp C:/temp/mc/in/MOV_0659.mp4 C:/temp/mc/out/MOV_0659.mp4
+2016/10/27 14:25:08 [main] convert is running... ... ...
+2016/10/27 14:25:11 [■ ２b ■][runConvertMovies][00075_1.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] END)
+2016/10/27 14:25:11 [■ ２b ■][runConvertMovies][00075_1.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] START)
+2016/10/27 14:25:11 [cmdCreateThumbnail] ls
+2016/10/27 14:25:11 [■ ２b ■][runConvertMovies][00075_1.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] END)
+2016/10/27 14:25:11 [■ ２b ■][runConvertMovies][00075_1.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] START)
+2016/10/27 14:25:11 [cmdRotateThumbnail] ls
+2016/10/27 14:25:11 [■ ２b ■][runConvertMovies][00075_1.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] END)
+2016/10/27 14:25:11 [■ ２b ■][runConvertMovies][00075_1.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 START)
+2016/10/27 14:25:11 [inputPath] C:/temp/mc/in/00075_1.mp4
+2016/10/27 14:25:11 [■ ２b ■][runConvertMovies][00075_1.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 END)
+2016/10/27 14:25:11 [■ ２b ■][runConvertMovies][MOV_0644.mp4] START
+2016/10/27 14:25:11 [■ ２b ■][runConvertMovies][MOV_0644.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] START)
+2016/10/27 14:25:11 [inputPath] C:/temp/mc/in/MOV_0644.mp4
+2016/10/27 14:25:11 [outputPath] C:/temp/mc/out/MOV_0644.mp4
+2016/10/27 14:25:11 [cmdConvertVideo] cp C:/temp/mc/in/MOV_0644.mp4 C:/temp/mc/out/MOV_0644.mp4
+2016/10/27 14:25:11 [main] convert is running... ... ...
+2016/10/27 14:25:13 [■ ２b ■][runConvertMovies][MOV_0166.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] END)
+2016/10/27 14:25:13 [■ ２b ■][runConvertMovies][MOV_0166.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] START)
+2016/10/27 14:25:13 [cmdCreateThumbnail] ls
+2016/10/27 14:25:13 [■ ２b ■][runConvertMovies][MOV_0166.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] END)
+2016/10/27 14:25:13 [■ ２b ■][runConvertMovies][MOV_0166.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] START)
+2016/10/27 14:25:13 [cmdRotateThumbnail] ls
+2016/10/27 14:25:13 [■ ２b ■][runConvertMovies][MOV_0166.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] END)
+2016/10/27 14:25:13 [■ ２b ■][runConvertMovies][MOV_0166.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 START)
+2016/10/27 14:25:13 [inputPath] C:/temp/mc/in/MOV_0166.mp4
+2016/10/27 14:25:13 [■ ２b ■][runConvertMovies][MOV_0166.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 END)
+2016/10/27 14:25:13 [■ ２b ■][runConvertMovies][MOV_0654.mp4] START
+2016/10/27 14:25:13 [■ ２b ■][runConvertMovies][MOV_0654.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] START)
+2016/10/27 14:25:13 [inputPath] C:/temp/mc/in/MOV_0654.mp4
+2016/10/27 14:25:13 [outputPath] C:/temp/mc/out/MOV_0654.mp4
+2016/10/27 14:25:13 [cmdConvertVideo] cp C:/temp/mc/in/MOV_0654.mp4 C:/temp/mc/out/MOV_0654.mp4
+2016/10/27 14:25:13 [■ ２b ■][runConvertMovies][MOV_0155.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] END)
+2016/10/27 14:25:13 [■ ２b ■][runConvertMovies][MOV_0155.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] START)
+2016/10/27 14:25:13 [cmdCreateThumbnail] ls
+2016/10/27 14:25:13 [■ ２b ■][runConvertMovies][MOV_0155.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] END)
+2016/10/27 14:25:13 [■ ２b ■][runConvertMovies][MOV_0155.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] START)
+2016/10/27 14:25:13 [cmdRotateThumbnail] ls
+2016/10/27 14:25:13 [■ ２b ■][runConvertMovies][MOV_0155.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] END)
+2016/10/27 14:25:13 [■ ２b ■][runConvertMovies][MOV_0155.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 START)
+2016/10/27 14:25:13 [inputPath] C:/temp/mc/in/MOV_0155.mp4
+2016/10/27 14:25:14 [■ ２b ■][runConvertMovies][MOV_0155.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 END)
+2016/10/27 14:25:14 [■ ２b ■][runConvertMovies][MOV_0787.mp4] START
+2016/10/27 14:25:14 [■ ２b ■][runConvertMovies][MOV_0787.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] START)
+2016/10/27 14:25:14 [inputPath] C:/temp/mc/in/MOV_0787.mp4
+2016/10/27 14:25:14 [outputPath] C:/temp/mc/out/MOV_0787.mp4
+2016/10/27 14:25:14 [cmdConvertVideo] cp C:/temp/mc/in/MOV_0787.mp4 C:/temp/mc/out/MOV_0787.mp4
+2016/10/27 14:25:14 [■ ２b ■][runConvertMovies][MOV_0225.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] END)
+2016/10/27 14:25:14 [■ ２b ■][runConvertMovies][MOV_0225.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] START)
+2016/10/27 14:25:14 [cmdCreateThumbnail] ls
+2016/10/27 14:25:14 [■ ２b ■][runConvertMovies][MOV_0225.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] END)
+2016/10/27 14:25:14 [■ ２b ■][runConvertMovies][MOV_0225.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] START)
+2016/10/27 14:25:14 [cmdRotateThumbnail] ls
+2016/10/27 14:25:14 [■ ２b ■][runConvertMovies][MOV_0225.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] END)
+2016/10/27 14:25:14 [■ ２b ■][runConvertMovies][MOV_0225.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 START)
+2016/10/27 14:25:14 [inputPath] C:/temp/mc/in/MOV_0225.mp4
+2016/10/27 14:25:14 [■ ２b ■][runConvertMovies][MOV_0225.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 END)
+2016/10/27 14:25:14 [■ ２b ■][runConvertMovies][MOV_0696.mp4] START
+2016/10/27 14:25:14 [■ ２b ■][runConvertMovies][MOV_0696.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] START)
+2016/10/27 14:25:14 [inputPath] C:/temp/mc/in/MOV_0696.mp4
+2016/10/27 14:25:14 [outputPath] C:/temp/mc/out/MOV_0696.mp4
+2016/10/27 14:25:14 [cmdConvertVideo] cp C:/temp/mc/in/MOV_0696.mp4 C:/temp/mc/out/MOV_0696.mp4
+2016/10/27 14:25:14 [main] convert is running... ... ...
+2016/10/27 14:25:14 [■ ２b ■][runConvertMovies][MOV_0644.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] END)
+2016/10/27 14:25:14 [■ ２b ■][runConvertMovies][MOV_0644.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] START)
+2016/10/27 14:25:14 [cmdCreateThumbnail] ls
+2016/10/27 14:25:15 [■ ２b ■][runConvertMovies][MOV_0659.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] END)
+2016/10/27 14:25:15 [■ ２b ■][runConvertMovies][MOV_0659.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] START)
+2016/10/27 14:25:15 [cmdCreateThumbnail] ls
+2016/10/27 14:25:15 [■ ２b ■][runConvertMovies][MOV_0644.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] END)
+2016/10/27 14:25:15 [■ ２b ■][runConvertMovies][MOV_0644.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] START)
+2016/10/27 14:25:15 [cmdRotateThumbnail] ls
+2016/10/27 14:25:15 [■ ２b ■][runConvertMovies][MOV_0659.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] END)
+2016/10/27 14:25:15 [■ ２b ■][runConvertMovies][MOV_0659.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] START)
+2016/10/27 14:25:15 [cmdRotateThumbnail] ls
+2016/10/27 14:25:15 [■ ２b ■][runConvertMovies][MOV_0644.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] END)
+2016/10/27 14:25:15 [■ ２b ■][runConvertMovies][MOV_0644.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 START)
+2016/10/27 14:25:15 [inputPath] C:/temp/mc/in/MOV_0644.mp4
+2016/10/27 14:25:15 [■ ２b ■][runConvertMovies][MOV_0644.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 END)
+2016/10/27 14:25:15 [■ ２b ■][runConvertMovies][MOV_0791.mp4] START
+2016/10/27 14:25:15 [■ ２b ■][runConvertMovies][MOV_0791.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] START)
+2016/10/27 14:25:15 [inputPath] C:/temp/mc/in/MOV_0791.mp4
+2016/10/27 14:25:15 [outputPath] C:/temp/mc/out/MOV_0791.mp4
+2016/10/27 14:25:15 [cmdConvertVideo] cp C:/temp/mc/in/MOV_0791.mp4 C:/temp/mc/out/MOV_0791.mp4
+2016/10/27 14:25:15 [■ ２b ■][runConvertMovies][MOV_0659.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] END)
+2016/10/27 14:25:15 [■ ２b ■][runConvertMovies][MOV_0659.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 START)
+2016/10/27 14:25:15 [inputPath] C:/temp/mc/in/MOV_0659.mp4
+2016/10/27 14:25:15 [■ ２b ■][runConvertMovies][MOV_0659.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 END)
+2016/10/27 14:25:15 [■ ２b ■][runConvertMovies][MOV_7364.mp4] START
+2016/10/27 14:25:15 [■ ２b ■][runConvertMovies][MOV_7364.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] START)
+2016/10/27 14:25:15 [inputPath] C:/temp/mc/in/MOV_7364.mp4
+2016/10/27 14:25:15 [outputPath] C:/temp/mc/out/MOV_7364.mp4
+2016/10/27 14:25:15 [cmdConvertVideo] cp C:/temp/mc/in/MOV_7364.mp4 C:/temp/mc/out/MOV_7364.mp4
+2016/10/27 14:25:16 [■ ２b ■][runConvertMovies][MOV_0654.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] END)
+2016/10/27 14:25:16 [■ ２b ■][runConvertMovies][MOV_0654.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] START)
+2016/10/27 14:25:16 [cmdCreateThumbnail] ls
+2016/10/27 14:25:16 [■ ２b ■][runConvertMovies][MOV_0654.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] END)
+2016/10/27 14:25:16 [■ ２b ■][runConvertMovies][MOV_0654.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] START)
+2016/10/27 14:25:16 [cmdRotateThumbnail] ls
+2016/10/27 14:25:16 [■ ２b ■][runConvertMovies][MOV_0654.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] END)
+2016/10/27 14:25:16 [■ ２b ■][runConvertMovies][MOV_0654.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 START)
+2016/10/27 14:25:16 [inputPath] C:/temp/mc/in/MOV_0654.mp4
+2016/10/27 14:25:17 [■ ２b ■][runConvertMovies][MOV_0654.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 END)
+2016/10/27 14:25:17 [■ ２b ■][runConvertMovies][MOV_7419.mp4] START
+2016/10/27 14:25:17 [■ ２b ■][runConvertMovies][MOV_7419.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] START)
+2016/10/27 14:25:17 [inputPath] C:/temp/mc/in/MOV_7419.mp4
+2016/10/27 14:25:17 [outputPath] C:/temp/mc/out/MOV_7419.mp4
+2016/10/27 14:25:17 [cmdConvertVideo] cp C:/temp/mc/in/MOV_7419.mp4 C:/temp/mc/out/MOV_7419.mp4
+2016/10/27 14:25:17 [main] convert is running... ... ...
+2016/10/27 14:25:20 [main] convert is running... ... ...
+2016/10/27 14:25:22 [■ ２b ■][runConvertMovies][MOV_0696.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] END)
+2016/10/27 14:25:22 [■ ２b ■][runConvertMovies][MOV_0696.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] START)
+2016/10/27 14:25:22 [cmdCreateThumbnail] ls
+2016/10/27 14:25:22 [■ ２b ■][runConvertMovies][MOV_0696.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] END)
+2016/10/27 14:25:22 [■ ２b ■][runConvertMovies][MOV_0696.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] START)
+2016/10/27 14:25:22 [cmdRotateThumbnail] ls
+2016/10/27 14:25:22 [■ ２b ■][runConvertMovies][MOV_0696.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] END)
+2016/10/27 14:25:22 [■ ２b ■][runConvertMovies][MOV_0696.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 START)
+2016/10/27 14:25:22 [inputPath] C:/temp/mc/in/MOV_0696.mp4
+2016/10/27 14:25:22 [■ ２b ■][runConvertMovies][MOV_0696.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 END)
+2016/10/27 14:25:22 [■ ２b ■][runConvertMovies][MOV_7431.mp4] START
+2016/10/27 14:25:22 [■ ２b ■][runConvertMovies][MOV_7431.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] START)
+2016/10/27 14:25:22 [inputPath] C:/temp/mc/in/MOV_7431.mp4
+2016/10/27 14:25:22 [outputPath] C:/temp/mc/out/MOV_7431.mp4
+2016/10/27 14:25:22 [cmdConvertVideo] cp C:/temp/mc/in/MOV_7431.mp4 C:/temp/mc/out/MOV_7431.mp4
+2016/10/27 14:25:22 [■ ２b ■][runConvertMovies][MOV_7364.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] END)
+2016/10/27 14:25:22 [■ ２b ■][runConvertMovies][MOV_7364.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] START)
+2016/10/27 14:25:22 [cmdCreateThumbnail] ls
+2016/10/27 14:25:22 [■ ２b ■][runConvertMovies][MOV_7364.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] END)
+2016/10/27 14:25:22 [■ ２b ■][runConvertMovies][MOV_7364.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] START)
+2016/10/27 14:25:22 [cmdRotateThumbnail] ls
+2016/10/27 14:25:22 [■ ２b ■][runConvertMovies][MOV_7364.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] END)
+2016/10/27 14:25:22 [■ ２b ■][runConvertMovies][MOV_7364.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 START)
+2016/10/27 14:25:22 [inputPath] C:/temp/mc/in/MOV_7364.mp4
+2016/10/27 14:25:23 [■ ２b ■][runConvertMovies][MOV_7364.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 END)
+2016/10/27 14:25:23 [■ ２b ■][runConvertMovies][MOV_0791.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] END)
+2016/10/27 14:25:23 [■ ２b ■][runConvertMovies][MOV_0791.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] START)
+2016/10/27 14:25:23 [cmdCreateThumbnail] ls
+2016/10/27 14:25:23 [■ ２b ■][runConvertMovies][MOV_0791.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] END)
+2016/10/27 14:25:23 [■ ２b ■][runConvertMovies][MOV_0791.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] START)
+2016/10/27 14:25:23 [cmdRotateThumbnail] ls
+2016/10/27 14:25:23 [■ ２b ■][runConvertMovies][MOV_0791.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] END)
+2016/10/27 14:25:23 [■ ２b ■][runConvertMovies][MOV_0791.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 START)
+2016/10/27 14:25:23 [inputPath] C:/temp/mc/in/MOV_0791.mp4
+2016/10/27 14:25:23 [■ ２b ■][runConvertMovies][MOV_0791.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 END)
+2016/10/27 14:25:23 [■ ２b ■][runConvertMovies][MOV_0787.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] END)
+2016/10/27 14:25:23 [■ ２b ■][runConvertMovies][MOV_0787.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] START)
+2016/10/27 14:25:23 [cmdCreateThumbnail] ls
+2016/10/27 14:25:23 [■ ２b ■][runConvertMovies][MOV_0787.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] END)
+2016/10/27 14:25:23 [■ ２b ■][runConvertMovies][MOV_0787.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] START)
+2016/10/27 14:25:23 [cmdRotateThumbnail] ls
+2016/10/27 14:25:23 [■ ２b ■][runConvertMovies][MOV_0787.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] END)
+2016/10/27 14:25:23 [■ ２b ■][runConvertMovies][MOV_0787.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 START)
+2016/10/27 14:25:23 [inputPath] C:/temp/mc/in/MOV_0787.mp4
+2016/10/27 14:25:23 [■ ２b ■][runConvertMovies][MOV_0787.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 END)
+2016/10/27 14:25:23 [■ ２b ■][runConvertMovies][MOV_7419.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] END)
+2016/10/27 14:25:23 [■ ２b ■][runConvertMovies][MOV_7419.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] START)
+2016/10/27 14:25:23 [cmdCreateThumbnail] ls
+2016/10/27 14:25:23 [■ ２b ■][runConvertMovies][MOV_7419.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] END)
+2016/10/27 14:25:23 [■ ２b ■][runConvertMovies][MOV_7419.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] START)
+2016/10/27 14:25:23 [cmdRotateThumbnail] ls
+2016/10/27 14:25:23 [main] convert is running... ... ...
+2016/10/27 14:25:23 [■ ２b ■][runConvertMovies][MOV_7419.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] END)
+2016/10/27 14:25:23 [■ ２b ■][runConvertMovies][MOV_7419.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 START)
+2016/10/27 14:25:23 [inputPath] C:/temp/mc/in/MOV_7419.mp4
+2016/10/27 14:25:23 [■ ２b ■][runConvertMovies][MOV_7419.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 END)
+2016/10/27 14:25:25 [■ ２b ■][runConvertMovies][MOV_7431.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] END)
+2016/10/27 14:25:25 [■ ２b ■][runConvertMovies][MOV_7431.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] START)
+2016/10/27 14:25:25 [cmdCreateThumbnail] ls
+2016/10/27 14:25:25 [■ ２b ■][runConvertMovies][MOV_7431.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] END)
+2016/10/27 14:25:25 [■ ２b ■][runConvertMovies][MOV_7431.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] START)
+2016/10/27 14:25:25 [cmdRotateThumbnail] ls
+2016/10/27 14:25:25 [■ ２b ■][runConvertMovies][MOV_7431.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] END)
+2016/10/27 14:25:25 [■ ２b ■][runConvertMovies][MOV_7431.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 START)
+2016/10/27 14:25:25 [inputPath] C:/temp/mc/in/MOV_7431.mp4
+2016/10/27 14:25:25 [■ ２b ■][runConvertMovies][MOV_7431.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 END)
+2016/10/27 14:25:25 [■ ２ ■][convert] END
+2016/10/27 14:25:25 [■ ３ ■][deploy] START
+2016/10/27 14:25:25 [■ ３ ■][deploy] walk target directory:  C:/temp/mc/out
+2016/10/27 14:25:25 [■ ３ ■][deploy] C:\temp\mc\out\00027_1.mp4
+2016/10/27 14:25:25 [■ ３ ■][deploy] C:\temp\mc\out\00075_1.mp4
+2016/10/27 14:25:25 [■ ３ ■][deploy] C:\temp\mc\out\MOV_0155.mp4
+2016/10/27 14:25:25 [■ ３ ■][deploy] C:\temp\mc\out\MOV_0166.mp4
+2016/10/27 14:25:25 [■ ３ ■][deploy] C:\temp\mc\out\MOV_0225.mp4
+2016/10/27 14:25:25 [■ ３ ■][deploy] C:\temp\mc\out\MOV_0638.mp4
+2016/10/27 14:25:25 [■ ３ ■][deploy] C:\temp\mc\out\MOV_0644.mp4
+2016/10/27 14:25:25 [■ ３ ■][deploy] C:\temp\mc\out\MOV_0654.mp4
+2016/10/27 14:25:25 [■ ３ ■][deploy] C:\temp\mc\out\MOV_0659.mp4
+2016/10/27 14:25:25 [■ ３ ■][deploy] C:\temp\mc\out\MOV_0696.mp4
+2016/10/27 14:25:25 [■ ３ ■][deploy] C:\temp\mc\out\MOV_0787.mp4
+2016/10/27 14:25:25 [■ ３ ■][deploy] C:\temp\mc\out\MOV_0791.mp4
+2016/10/27 14:25:25 [■ ３ ■][deploy] C:\temp\mc\out\MOV_7364.mp4
+2016/10/27 14:25:25 [■ ３ ■][deploy] C:\temp\mc\out\MOV_7419.mp4
+2016/10/27 14:25:25 [■ ３ ■][deploy] C:\temp\mc\out\MOV_7431.mp4
+2016/10/27 14:25:25 [■ ３ ■][deploy] END
+2016/10/27 14:25:26 [■ １ ■][listup] START
+2016/10/27 14:25:26 [■ １b ■][createFileList] START
+2016/10/27 14:25:26 [■ １b ■][createFileList] listfile exists
+2016/10/27 14:25:26 [■ １ ■][listup] createFileList: listfile exists
+2016/10/27 14:25:29 [main] convert is running... ... ...
+2016/10/27 14:25:32 [main] convert is running... ... ...
+2016/10/27 14:25:35 [main] convert is running... ... ...
+2016/10/27 14:25:38 [main] convert is running... ... ...
+2016/10/27 14:25:41 [main] convert is running... ... ...
+2016/10/27 14:25:44 [main] convert is running... ... ...
+2016/10/27 14:25:47 [main] convert is running... ... ...
+2016/10/27 14:25:50 [main] convert is running... ... ...
+2016/10/27 14:25:53 [main] convert is running... ... ...
+2016/10/27 14:25:56 [main] convert is running... ... ...
+2016/10/27 14:26:03 [main]setup log fin.
+2016/10/27 14:26:03 [main]go loop!!!
+2016/10/27 14:26:03 [■ １ ■][listup] START
+2016/10/27 14:26:03 [■ １b ■][createFileList] START
+2016/10/27 14:26:03 [■ １b ■][createFileList] listfile exists
+2016/10/27 14:26:03 [■ １ ■][listup] createFileList: listfile exists
+2016/10/27 14:26:06 [main] convert is running... ... ...
+2016/10/27 14:26:09 [main] convert is running... ... ...
+2016/10/27 14:26:12 [main] convert is running... ... ...
+2016/10/27 14:26:15 [main] convert is running... ... ...
+2016/10/27 14:26:18 [main] convert is running... ... ...
+2016/10/27 14:26:21 [main] convert is running... ... ...
+2016/10/27 14:26:24 [main] convert is running... ... ...
+2016/10/28 03:26:55 [main]setup log fin.
+2016/10/28 03:26:55 [main]go loop!!!
+2016/10/28 03:26:55 <>[Run] IsRunning:  true
+2016/10/28 03:26:55 [■ １ ■][listup] START
+2016/10/28 03:26:55 [■ １b ■][createFileList] START
+2016/10/28 03:26:55 [■ １b ■][createFileList] END
+2016/10/28 03:26:55 [■ １ ■][listup] END
+2016/10/28 03:26:55 [■ ２ ■][convert] START
+2016/10/28 03:26:55 MOV_0659.mp4
+2016/10/28 03:26:55 MOV_0696.mp4
+2016/10/28 03:26:55 MOV_0791.mp4
+2016/10/28 03:26:55 [■ ２b ■][runConvertMovies][MOV_0659.mp4] START
+2016/10/28 03:26:55 [■ ２b ■][runConvertMovies][MOV_0696.mp4] START
+2016/10/28 03:26:55 [■ ２b ■][runConvertMovies][MOV_0696.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] START)
+2016/10/28 03:26:55 [inputPath] C:/temp/mc/in/MOV_0696.mp4
+2016/10/28 03:26:55 [outputPath] C:/temp/mc/out/MOV_0696.mp4
+2016/10/28 03:26:55 [■ ２b ■][runConvertMovies][MOV_0791.mp4] START
+2016/10/28 03:26:55 [■ ２b ■][runConvertMovies][MOV_0659.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] START)
+2016/10/28 03:26:55 MOV_7364.mp4
+2016/10/28 03:26:55 [cmdConvertVideo] cp C:/temp/mc/in/MOV_0696.mp4 C:/temp/mc/out/MOV_0696.mp4
+2016/10/28 03:26:55 [■ ２b ■][runConvertMovies][MOV_0791.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] START)
+2016/10/28 03:26:55 [inputPath] C:/temp/mc/in/MOV_0659.mp4
+2016/10/28 03:26:55 [outputPath] C:/temp/mc/out/MOV_0659.mp4
+2016/10/28 03:26:55 [cmdConvertVideo] cp C:/temp/mc/in/MOV_0659.mp4 C:/temp/mc/out/MOV_0659.mp4
+2016/10/28 03:26:55 [inputPath] C:/temp/mc/in/MOV_0791.mp4
+2016/10/28 03:26:55 [outputPath] C:/temp/mc/out/MOV_0791.mp4
+2016/10/28 03:26:55 [cmdConvertVideo] cp C:/temp/mc/in/MOV_0791.mp4 C:/temp/mc/out/MOV_0791.mp4
+2016/10/28 03:26:55 MOV_7419.mp4
+2016/10/28 03:26:55 MOV_7431.mp4
+2016/10/28 03:26:55 [■ ２b ■][runConvertMovies][MOV_7364.mp4] START
+2016/10/28 03:26:55 [■ ２b ■][runConvertMovies][MOV_7364.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] START)
+2016/10/28 03:26:55 [inputPath] C:/temp/mc/in/MOV_7364.mp4
+2016/10/28 03:26:55 [outputPath] C:/temp/mc/out/MOV_7364.mp4
+2016/10/28 03:26:55 [cmdConvertVideo] cp C:/temp/mc/in/MOV_7364.mp4 C:/temp/mc/out/MOV_7364.mp4
+2016/10/28 03:26:55 [■ ２b ■][runConvertMovies][MOV_7431.mp4] START
+2016/10/28 03:26:55 [■ ２b ■][runConvertMovies][MOV_7431.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] START)
+2016/10/28 03:26:55 [inputPath] C:/temp/mc/in/MOV_7431.mp4
+2016/10/28 03:26:55 [outputPath] C:/temp/mc/out/MOV_7431.mp4
+2016/10/28 03:26:55 [cmdConvertVideo] cp C:/temp/mc/in/MOV_7431.mp4 C:/temp/mc/out/MOV_7431.mp4
+2016/10/28 03:26:56 [■ ２b ■][runConvertMovies][MOV_0791.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] END)
+2016/10/28 03:26:56 [■ ２b ■][runConvertMovies][MOV_0791.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] START)
+2016/10/28 03:26:56 [cmdCreateThumbnail] ls
+2016/10/28 03:26:56 [■ ２b ■][runConvertMovies][MOV_0791.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] END)
+2016/10/28 03:26:56 [■ ２b ■][runConvertMovies][MOV_0791.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] START)
+2016/10/28 03:26:56 [cmdRotateThumbnail] ls
+2016/10/28 03:26:56 [■ ２b ■][runConvertMovies][MOV_7431.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] END)
+2016/10/28 03:26:56 [■ ２b ■][runConvertMovies][MOV_7431.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] START)
+2016/10/28 03:26:56 [cmdCreateThumbnail] ls
+2016/10/28 03:26:56 [■ ２b ■][runConvertMovies][MOV_0791.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] END)
+2016/10/28 03:26:56 [■ ２b ■][runConvertMovies][MOV_0791.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 START)
+2016/10/28 03:26:56 [inputPath] C:/temp/mc/in/MOV_0791.mp4
+2016/10/28 03:26:56 [■ ２b ■][runConvertMovies][MOV_0791.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 END)
+2016/10/28 03:26:56 [■ ２b ■][runConvertMovies][MOV_7419.mp4] START
+2016/10/28 03:26:56 [■ ２b ■][runConvertMovies][MOV_7419.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] START)
+2016/10/28 03:26:56 [inputPath] C:/temp/mc/in/MOV_7419.mp4
+2016/10/28 03:26:56 [outputPath] C:/temp/mc/out/MOV_7419.mp4
+2016/10/28 03:26:56 [cmdConvertVideo] cp C:/temp/mc/in/MOV_7419.mp4 C:/temp/mc/out/MOV_7419.mp4
+2016/10/28 03:26:56 [■ ２b ■][runConvertMovies][MOV_7431.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] END)
+2016/10/28 03:26:56 [■ ２b ■][runConvertMovies][MOV_7431.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] START)
+2016/10/28 03:26:56 [cmdRotateThumbnail] ls
+2016/10/28 03:26:56 [■ ２b ■][runConvertMovies][MOV_7364.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] END)
+2016/10/28 03:26:56 [■ ２b ■][runConvertMovies][MOV_7364.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] START)
+2016/10/28 03:26:56 [cmdCreateThumbnail] ls
+2016/10/28 03:26:56 [■ ２b ■][runConvertMovies][MOV_7431.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] END)
+2016/10/28 03:26:56 [■ ２b ■][runConvertMovies][MOV_7431.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 START)
+2016/10/28 03:26:56 [inputPath] C:/temp/mc/in/MOV_7431.mp4
+2016/10/28 03:26:56 [■ ２b ■][runConvertMovies][MOV_7431.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 END)
+2016/10/28 03:26:56 [■ ２b ■][runConvertMovies][MOV_7364.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] END)
+2016/10/28 03:26:56 [■ ２b ■][runConvertMovies][MOV_7364.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] START)
+2016/10/28 03:26:56 [cmdRotateThumbnail] ls
+2016/10/28 03:26:56 [■ ２b ■][runConvertMovies][MOV_7364.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] END)
+2016/10/28 03:26:56 [■ ２b ■][runConvertMovies][MOV_7364.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 START)
+2016/10/28 03:26:56 [inputPath] C:/temp/mc/in/MOV_7364.mp4
+2016/10/28 03:26:56 [■ ２b ■][runConvertMovies][MOV_7364.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 END)
+2016/10/28 03:26:57 [■ ２b ■][runConvertMovies][MOV_0659.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] END)
+2016/10/28 03:26:57 [■ ２b ■][runConvertMovies][MOV_0659.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] START)
+2016/10/28 03:26:57 [cmdCreateThumbnail] ls
+2016/10/28 03:26:57 [■ ２b ■][runConvertMovies][MOV_0659.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] END)
+2016/10/28 03:26:57 [■ ２b ■][runConvertMovies][MOV_0659.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] START)
+2016/10/28 03:26:57 [cmdRotateThumbnail] ls
+2016/10/28 03:26:57 [■ ２b ■][runConvertMovies][MOV_0659.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] END)
+2016/10/28 03:26:57 [■ ２b ■][runConvertMovies][MOV_0659.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 START)
+2016/10/28 03:26:57 [inputPath] C:/temp/mc/in/MOV_0659.mp4
+2016/10/28 03:26:57 [■ ２b ■][runConvertMovies][MOV_0659.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 END)
+2016/10/28 03:26:57 [■ ２b ■][runConvertMovies][MOV_0696.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] END)
+2016/10/28 03:26:57 [■ ２b ■][runConvertMovies][MOV_0696.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] START)
+2016/10/28 03:26:57 [cmdCreateThumbnail] ls
+2016/10/28 03:26:57 [■ ２b ■][runConvertMovies][MOV_0696.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] END)
+2016/10/28 03:26:57 [■ ２b ■][runConvertMovies][MOV_0696.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] START)
+2016/10/28 03:26:57 [cmdRotateThumbnail] ls
+2016/10/28 03:26:57 [■ ２b ■][runConvertMovies][MOV_7419.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] END)
+2016/10/28 03:26:57 [■ ２b ■][runConvertMovies][MOV_7419.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] START)
+2016/10/28 03:26:57 [cmdCreateThumbnail] ls
+2016/10/28 03:26:57 [■ ２b ■][runConvertMovies][MOV_0696.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] END)
+2016/10/28 03:26:57 [■ ２b ■][runConvertMovies][MOV_0696.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 START)
+2016/10/28 03:26:57 [inputPath] C:/temp/mc/in/MOV_0696.mp4
+2016/10/28 03:26:57 [■ ２b ■][runConvertMovies][MOV_0696.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 END)
+2016/10/28 03:26:57 [■ ２b ■][runConvertMovies][MOV_7419.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] END)
+2016/10/28 03:26:57 [■ ２b ■][runConvertMovies][MOV_7419.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] START)
+2016/10/28 03:26:57 [cmdRotateThumbnail] ls
+2016/10/28 03:26:57 [■ ２b ■][runConvertMovies][MOV_7419.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] END)
+2016/10/28 03:26:57 [■ ２b ■][runConvertMovies][MOV_7419.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 START)
+2016/10/28 03:26:57 [inputPath] C:/temp/mc/in/MOV_7419.mp4
+2016/10/28 03:26:57 [■ ２b ■][runConvertMovies][MOV_7419.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 END)
+2016/10/28 03:26:57 [■ ２ ■][convert] END
+2016/10/28 03:26:57 [■ ３ ■][deploy] START
+2016/10/28 03:26:57 [■ ３ ■][deploy] walk target directory:  C:/temp/mc/out
+2016/10/28 03:26:57 [■ ３ ■][deploy] C:\temp\mc\out\MOV_0659.mp4
+2016/10/28 03:26:57 [■ ３ ■][deploy] C:\temp\mc\out\MOV_0696.mp4
+2016/10/28 03:26:57 [■ ３ ■][deploy] C:\temp\mc\out\MOV_0791.mp4
+2016/10/28 03:26:57 [■ ３ ■][deploy] C:\temp\mc\out\MOV_7364.mp4
+2016/10/28 03:26:57 [■ ３ ■][deploy] C:\temp\mc\out\MOV_7419.mp4
+2016/10/28 03:26:57 [■ ３ ■][deploy] C:\temp\mc\out\MOV_7431.mp4
+2016/10/28 03:26:57 [■ ３ ■][deploy] END
+2016/10/28 03:26:57 <>[Run] IsRunning:  false
+2016/10/28 03:26:58 <>[Run] IsRunning:  true
+2016/10/28 03:26:58 [■ １ ■][listup] START
+2016/10/28 03:26:58 [■ １b ■][createFileList] START
+2016/10/28 03:26:58 [■ １b ■][createFileList] listfile exists
+2016/10/28 03:26:58 [■ １ ■][listup] createFileList: listfile exists
+2016/10/28 03:27:01 [main] convert is running... ... ...
+2016/10/28 03:27:04 [main] convert is running... ... ...
+2016/10/28 03:27:07 [main] convert is running... ... ...
+2016/10/28 03:29:04 [main]setup log fin.
+2016/10/28 03:29:04 [main]go loop!!!
+2016/10/28 03:29:04 <>[Run] IsRunning:  true
+2016/10/28 03:29:04 [■ １ ■][listup] START
+2016/10/28 03:29:04 [■ １b ■][createFileList] START
+2016/10/28 03:29:04 [■ １b ■][createFileList] END
+2016/10/28 03:29:04 [■ １ ■][listup] END
+2016/10/28 03:29:04 [■ ２ ■][convert] START
+2016/10/28 03:29:04 MOV_0659.mp4
+2016/10/28 03:29:04 MOV_0696.mp4
+2016/10/28 03:29:04 MOV_0791.mp4
+2016/10/28 03:29:04 [■ ２b ■][runConvertMovies][MOV_0696.mp4] START
+2016/10/28 03:29:04 MOV_7364.mp4
+2016/10/28 03:29:04 [■ ２b ■][runConvertMovies][MOV_0791.mp4] START
+2016/10/28 03:29:04 [■ ２b ■][runConvertMovies][MOV_0791.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] START)
+2016/10/28 03:29:04 [■ ２b ■][runConvertMovies][MOV_0696.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] START)
+2016/10/28 03:29:04 [inputPath] C:/temp/mc/in/MOV_0696.mp4
+2016/10/28 03:29:04 [outputPath] C:/temp/mc/out/MOV_0696.mp4
+2016/10/28 03:29:04 [cmdConvertVideo] cp C:/temp/mc/in/MOV_0696.mp4 C:/temp/mc/out/MOV_0696.mp4
+2016/10/28 03:29:04 [inputPath] C:/temp/mc/in/MOV_0791.mp4
+2016/10/28 03:29:04 [outputPath] C:/temp/mc/out/MOV_0791.mp4
+2016/10/28 03:29:04 [cmdConvertVideo] cp C:/temp/mc/in/MOV_0791.mp4 C:/temp/mc/out/MOV_0791.mp4
+2016/10/28 03:29:04 MOV_7419.mp4
+2016/10/28 03:29:04 MOV_7431.mp4
+2016/10/28 03:29:04 [■ ２b ■][runConvertMovies][MOV_7431.mp4] START
+2016/10/28 03:29:04 [■ ２b ■][runConvertMovies][MOV_7431.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] START)
+2016/10/28 03:29:04 [inputPath] C:/temp/mc/in/MOV_7431.mp4
+2016/10/28 03:29:04 [outputPath] C:/temp/mc/out/MOV_7431.mp4
+2016/10/28 03:29:04 [cmdConvertVideo] cp C:/temp/mc/in/MOV_7431.mp4 C:/temp/mc/out/MOV_7431.mp4
+2016/10/28 03:29:04 [■ ２b ■][runConvertMovies][MOV_0659.mp4] START
+2016/10/28 03:29:04 [■ ２b ■][runConvertMovies][MOV_0659.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] START)
+2016/10/28 03:29:04 [■ ２b ■][runConvertMovies][MOV_7364.mp4] START
+2016/10/28 03:29:04 [■ ２b ■][runConvertMovies][MOV_7364.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] START)
+2016/10/28 03:29:04 [inputPath] C:/temp/mc/in/MOV_7364.mp4
+2016/10/28 03:29:04 [outputPath] C:/temp/mc/out/MOV_7364.mp4
+2016/10/28 03:29:04 [cmdConvertVideo] cp C:/temp/mc/in/MOV_7364.mp4 C:/temp/mc/out/MOV_7364.mp4
+2016/10/28 03:29:04 [inputPath] C:/temp/mc/in/MOV_0659.mp4
+2016/10/28 03:29:04 [outputPath] C:/temp/mc/out/MOV_0659.mp4
+2016/10/28 03:29:04 [cmdConvertVideo] cp C:/temp/mc/in/MOV_0659.mp4 C:/temp/mc/out/MOV_0659.mp4
+2016/10/28 03:29:05 [■ ２b ■][runConvertMovies][MOV_0791.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] END)
+2016/10/28 03:29:05 [■ ２b ■][runConvertMovies][MOV_0791.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] START)
+2016/10/28 03:29:05 [cmdCreateThumbnail] ls
+2016/10/28 03:29:05 [■ ２b ■][runConvertMovies][MOV_0791.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] END)
+2016/10/28 03:29:05 [■ ２b ■][runConvertMovies][MOV_0791.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] START)
+2016/10/28 03:29:05 [cmdRotateThumbnail] ls
+2016/10/28 03:29:05 [■ ２b ■][runConvertMovies][MOV_0791.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] END)
+2016/10/28 03:29:05 [■ ２b ■][runConvertMovies][MOV_0791.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 START)
+2016/10/28 03:29:05 [inputPath] C:/temp/mc/in/MOV_0791.mp4
+2016/10/28 03:29:05 [■ ２b ■][runConvertMovies][MOV_0791.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 END)
+2016/10/28 03:29:05 [■ ２b ■][runConvertMovies][MOV_7419.mp4] START
+2016/10/28 03:29:05 [■ ２b ■][runConvertMovies][MOV_7419.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] START)
+2016/10/28 03:29:05 [inputPath] C:/temp/mc/in/MOV_7419.mp4
+2016/10/28 03:29:05 [outputPath] C:/temp/mc/out/MOV_7419.mp4
+2016/10/28 03:29:05 [cmdConvertVideo] cp C:/temp/mc/in/MOV_7419.mp4 C:/temp/mc/out/MOV_7419.mp4
+2016/10/28 03:29:06 [■ ２b ■][runConvertMovies][MOV_0696.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] END)
+2016/10/28 03:29:06 [■ ２b ■][runConvertMovies][MOV_0696.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] START)
+2016/10/28 03:29:06 [cmdCreateThumbnail] ls
+2016/10/28 03:29:06 [■ ２b ■][runConvertMovies][MOV_7431.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] END)
+2016/10/28 03:29:06 [■ ２b ■][runConvertMovies][MOV_7431.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] START)
+2016/10/28 03:29:06 [cmdCreateThumbnail] ls
+2016/10/28 03:29:06 [■ ２b ■][runConvertMovies][MOV_0696.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] END)
+2016/10/28 03:29:06 [■ ２b ■][runConvertMovies][MOV_0696.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] START)
+2016/10/28 03:29:06 [cmdRotateThumbnail] ls
+2016/10/28 03:29:06 [■ ２b ■][runConvertMovies][MOV_7431.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] END)
+2016/10/28 03:29:06 [■ ２b ■][runConvertMovies][MOV_7431.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] START)
+2016/10/28 03:29:06 [cmdRotateThumbnail] ls
+2016/10/28 03:29:06 [■ ２b ■][runConvertMovies][MOV_0696.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] END)
+2016/10/28 03:29:06 [■ ２b ■][runConvertMovies][MOV_0696.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 START)
+2016/10/28 03:29:06 [inputPath] C:/temp/mc/in/MOV_0696.mp4
+2016/10/28 03:29:06 [■ ２b ■][runConvertMovies][MOV_0696.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 END)
+2016/10/28 03:29:06 [■ ２b ■][runConvertMovies][MOV_7431.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] END)
+2016/10/28 03:29:06 [■ ２b ■][runConvertMovies][MOV_7431.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 START)
+2016/10/28 03:29:06 [inputPath] C:/temp/mc/in/MOV_7431.mp4
+2016/10/28 03:29:06 [■ ２b ■][runConvertMovies][MOV_7431.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 END)
+2016/10/28 03:29:06 [■ ２b ■][runConvertMovies][MOV_0659.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] END)
+2016/10/28 03:29:06 [■ ２b ■][runConvertMovies][MOV_0659.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] START)
+2016/10/28 03:29:06 [cmdCreateThumbnail] ls
+2016/10/28 03:29:06 [■ ２b ■][runConvertMovies][MOV_7364.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] END)
+2016/10/28 03:29:06 [■ ２b ■][runConvertMovies][MOV_7364.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] START)
+2016/10/28 03:29:06 [cmdCreateThumbnail] ls
+2016/10/28 03:29:06 [■ ２b ■][runConvertMovies][MOV_0659.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] END)
+2016/10/28 03:29:06 [■ ２b ■][runConvertMovies][MOV_0659.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] START)
+2016/10/28 03:29:06 [cmdRotateThumbnail] ls
+2016/10/28 03:29:06 [■ ２b ■][runConvertMovies][MOV_7364.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] END)
+2016/10/28 03:29:06 [■ ２b ■][runConvertMovies][MOV_7364.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] START)
+2016/10/28 03:29:06 [cmdRotateThumbnail] ls
+2016/10/28 03:29:06 [■ ２b ■][runConvertMovies][MOV_0659.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] END)
+2016/10/28 03:29:06 [■ ２b ■][runConvertMovies][MOV_0659.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 START)
+2016/10/28 03:29:06 [inputPath] C:/temp/mc/in/MOV_0659.mp4
+2016/10/28 03:29:06 [■ ２b ■][runConvertMovies][MOV_0659.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 END)
+2016/10/28 03:29:06 [■ ２b ■][runConvertMovies][MOV_7419.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] END)
+2016/10/28 03:29:06 [■ ２b ■][runConvertMovies][MOV_7419.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] START)
+2016/10/28 03:29:06 [cmdCreateThumbnail] ls
+2016/10/28 03:29:06 [■ ２b ■][runConvertMovies][MOV_7364.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] END)
+2016/10/28 03:29:06 [■ ２b ■][runConvertMovies][MOV_7364.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 START)
+2016/10/28 03:29:06 [inputPath] C:/temp/mc/in/MOV_7364.mp4
+2016/10/28 03:29:06 [■ ２b ■][runConvertMovies][MOV_7364.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 END)
+2016/10/28 03:29:06 [■ ２b ■][runConvertMovies][MOV_7419.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] END)
+2016/10/28 03:29:06 [■ ２b ■][runConvertMovies][MOV_7419.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] START)
+2016/10/28 03:29:06 [cmdRotateThumbnail] ls
+2016/10/28 03:29:06 [■ ２b ■][runConvertMovies][MOV_7419.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] END)
+2016/10/28 03:29:06 [■ ２b ■][runConvertMovies][MOV_7419.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 START)
+2016/10/28 03:29:06 [inputPath] C:/temp/mc/in/MOV_7419.mp4
+2016/10/28 03:29:06 [■ ２b ■][runConvertMovies][MOV_7419.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 END)
+2016/10/28 03:29:06 [■ ２ ■][convert] END
+2016/10/28 03:29:06 [■ ３ ■][deploy] START
+2016/10/28 03:29:06 [■ ３ ■][deploy] walk target directory:  C:/temp/mc/out
+2016/10/28 03:29:06 [■ ３ ■][deploy] C:\temp\mc\out\MOV_0659.mp4
+2016/10/28 03:29:06 [■ ３ ■][deploy] C:\temp\mc\out\MOV_0696.mp4
+2016/10/28 03:29:07 [■ ３ ■][deploy] C:\temp\mc\out\MOV_0791.mp4
+2016/10/28 03:29:07 [■ ３ ■][deploy] C:\temp\mc\out\MOV_7364.mp4
+2016/10/28 03:29:07 [■ ３ ■][deploy] C:\temp\mc\out\MOV_7419.mp4
+2016/10/28 03:29:07 [■ ３ ■][deploy] C:\temp\mc\out\MOV_7431.mp4
+2016/10/28 03:29:07 [■ ３ ■][deploy] END
+2016/10/28 03:29:07 <>[Run] IsRunning:  false
+2016/10/28 03:29:07 <>[Run] IsRunning:  true
+2016/10/28 03:29:07 [■ １ ■][listup] START
+2016/10/28 03:29:07 [■ １b ■][createFileList] START
+2016/10/28 03:29:07 [■ １b ■][createFileList] listfile exists
+2016/10/28 03:29:07 [■ １ ■][listup] createFileList: listfile exists
+2016/10/28 03:29:07 <>[Run] IsRunning:  false
+2016/10/28 03:29:10 <>[Run] IsRunning:  true
+2016/10/28 03:29:10 [■ １ ■][listup] START
+2016/10/28 03:29:10 [■ １b ■][createFileList] START
+2016/10/28 03:29:10 [■ １b ■][createFileList] listfile exists
+2016/10/28 03:29:10 [■ １ ■][listup] createFileList: listfile exists
+2016/10/28 03:29:10 <>[Run] IsRunning:  false
+2016/10/28 03:29:13 <>[Run] IsRunning:  true
+2016/10/28 03:29:13 [■ １ ■][listup] START
+2016/10/28 03:29:13 [■ １b ■][createFileList] START
+2016/10/28 03:29:13 [■ １b ■][createFileList] listfile exists
+2016/10/28 03:29:13 [■ １ ■][listup] createFileList: listfile exists
+2016/10/28 03:29:13 <>[Run] IsRunning:  false
+2016/10/28 03:29:16 <>[Run] IsRunning:  true
+2016/10/28 03:29:16 [■ １ ■][listup] START
+2016/10/28 03:29:16 [■ １b ■][createFileList] START
+2016/10/28 03:29:16 [■ １b ■][createFileList] listfile exists
+2016/10/28 03:29:16 [■ １ ■][listup] createFileList: listfile exists
+2016/10/28 03:29:16 <>[Run] IsRunning:  false
+2016/10/28 03:29:19 <>[Run] IsRunning:  true
+2016/10/28 03:29:19 [■ １ ■][listup] START
+2016/10/28 03:29:19 [■ １b ■][createFileList] START
+2016/10/28 03:29:19 [■ １b ■][createFileList] listfile exists
+2016/10/28 03:29:19 [■ １ ■][listup] createFileList: listfile exists
+2016/10/28 03:29:19 <>[Run] IsRunning:  false
+2016/10/28 03:31:04 [main]setup log fin.
+2016/10/28 03:31:04 [main]go loop!!!
+2016/10/28 03:31:04 [■ １ ■][listup] START
+2016/10/28 03:31:04 [■ １b ■][createFileList] START
+2016/10/28 03:31:04 [■ １b ■][createFileList] listfile exists
+2016/10/28 03:31:04 [■ １ ■][listup] createFileList: listfile exists
+2016/10/28 03:31:07 [■ １ ■][listup] START
+2016/10/28 03:31:07 [■ １b ■][createFileList] START
+2016/10/28 03:31:07 [■ １b ■][createFileList] listfile exists
+2016/10/28 03:31:07 [■ １ ■][listup] createFileList: listfile exists
+2016/10/28 03:31:10 [■ １ ■][listup] START
+2016/10/28 03:31:10 [■ １b ■][createFileList] START
+2016/10/28 03:31:10 [■ １b ■][createFileList] listfile exists
+2016/10/28 03:31:10 [■ １ ■][listup] createFileList: listfile exists
+2016/10/28 03:34:00 [main]setup log fin.
+2016/10/28 03:34:00 [main]go loop!!!
+2016/10/28 03:34:00 [■ １ ■][listup] createFileList: listfile exists
+2016/10/28 03:34:03 [■ １ ■][listup] createFileList: listfile exists
+2016/10/28 03:34:06 [■ １ ■][listup] createFileList: listfile exists
+2016/10/28 03:34:09 [■ １ ■][listup] createFileList: listfile exists
+2016/10/28 03:39:08 [main]setup log fin.
+2016/10/28 03:39:08 [main]go loop!!!
+2016/10/28 03:39:32 [main]setup log fin.
+2016/10/28 03:39:32 [main]go loop!!!
+2016/10/28 03:39:32 [■ ２ ■][convert] START
+2016/10/28 03:39:32 MOV_0659.mp4
+2016/10/28 03:39:32 MOV_0696.mp4
+2016/10/28 03:39:32 MOV_0791.mp4
+2016/10/28 03:39:32 [■ ２b ■][runConvertMovies][MOV_0659.mp4] START
+2016/10/28 03:39:32 [■ ２b ■][runConvertMovies][MOV_0696.mp4] START
+2016/10/28 03:39:32 [■ ２b ■][runConvertMovies][MOV_0696.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] START)
+2016/10/28 03:39:32 [inputPath] C:/temp/mc/in/MOV_0696.mp4
+2016/10/28 03:39:32 [outputPath] C:/temp/mc/out/MOV_0696.mp4
+2016/10/28 03:39:32 [cmdConvertVideo] cp C:/temp/mc/in/MOV_0696.mp4 C:/temp/mc/out/MOV_0696.mp4
+2016/10/28 03:39:32 [■ ２b ■][runConvertMovies][MOV_0659.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] START)
+2016/10/28 03:39:32 MOV_7364.mp4
+2016/10/28 03:39:32 [■ ２b ■][runConvertMovies][MOV_0791.mp4] START
+2016/10/28 03:39:32 [■ ２b ■][runConvertMovies][MOV_0791.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] START)
+2016/10/28 03:39:32 MOV_7419.mp4
+2016/10/28 03:39:32 MOV_7431.mp4
+2016/10/28 03:39:32 [inputPath] C:/temp/mc/in/MOV_0659.mp4
+2016/10/28 03:39:32 [outputPath] C:/temp/mc/out/MOV_0659.mp4
+2016/10/28 03:39:32 [cmdConvertVideo] cp C:/temp/mc/in/MOV_0659.mp4 C:/temp/mc/out/MOV_0659.mp4
+2016/10/28 03:39:32 [■ ２b ■][runConvertMovies][MOV_7419.mp4] START
+2016/10/28 03:39:32 [■ ２b ■][runConvertMovies][MOV_7419.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] START)
+2016/10/28 03:39:32 [inputPath] C:/temp/mc/in/MOV_7419.mp4
+2016/10/28 03:39:32 [outputPath] C:/temp/mc/out/MOV_7419.mp4
+2016/10/28 03:39:32 [cmdConvertVideo] cp C:/temp/mc/in/MOV_7419.mp4 C:/temp/mc/out/MOV_7419.mp4
+2016/10/28 03:39:32 [inputPath] C:/temp/mc/in/MOV_0791.mp4
+2016/10/28 03:39:32 [outputPath] C:/temp/mc/out/MOV_0791.mp4
+2016/10/28 03:39:32 [cmdConvertVideo] cp C:/temp/mc/in/MOV_0791.mp4 C:/temp/mc/out/MOV_0791.mp4
+2016/10/28 03:39:32 [■ ２b ■][runConvertMovies][MOV_7364.mp4] START
+2016/10/28 03:39:32 [■ ２b ■][runConvertMovies][MOV_7364.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] START)
+2016/10/28 03:39:32 [inputPath] C:/temp/mc/in/MOV_7364.mp4
+2016/10/28 03:39:32 [outputPath] C:/temp/mc/out/MOV_7364.mp4
+2016/10/28 03:39:32 [cmdConvertVideo] cp C:/temp/mc/in/MOV_7364.mp4 C:/temp/mc/out/MOV_7364.mp4
+2016/10/28 03:39:33 [■ ２b ■][runConvertMovies][MOV_0696.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] END)
+2016/10/28 03:39:33 [■ ２b ■][runConvertMovies][MOV_0696.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] START)
+2016/10/28 03:39:33 [cmdCreateThumbnail] ls
+2016/10/28 03:39:33 [■ ２b ■][runConvertMovies][MOV_0659.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] END)
+2016/10/28 03:39:33 [■ ２b ■][runConvertMovies][MOV_0659.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] START)
+2016/10/28 03:39:33 [cmdCreateThumbnail] ls
+2016/10/28 03:39:33 [■ ２b ■][runConvertMovies][MOV_0696.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] END)
+2016/10/28 03:39:33 [■ ２b ■][runConvertMovies][MOV_0696.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] START)
+2016/10/28 03:39:33 [cmdRotateThumbnail] ls
+2016/10/28 03:39:33 [■ ２b ■][runConvertMovies][MOV_0659.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] END)
+2016/10/28 03:39:33 [■ ２b ■][runConvertMovies][MOV_0659.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] START)
+2016/10/28 03:39:33 [cmdRotateThumbnail] ls
+2016/10/28 03:39:33 [■ ２b ■][runConvertMovies][MOV_0696.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] END)
+2016/10/28 03:39:33 [■ ２b ■][runConvertMovies][MOV_0696.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 START)
+2016/10/28 03:39:33 [inputPath] C:/temp/mc/in/MOV_0696.mp4
+2016/10/28 03:39:33 [■ ２b ■][runConvertMovies][MOV_0696.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 END)
+2016/10/28 03:39:33 [■ ２b ■][runConvertMovies][MOV_7431.mp4] START
+2016/10/28 03:39:33 [■ ２b ■][runConvertMovies][MOV_7431.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] START)
+2016/10/28 03:39:33 [inputPath] C:/temp/mc/in/MOV_7431.mp4
+2016/10/28 03:39:33 [outputPath] C:/temp/mc/out/MOV_7431.mp4
+2016/10/28 03:39:33 [cmdConvertVideo] cp C:/temp/mc/in/MOV_7431.mp4 C:/temp/mc/out/MOV_7431.mp4
+2016/10/28 03:39:33 [■ ２b ■][runConvertMovies][MOV_0659.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] END)
+2016/10/28 03:39:33 [■ ２b ■][runConvertMovies][MOV_0659.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 START)
+2016/10/28 03:39:33 [inputPath] C:/temp/mc/in/MOV_0659.mp4
+2016/10/28 03:39:33 [■ ２b ■][runConvertMovies][MOV_0659.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 END)
+2016/10/28 03:39:33 [■ ２b ■][runConvertMovies][MOV_7419.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] END)
+2016/10/28 03:39:33 [■ ２b ■][runConvertMovies][MOV_7419.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] START)
+2016/10/28 03:39:33 [cmdCreateThumbnail] ls
+2016/10/28 03:39:33 [■ ２b ■][runConvertMovies][MOV_7364.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] END)
+2016/10/28 03:39:33 [■ ２b ■][runConvertMovies][MOV_7364.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] START)
+2016/10/28 03:39:33 [cmdCreateThumbnail] ls
+2016/10/28 03:39:34 [■ ２b ■][runConvertMovies][MOV_0791.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] END)
+2016/10/28 03:39:34 [■ ２b ■][runConvertMovies][MOV_0791.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] START)
+2016/10/28 03:39:34 [cmdCreateThumbnail] ls
+2016/10/28 03:39:34 [■ ２b ■][runConvertMovies][MOV_7419.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] END)
+2016/10/28 03:39:34 [■ ２b ■][runConvertMovies][MOV_7419.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] START)
+2016/10/28 03:39:34 [cmdRotateThumbnail] ls
+2016/10/28 03:39:34 [■ ２b ■][runConvertMovies][MOV_7364.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] END)
+2016/10/28 03:39:34 [■ ２b ■][runConvertMovies][MOV_7364.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] START)
+2016/10/28 03:39:34 [cmdRotateThumbnail] ls
+2016/10/28 03:39:34 [■ ２b ■][runConvertMovies][MOV_0791.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] END)
+2016/10/28 03:39:34 [■ ２b ■][runConvertMovies][MOV_0791.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] START)
+2016/10/28 03:39:34 [cmdRotateThumbnail] ls
+2016/10/28 03:39:34 [■ ２b ■][runConvertMovies][MOV_7419.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] END)
+2016/10/28 03:39:34 [■ ２b ■][runConvertMovies][MOV_7419.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 START)
+2016/10/28 03:39:34 [inputPath] C:/temp/mc/in/MOV_7419.mp4
+2016/10/28 03:39:34 [■ ２b ■][runConvertMovies][MOV_7419.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 END)
+2016/10/28 03:39:34 [■ ２b ■][runConvertMovies][MOV_7364.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] END)
+2016/10/28 03:39:34 [■ ２b ■][runConvertMovies][MOV_7364.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 START)
+2016/10/28 03:39:34 [inputPath] C:/temp/mc/in/MOV_7364.mp4
+2016/10/28 03:39:34 [■ ２b ■][runConvertMovies][MOV_7364.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 END)
+2016/10/28 03:39:34 [■ ２b ■][runConvertMovies][MOV_0791.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] END)
+2016/10/28 03:39:34 [■ ２b ■][runConvertMovies][MOV_0791.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 START)
+2016/10/28 03:39:34 [inputPath] C:/temp/mc/in/MOV_0791.mp4
+2016/10/28 03:39:34 [■ ２b ■][runConvertMovies][MOV_0791.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 END)
+2016/10/28 03:39:34 [■ ２b ■][runConvertMovies][MOV_7431.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] END)
+2016/10/28 03:39:34 [■ ２b ■][runConvertMovies][MOV_7431.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] START)
+2016/10/28 03:39:34 [cmdCreateThumbnail] ls
+2016/10/28 03:39:34 [■ ２b ■][runConvertMovies][MOV_7431.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] END)
+2016/10/28 03:39:34 [■ ２b ■][runConvertMovies][MOV_7431.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] START)
+2016/10/28 03:39:34 [cmdRotateThumbnail] ls
+2016/10/28 03:39:34 [■ ２b ■][runConvertMovies][MOV_7431.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] END)
+2016/10/28 03:39:34 [■ ２b ■][runConvertMovies][MOV_7431.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 START)
+2016/10/28 03:39:34 [inputPath] C:/temp/mc/in/MOV_7431.mp4
+2016/10/28 03:39:34 [■ ２b ■][runConvertMovies][MOV_7431.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 END)
+2016/10/28 03:39:34 [■ ２ ■][convert] END
+2016/10/28 03:39:34 [■ ３ ■][deploy] START
+2016/10/28 03:39:34 [■ ３ ■][deploy] walk target directory:  C:/temp/mc/out
+2016/10/28 03:39:34 [■ ３ ■][deploy] C:\temp\mc\out\MOV_0659.mp4
+2016/10/28 03:39:34 [■ ３ ■][deploy] C:\temp\mc\out\MOV_0696.mp4
+2016/10/28 03:39:34 [■ ３ ■][deploy] C:\temp\mc\out\MOV_0791.mp4
+2016/10/28 03:39:34 [■ ３ ■][deploy] C:\temp\mc\out\MOV_7364.mp4
+2016/10/28 03:39:34 [■ ３ ■][deploy] C:\temp\mc\out\MOV_7419.mp4
+2016/10/28 03:39:34 [■ ３ ■][deploy] C:\temp\mc\out\MOV_7431.mp4
+2016/10/28 03:39:34 [■ ３ ■][deploy] END
+2016/10/28 03:39:50 [■ ２ ■][convert] START
+2016/10/28 03:39:50 [■ ２ ■][convert] END
+2016/10/28 03:39:50 [■ ３ ■][deploy] START
+2016/10/28 03:39:50 [■ ３ ■][deploy] walk target directory:  C:/temp/mc/out
+2016/10/28 03:39:50 [■ ３ ■][deploy] END
+2016/10/28 03:40:29 [■ ２ ■][convert] START
+2016/10/28 03:40:29 00027_1.mp4
+2016/10/28 03:40:29 00075_1.mp4
+2016/10/28 03:40:29 [■ ２b ■][runConvertMovies][00027_1.mp4] START
+2016/10/28 03:40:29 [■ ２b ■][runConvertMovies][00027_1.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] START)
+2016/10/28 03:40:29 [■ ２b ■][runConvertMovies][00075_1.mp4] START
+2016/10/28 03:40:29 [■ ２b ■][runConvertMovies][00075_1.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] START)
+2016/10/28 03:40:29 [inputPath] C:/temp/mc/in/00027_1.mp4
+2016/10/28 03:40:29 [outputPath] C:/temp/mc/out/00027_1.mp4
+2016/10/28 03:40:29 [inputPath] C:/temp/mc/in/00075_1.mp4
+2016/10/28 03:40:29 [outputPath] C:/temp/mc/out/00075_1.mp4
+2016/10/28 03:40:29 [cmdConvertVideo] cp C:/temp/mc/in/00075_1.mp4 C:/temp/mc/out/00075_1.mp4
+2016/10/28 03:40:29 [cmdConvertVideo] cp C:/temp/mc/in/00027_1.mp4 C:/temp/mc/out/00027_1.mp4
+2016/10/28 03:40:30 [■ ２b ■][runConvertMovies][00027_1.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] END)
+2016/10/28 03:40:30 [■ ２b ■][runConvertMovies][00027_1.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] START)
+2016/10/28 03:40:30 [cmdCreateThumbnail] ls
+2016/10/28 03:40:30 [■ ２b ■][runConvertMovies][00027_1.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] END)
+2016/10/28 03:40:30 [■ ２b ■][runConvertMovies][00027_1.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] START)
+2016/10/28 03:40:30 [cmdRotateThumbnail] ls
+2016/10/28 03:40:30 [■ ２b ■][runConvertMovies][00027_1.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] END)
+2016/10/28 03:40:30 [■ ２b ■][runConvertMovies][00027_1.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 START)
+2016/10/28 03:40:30 [inputPath] C:/temp/mc/in/00027_1.mp4
+2016/10/28 03:40:30 [■ ２b ■][runConvertMovies][00027_1.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 END)
+2016/10/28 03:40:30 [■ ２b ■][runConvertMovies][00075_1.mp4]%!(EXTRA string=ffmpeg[動画サイズ削減] END)
+2016/10/28 03:40:30 [■ ２b ■][runConvertMovies][00075_1.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] START)
+2016/10/28 03:40:30 [cmdCreateThumbnail] ls
+2016/10/28 03:40:30 [■ ２b ■][runConvertMovies][00075_1.mp4]%!(EXTRA string=ffmpeg[サムネイル画像抽出] END)
+2016/10/28 03:40:30 [■ ２b ■][runConvertMovies][00075_1.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] START)
+2016/10/28 03:40:30 [cmdRotateThumbnail] ls
+2016/10/28 03:40:30 [■ ２b ■][runConvertMovies][00075_1.mp4]%!(EXTRA string=ffmpeg[サムネイル画像をローテート] END)
+2016/10/28 03:40:30 [■ ２b ■][runConvertMovies][00075_1.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 START)
+2016/10/28 03:40:30 [inputPath] C:/temp/mc/in/00075_1.mp4
+2016/10/28 03:40:31 [■ ２b ■][runConvertMovies][00075_1.mp4]%!(EXTRA string=処理済みの変換前動画（サイズ大）を削除 END)
+2016/10/28 03:40:31 [■ ２ ■][convert] END
+2016/10/28 03:40:31 [■ ３ ■][deploy] START
+2016/10/28 03:40:31 [■ ３ ■][deploy] walk target directory:  C:/temp/mc/out
+2016/10/28 03:40:31 [■ ３ ■][deploy] C:\temp\mc\out\00027_1.mp4
+2016/10/28 03:40:31 [■ ３ ■][deploy] C:\temp\mc\out\00075_1.mp4
+2016/10/28 03:40:31 [■ ３ ■][deploy] END

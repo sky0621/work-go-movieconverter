@@ -21,8 +21,12 @@ var IsRunning bool
 
 // Run ...
 func Run(cInfo *ConvertInfo) {
+	const fname = "<>[Run]"
 
 	IsRunning = true
+	defer func() {
+		IsRunning = false
+	}()
 
 	// まず、リストアップ
 	err := listup(cInfo.InputDir)
@@ -35,51 +39,31 @@ func Run(cInfo *ConvertInfo) {
 	if err != nil {
 		return
 	}
-	rerr := os.Remove(joinPath(cInfo.InputDir, listfile)) // コンバート成功をもって、リストアップしたファイルも削除
-	if rerr != nil {
-		log.Println("[after convert]", rerr)
-		return
-	}
+	// rerr := os.Remove(joinPath(cInfo.InputDir, listfile)) // コンバート成功をもって、リストアップしたファイルも削除
+	// if rerr != nil {
+	// 	log.Println("[after convert]", rerr)
+	// 	return
+	// }
 
 	// 最後に、コンバートしたファイルをデプロイ
 	err = deploy(cInfo)
 	if err != nil {
 		return
 	}
-
-	IsRunning = false
-}
-
-func deploy(cInfo *ConvertInfo) error {
-	const fname = "[■ ３ ■][deploy]"
-	log.Println(fname, "START")
-
-	filepath.Walk(
-		cInfo.outputPath(),
-		func(path string, info os.FileInfo, err error) error {
-			if info.IsDir() {
-				return nil
-			}
-			log.Println(fname, path)
-			lerr := os.Link(path, joinPath(cInfo.DeployDir, info.Name()))
-			if lerr != nil {
-				log.Println(fname, lerr)
-			}
-			return nil
-		})
-	log.Println(fname, "END")
-	return nil
 }
 
 func listup(inputDir string) error {
 	const fname = "[■ １ ■][listup]"
-	log.Println(fname, "START")
+	// log.Println(fname, "START")
 
 	// リストアップファイルを作成（※作成済み＝後続タスクで未処理のため、以降の処理は行わない）
-	cerr := createFileList(inputDir)
+	isExist, cerr := createFileList(inputDir)
 	if cerr != nil {
 		log.Println(fname, "createFileList:", cerr)
 		return cerr
+	}
+	if isExist {
+		return errors.New("listfile exists")
 	}
 
 	// 監視ディレクトリ配下のファイル情報一覧を取得
@@ -87,6 +71,11 @@ func listup(inputDir string) error {
 	if rerr != nil {
 		log.Println(fname, "ioutil.ReadDir(inputDir):", rerr)
 		return rerr
+	}
+	// インプット無いならそこで処理終了
+	if len(fileInfos) == 0 {
+		log.Println(fname, "input file not exists")
+		return errors.New("input file not exists")
 	}
 
 	// リストアップファイルにファイル情報（ファイル名、作成日時）を出力
@@ -109,25 +98,25 @@ func listup(inputDir string) error {
 	}
 	writer.Flush()
 
-	log.Println(fname, "END")
+	// log.Println(fname, "END")
 	return nil
 }
 
-func createFileList(inputDir string) error {
+func createFileList(inputDir string) (bool, error) {
 	const fname = "[■ １b ■][createFileList]"
-	log.Println(fname, "START")
+	// log.Println(fname, "START")
 	_, serr := os.Stat(joinPath(inputDir, listfile))
 	if serr == nil {
-		log.Println(fname, "listfile exists")
-		return errors.New("listfile exists")
+		// log.Println(fname, "listfile exists")
+		return true, nil
 	}
 	file, err := os.Create(joinPath(inputDir, listfile))
 	if err != nil {
-		return err
+		return false, err
 	}
 	defer file.Close()
-	log.Println(fname, "END")
-	return nil
+	// log.Println(fname, "END")
+	return false, nil
 }
 
 func convert(cInfo *ConvertInfo) error {
@@ -228,4 +217,30 @@ func runConvertMovies(cInfo ConvertInfo, semaphore chan int, notify chan<- int, 
 	log.Printf(fname, "処理済みの変換前動画（サイズ大）を削除 END")
 	<-semaphore
 	notify <- no
+}
+
+func deploy(cInfo *ConvertInfo) error {
+	const fname = "[■ ３ ■][deploy]"
+	log.Println(fname, "START")
+	log.Println(fname, "walk target directory: ", cInfo.OutputDir)
+
+	filepath.Walk(
+		cInfo.OutputDir,
+		func(path string, info os.FileInfo, err error) error {
+			if info.IsDir() {
+				return nil
+			}
+			log.Println(fname, path)
+			lerr := os.Link(path, joinPath(cInfo.DeployDir, info.Name()))
+			if lerr != nil {
+				log.Println(fname, lerr)
+			}
+			rerr := os.Remove(path)
+			if rerr != nil {
+				log.Println(fname, rerr)
+			}
+			return nil
+		})
+	log.Println(fname, "END")
+	return nil
 }

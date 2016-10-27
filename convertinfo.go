@@ -1,6 +1,9 @@
 package movieconverter
 
-import "log"
+import (
+	"log"
+	"path/filepath"
+)
 
 // ConvertInfo ...
 type ConvertInfo struct {
@@ -12,36 +15,36 @@ type ConvertInfo struct {
 }
 
 func (c *ConvertInfo) inputPath() string {
-	s := c.InputDir + "/" + c.Filename
-	// s := filepath.Join(c.InputDir, c.Filename)
+	// s := c.InputDir + "/" + c.Filename
+	s := filepath.Join(c.InputDir, c.Filename)
 	log.Println("[inputPath]", s)
 	return s
 }
 
 func (c *ConvertInfo) outputPath() string {
-	s := c.OutputDir + "/" + c.Filename
-	// s := filepath.Join(c.OutputDir, c.Filename)
+	// s := c.OutputDir + "/" + c.Filename
+	s := filepath.Join(c.OutputDir, c.Filename)
 	log.Println("[outputPath]", s)
 	return s
 }
 
 func (c *ConvertInfo) cmdConvertVideo() string {
-	s := "cp " + c.inputPath() + " " + c.outputPath()
-	// s := "ffmpeg -i " + c.inputPath() + " -vf scale=" + c.Scale + ":-1 " + c.outputPath()
+	// s := "cp " + c.inputPath() + " " + c.outputPath()
+	s := "ffmpeg -i " + c.inputPath() + " -vf scale=" + c.Scale + ":-1 " + c.outputPath()
 	log.Println("[cmdConvertVideo]", s)
 	return s
 }
 
 func (c *ConvertInfo) cmdCreateThumbnail() string {
-	s := "ls"
-	// s := "ffmpeg -i " + c.outputPath() + " -ss 1 -t 1 -r 1 -f image2 " + c.outputPath() + ".jpg"
+	// s := "ls"
+	s := "ffmpeg -i " + c.outputPath() + " -ss 1 -t 1 -r 1 -f image2 " + c.outputPath() + ".jpg"
 	log.Println("[cmdCreateThumbnail]", s)
 	return s
 }
 
 func (c *ConvertInfo) cmdRotateThumbnail() string {
-	s := "ls"
-	// s := "convert -rotate 90 " + c.outputPath() + ".jpg " + c.outputPath() + "r.jpg"
+	// s := "ls"
+	s := "convert -rotate 90 " + c.outputPath() + ".jpg " + c.outputPath() + "r.jpg"
 	log.Println("[cmdRotateThumbnail]", s)
 	return s
 }
@@ -56,6 +59,6 @@ func joinPath(paths ...string) string {
 		}
 	}
 	// s = filepath.Join(paths...)
-	log.Println("[joinPath]", s)
+	// log.Println("[joinPath]", s)
 	return s
 }
