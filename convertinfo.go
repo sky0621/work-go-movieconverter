@@ -29,9 +29,9 @@ func (c *ConvertInfo) outputPath() string {
 func (c *ConvertInfo) deployPath(targetFile string) string {
 	// 動画と画像の振り分け（※拡張子完全固定・・・）
 	switch filepath.Ext(targetFile) {
-	case "mp4":
+	case ".mp4":
 		return joinPath(c.DeployDirVdo, targetFile)
-	case "jpg":
+	case ".jpg":
 		return joinPath(c.DeployDirImg, targetFile)
 	}
 	return ""
