@@ -121,7 +121,7 @@ func createFileList(inputDir string) (bool, error) {
 
 func convert(cInfo *ConvertInfo) error {
 	const fname = "[■ ２ ■][convert]"
-	log.Println(fname, "START")
+	// log.Println(fname, "START")
 
 	sema := make(chan int, maxProcesses)
 
@@ -155,7 +155,7 @@ func convert(cInfo *ConvertInfo) error {
 		<-notify // 他のゴルーチンからの終了通知を待つ
 	}
 
-	log.Println(fname, "END")
+	// log.Println(fname, "END")
 	return nil
 }
 
@@ -163,11 +163,11 @@ func convert(cInfo *ConvertInfo) error {
 func runConvertMovies(cInfo ConvertInfo, semaphore chan int, notify chan<- int, no int) {
 	fname := "[■ ２b ■][runConvertMovies][" + cInfo.Filename + "]"
 	semaphore <- 0
-	log.Println(fname, "START")
+	// log.Println(fname, "START")
 	/*
 	 * ffmpeg[動画サイズ削減]
 	 */
-	log.Printf(fname, "ffmpeg[動画サイズ削減] START")
+	// log.Printf(fname, "ffmpeg[動画サイズ削減] START")
 	cmd := exec.Command(os.Getenv("SHELL"), "-c", cInfo.cmdConvertVideo())
 	err := cmd.Run()
 	if err != nil {
@@ -176,12 +176,12 @@ func runConvertMovies(cInfo ConvertInfo, semaphore chan int, notify chan<- int, 
 		notify <- no
 		return
 	}
-	log.Printf(fname, "ffmpeg[動画サイズ削減] END")
+	// log.Printf(fname, "ffmpeg[動画サイズ削減] END")
 
 	/*
 	 * ffmpeg[サムネイル画像抽出]
 	 */
-	log.Printf(fname, "ffmpeg[サムネイル画像抽出] START")
+	// log.Printf(fname, "ffmpeg[サムネイル画像抽出] START")
 	cmd = exec.Command(os.Getenv("SHELL"), "-c", cInfo.cmdCreateThumbnail())
 	err = cmd.Run()
 	if err != nil {
@@ -190,12 +190,12 @@ func runConvertMovies(cInfo ConvertInfo, semaphore chan int, notify chan<- int, 
 		notify <- no
 		return
 	}
-	log.Printf(fname, "ffmpeg[サムネイル画像抽出] END")
+	// log.Printf(fname, "ffmpeg[サムネイル画像抽出] END")
 
 	/*
 	 * convert by ImageMagick [サムネイル画像をローテート]
 	 */
-	log.Printf(fname, "ffmpeg[サムネイル画像をローテート] START")
+	// log.Printf(fname, "ffmpeg[サムネイル画像をローテート] START")
 	cmd = exec.Command(os.Getenv("SHELL"), "-c", cInfo.cmdRotateThumbnail())
 	err = cmd.Run()
 	if err != nil {
@@ -204,25 +204,25 @@ func runConvertMovies(cInfo ConvertInfo, semaphore chan int, notify chan<- int, 
 		notify <- no
 		return
 	}
-	log.Printf(fname, "ffmpeg[サムネイル画像をローテート] END")
+	// log.Printf(fname, "ffmpeg[サムネイル画像をローテート] END")
 
 	/*
 	 * 処理済みの変換前動画（サイズ大）を削除
 	 */
-	log.Printf(fname, "処理済みの変換前動画（サイズ大）を削除 START")
+	// log.Printf(fname, "処理済みの変換前動画（サイズ大）を削除 START")
 	err = os.Remove(cInfo.inputPath())
 	if err != nil {
 		log.Println(fname, err)
 	}
-	log.Printf(fname, "処理済みの変換前動画（サイズ大）を削除 END")
+	// log.Printf(fname, "処理済みの変換前動画（サイズ大）を削除 END")
 	<-semaphore
 	notify <- no
 }
 
 func deploy(cInfo *ConvertInfo) error {
 	const fname = "[■ ３ ■][deploy]"
-	log.Println(fname, "START")
-	log.Println(fname, "walk target directory: ", cInfo.OutputDir)
+	// log.Println(fname, "START")
+	// log.Println(fname, "walk target directory: ", cInfo.OutputDir)
 
 	filepath.Walk(
 		cInfo.OutputDir,
@@ -230,8 +230,13 @@ func deploy(cInfo *ConvertInfo) error {
 			if info.IsDir() {
 				return nil
 			}
-			log.Println(fname, path)
-			lerr := os.Link(path, joinPath(cInfo.DeployDir, info.Name()))
+			// log.Println(fname, path)
+			deployPath := cInfo.deployPath(info.Name())
+			if deployPath == "" {
+				log.Println(fname, "not target Ext: "+info.Name())
+				return nil
+			}
+			lerr := os.Link(path, deployPath)
 			if lerr != nil {
 				log.Println(fname, lerr)
 			}
@@ -241,6 +246,6 @@ func deploy(cInfo *ConvertInfo) error {
 			}
 			return nil
 		})
-	log.Println(fname, "END")
+	// log.Println(fname, "END")
 	return nil
 }

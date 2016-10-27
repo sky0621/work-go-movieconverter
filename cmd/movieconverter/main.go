@@ -13,14 +13,16 @@ func main() {
 	log.Println("[main]START")
 	var inputDir string
 	var outputDir string
-	var deployDir string
+	var deployDirVdo string
+	var deployDirImg string
 	var sleep time.Duration
 	var scale string
 	var logDir string
 
 	flag.StringVar(&inputDir, "i", "in", "監視対象ディレクトリ")
 	flag.StringVar(&outputDir, "o", "out", "変換結果出力先ディレクトリ")
-	flag.StringVar(&deployDir, "d", "deploy", "変換結果デプロイ先ディレクトリ")
+	flag.StringVar(&deployDirVdo, "dm", "deploy/vdo", "変換結果（動画）デプロイ先ディレクトリ")
+	flag.StringVar(&deployDirImg, "di", "deploy/img", "変換結果（サムネイル画像）デプロイ先ディレクトリ")
 	flag.DurationVar(&sleep, "t", 600, "監視間隔（秒）")
 	flag.StringVar(&scale, "s", "640", "ffmpeg変換時スケール")
 	flag.StringVar(&logDir, "l", ".", "ログ出力先ディレクトリ")
@@ -40,11 +42,12 @@ func main() {
 			log.Println("[main] convert is running... ... ...")
 		} else {
 			go mc.Run(&mc.ConvertInfo{
-				InputDir:  inputDir,
-				OutputDir: outputDir,
-				DeployDir: deployDir,
-				Filename:  "",
-				Scale:     scale})
+				InputDir:     inputDir,
+				OutputDir:    outputDir,
+				DeployDirVdo: deployDirVdo,
+				DeployDirImg: deployDirImg,
+				Filename:     "",
+				Scale:        scale})
 		}
 
 		time.Sleep(sleep * time.Second)
