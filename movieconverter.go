@@ -88,10 +88,18 @@ func listup(inputDir string) error {
 
 	writer := bufio.NewWriter(file)
 	for _, fileInfo := range fileInfos {
-		if listfile == fileInfo.Name() {
+		filename := fileInfo.Name()
+		if listfile == filename {
 			continue
 		}
-		_, err := writer.WriteString(fileInfo.Name() + "\t" + fileInfo.ModTime().Format(time.ANSIC) + "\r\n")
+		filename = strings.Replace(filename, "_", "", -1)
+		rerr := os.Rename(filepath.Join(inputDir, fileInfo.Name()), filepath.Join(inputDir, filename))
+		if rerr != nil {
+			log.Println(fname, rerr)
+			return rerr
+		}
+
+		_, err := writer.WriteString(filename + "\t" + fileInfo.ModTime().Format(time.ANSIC) + "\r\n")
 		if err != nil {
 			log.Println(fname, "writer.WriteString:", oerr)
 		}

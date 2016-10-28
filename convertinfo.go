@@ -53,7 +53,7 @@ func (c *ConvertInfo) cmdCreateThumbnail() string {
 
 func (c *ConvertInfo) cmdRotateThumbnail() string {
 	// s := "ls"
-	s := "convert -rotate 90 " + c.outputPath() + ".jpg " + c.outputPath() + "r.jpg"
+	s := "convert -rotate 90 -resize 100x " + c.outputPath() + ".jpg " + c.outputPath() + "r.jpg"
 	// log.Println("[cmdRotateThumbnail]", s)
 	return s
 }
