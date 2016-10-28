@@ -29,7 +29,7 @@ func Run(cInfo *ConvertInfo) {
 	}()
 
 	// まず、リストアップ
-	err := listup(cInfo.InputDir)
+	err := listup(cInfo)
 	if err != nil {
 		return
 	}
@@ -39,11 +39,6 @@ func Run(cInfo *ConvertInfo) {
 	if err != nil {
 		return
 	}
-	// rerr := os.Remove(joinPath(cInfo.InputDir, listfile)) // コンバート成功をもって、リストアップしたファイルも削除
-	// if rerr != nil {
-	// 	log.Println("[after convert]", rerr)
-	// 	return
-	// }
 
 	// 最後に、コンバートしたファイルをデプロイ
 	err = deploy(cInfo)
@@ -52,12 +47,24 @@ func Run(cInfo *ConvertInfo) {
 	}
 }
 
-func listup(inputDir string) error {
+func listup(cInfo *ConvertInfo) error {
 	const fname = "[■ １ ■][listup]"
-	// log.Println(fname, "START")
+	log.Println(fname, "START")
+
+	// 監視ディレクトリ配下のファイル情報一覧を取得
+	fileInfos, rerr := ioutil.ReadDir(cInfo.InputDir)
+	if rerr != nil {
+		log.Println(fname, "ioutil.ReadDir("+cInfo.InputDir+"):", rerr)
+		return rerr
+	}
+	// インプット無いならそこで処理終了
+	if len(fileInfos) == 0 {
+		log.Println(fname, "動画はアップロードされていません。")
+		return errors.New("input file not exists")
+	}
 
 	// リストアップファイルを作成（※作成済み＝後続タスクで未処理のため、以降の処理は行わない）
-	isExist, cerr := createFileList(inputDir)
+	isExist, cerr := createWatchList(cInfo.WatchListDir)
 	if cerr != nil {
 		log.Println(fname, "createFileList:", cerr)
 		return cerr
@@ -66,34 +73,22 @@ func listup(inputDir string) error {
 		return errors.New("listfile exists")
 	}
 
-	// 監視ディレクトリ配下のファイル情報一覧を取得
-	fileInfos, rerr := ioutil.ReadDir(inputDir)
-	if rerr != nil {
-		log.Println(fname, "ioutil.ReadDir(inputDir):", rerr)
-		return rerr
-	}
-	// インプット無いならそこで処理終了
-	if len(fileInfos) == 0 {
-		log.Println(fname, "input file not exists")
-		return errors.New("input file not exists")
-	}
-
 	// リストアップファイルにファイル情報（ファイル名、作成日時）を出力
-	file, oerr := os.OpenFile(joinPath(inputDir, listfile), os.O_RDWR, 0644)
+	file, oerr := os.OpenFile(joinPath(cInfo.WatchListDir, listfile), os.O_RDWR, 0644)
 	if oerr != nil {
-		log.Println(fname, "os.Open(inputDir + listfile):", oerr)
+		log.Println(fname, "os.Open(cInfo.WatchListDir + listfile):", oerr)
 		return oerr
 	}
 	defer file.Close()
 
 	writer := bufio.NewWriter(file)
-	for _, fileInfo := range fileInfos {
+	for _, fileInfo := range fileInfos { // アップロードされた動画ファイルの情報を記録していく
 		filename := fileInfo.Name()
 		if listfile == filename {
 			continue
 		}
 		filename = strings.Replace(filename, "_", "", -1)
-		rerr := os.Rename(filepath.Join(inputDir, fileInfo.Name()), filepath.Join(inputDir, filename))
+		rerr := os.Rename(filepath.Join(cInfo.InputDir, fileInfo.Name()), filepath.Join(cInfo.InputDir, filename))
 		if rerr != nil {
 			log.Println(fname, rerr)
 			return rerr
@@ -106,39 +101,39 @@ func listup(inputDir string) error {
 	}
 	writer.Flush()
 
-	// log.Println(fname, "END")
+	log.Println(fname, "END")
 	return nil
 }
 
-func createFileList(inputDir string) (bool, error) {
+func createWatchList(watchListDir string) (bool, error) {
 	const fname = "[■ １b ■][createFileList]"
-	// log.Println(fname, "START")
-	_, serr := os.Stat(joinPath(inputDir, listfile))
+	log.Println(fname, "START")
+	_, serr := os.Stat(joinPath(watchListDir, listfile))
 	if serr == nil {
-		// log.Println(fname, "listfile exists")
+		log.Println(fname, "前回実施時の「"+listfile+"」がまだ残っています。")
 		return true, nil
 	}
-	file, err := os.Create(joinPath(inputDir, listfile))
+	file, err := os.Create(joinPath(watchListDir, listfile))
 	if err != nil {
 		return false, err
 	}
 	defer file.Close()
-	// log.Println(fname, "END")
+	log.Println(fname, "END")
 	return false, nil
 }
 
 func convert(cInfo *ConvertInfo) error {
 	const fname = "[■ ２ ■][convert]"
-	// log.Println(fname, "START")
+	log.Println(fname, "START")
 
-	sema := make(chan int, maxProcesses)
+	sema := make(chan int, maxProcesses) // コンバート同時実行数制御用
 
-	notify := make(chan int)
+	notify := make(chan int) // 全コンバートの終了を同期する用
 
 	// リストアップファイルの中身を読み取る
 	file, oerr := os.Open(joinPath(cInfo.InputDir, listfile))
 	if oerr != nil {
-		log.Println(fname, "os.Open(inputDir + listfile):", oerr)
+		log.Println(fname, "os.Open(cInfo.InputDir + listfile):", oerr)
 		return oerr
 	}
 	defer file.Close()
@@ -163,7 +158,7 @@ func convert(cInfo *ConvertInfo) error {
 		<-notify // 他のゴルーチンからの終了通知を待つ
 	}
 
-	// log.Println(fname, "END")
+	log.Println(fname, "END")
 	return nil
 }
 
@@ -171,7 +166,7 @@ func convert(cInfo *ConvertInfo) error {
 func runConvertMovies(cInfo ConvertInfo, semaphore chan int, notify chan<- int, no int) {
 	fname := "[■ ２b ■][runConvertMovies][" + cInfo.Filename + "]"
 	semaphore <- 0
-	// log.Println(fname, "START")
+	log.Println(fname, "START")
 	/*
 	 * ffmpeg[動画サイズ削減]
 	 */
@@ -184,7 +179,7 @@ func runConvertMovies(cInfo ConvertInfo, semaphore chan int, notify chan<- int, 
 		notify <- no
 		return
 	}
-	// log.Printf(fname, "ffmpeg[動画サイズ削減] END")
+	log.Printf(fname, "ffmpeg[動画サイズ削減] END")
 
 	/*
 	 * ffmpeg[サムネイル画像抽出]
@@ -198,7 +193,7 @@ func runConvertMovies(cInfo ConvertInfo, semaphore chan int, notify chan<- int, 
 		notify <- no
 		return
 	}
-	// log.Printf(fname, "ffmpeg[サムネイル画像抽出] END")
+	log.Printf(fname, "ffmpeg[サムネイル画像抽出] END")
 
 	/*
 	 * convert by ImageMagick [サムネイル画像をローテート]
@@ -212,7 +207,7 @@ func runConvertMovies(cInfo ConvertInfo, semaphore chan int, notify chan<- int, 
 		notify <- no
 		return
 	}
-	// log.Printf(fname, "ffmpeg[サムネイル画像をローテート] END")
+	log.Printf(fname, "ffmpeg[サムネイル画像をローテート] END")
 
 	/*
 	 * 処理済みの変換前動画（サイズ大）を削除
@@ -222,15 +217,14 @@ func runConvertMovies(cInfo ConvertInfo, semaphore chan int, notify chan<- int, 
 	if err != nil {
 		log.Println(fname, err)
 	}
-	// log.Printf(fname, "処理済みの変換前動画（サイズ大）を削除 END")
+	log.Printf(fname, "処理済みの変換前動画（サイズ大）を削除 END")
 	<-semaphore
 	notify <- no
 }
 
 func deploy(cInfo *ConvertInfo) error {
 	const fname = "[■ ３ ■][deploy]"
-	// log.Println(fname, "START")
-	// log.Println(fname, "walk target directory: ", cInfo.OutputDir)
+	log.Println(fname, "START - walk target directory: ", cInfo.OutputDir)
 
 	filepath.Walk(
 		cInfo.OutputDir,
@@ -244,6 +238,8 @@ func deploy(cInfo *ConvertInfo) error {
 				log.Println(fname, "not target Ext: "+info.Name())
 				return nil
 			}
+			log.Println(fname, "deployPath: ", deployPath)
+
 			lerr := os.Link(path, deployPath)
 			if lerr != nil {
 				log.Println(fname, lerr)
@@ -254,6 +250,7 @@ func deploy(cInfo *ConvertInfo) error {
 			}
 			return nil
 		})
-	// log.Println(fname, "END")
+
+	log.Println(fname, "END")
 	return nil
 }

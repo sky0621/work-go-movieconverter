@@ -1,10 +1,14 @@
 package movieconverter
 
-import "path/filepath"
+import (
+	"log"
+	"path/filepath"
+)
 
 // ConvertInfo ...
 type ConvertInfo struct {
 	InputDir     string
+	WatchListDir string
 	OutputDir    string
 	DeployDirVdo string
 	DeployDirImg string
@@ -15,7 +19,7 @@ type ConvertInfo struct {
 func (c *ConvertInfo) inputPath() string {
 	// s := c.InputDir + "/" + c.Filename
 	s := filepath.Join(c.InputDir, c.Filename)
-	// log.Println("[inputPath]", s)
+	log.Println("[ConvertInfo.inputPath()]", s)
 	return s
 }
 
