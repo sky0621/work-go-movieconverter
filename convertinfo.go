@@ -43,7 +43,7 @@ func (c *ConvertInfo) deployPath(targetFile string) string {
 
 func (c *ConvertInfo) cmdConvertVideo() string {
 	// s := "cp " + c.inputPath() + " " + c.outputPath()
-	s := "ffmpeg -i " + c.inputPath() + " -vf scale=" + c.Scale + ":-1 -vf rotate=0 " + c.outputPath()
+	s := "ffmpeg -i " + c.inputPath() + " -vf transpose=1,scale=" + c.Scale + ":-1 " + c.outputPath()
 	// log.Println("[cmdConvertVideo]", s)
 	return s
 }
